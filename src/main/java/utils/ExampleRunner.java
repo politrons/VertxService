@@ -22,29 +22,6 @@ public class ExampleRunner {
     runExample(exampleDir, clazz.getName(), options);
   }
 
-  public static void runJavaExample(String prefix, Class clazz, DeploymentOptions deploymentOptions) {
-    String exampleDir = prefix + clazz.getPackage().getName().replace(".", "/");
-    runExample(exampleDir, clazz.getName(), new VertxOptions(), deploymentOptions);
-  }
-
-  public static void runScriptExample(String prefix, String scriptName, boolean clustered) {
-    File file = new File(scriptName);
-    String dirPart = file.getParent();
-    String scriptDir = prefix + dirPart;
-    ExampleRunner.runExample(scriptDir, scriptDir + "/" + file.getName(), clustered);
-  }
-
-  public static void runScriptExample(String prefix, String scriptName, VertxOptions options) {
-    File file = new File(scriptName);
-    String dirPart = file.getParent();
-    String scriptDir = prefix + dirPart;
-    ExampleRunner.runExample(scriptDir, scriptDir + "/" + file.getName(), options);
-  }
-
-  public static void runExample(String exampleDir, String verticleID, boolean clustered) {
-    runExample(exampleDir, verticleID, new VertxOptions().setClustered(clustered));
-  }
-
   public static void runExample(String exampleDir, String verticleID, VertxOptions options) {
     runExample(exampleDir, verticleID, options, null);
   }
