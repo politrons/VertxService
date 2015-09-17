@@ -28,7 +28,8 @@ function initListetener(){
 // Functions =============================================================
 
 function searchBy(attributeName, value){
-    $.getJSON('/user/'+ attributeName + "/"+value, function (data) {
+    debugger;
+    $.getJSON('/user/'+ attributeName + ":"+value, function (data) {
         userListData = data;
         $.each(data, function () {
             $('#userInfoName').text(data.fullname);
@@ -58,6 +59,7 @@ function populateTable() {
 
 // Show User Info
 function showUserInfo(element) {
+    debugger;
     var thisUserName = element.attr('rel');
     // Get Index of object based on id value
     var arrayPosition = userListData.map(function (arrayItem) {

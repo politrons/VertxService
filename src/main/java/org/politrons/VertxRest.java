@@ -3,7 +3,6 @@ package org.politrons;
 import io.vertx.core.AsyncResult;
 import io.vertx.core.Handler;
 import io.vertx.core.Vertx;
-import io.vertx.core.buffer.Buffer;
 import io.vertx.core.http.HttpHeaders;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
@@ -12,7 +11,6 @@ import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
 import io.vertx.ext.web.handler.BodyHandler;
 import io.vertx.ext.web.handler.StaticHandler;
-import io.vertx.ext.web.templ.JadeTemplateEngine;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -61,6 +59,7 @@ public class VertxRest {
         setGetUsersRoute(mongo, router);
         setCreateUserRoute(mongo, router);
         setDeleteUserRoute(mongo, router);
+        setGetUserRoute(mongo, router);
         // Serve the non private static pages
         router.route().handler(StaticHandler.create());
     }
@@ -87,8 +86,15 @@ public class VertxRest {
 
     private void setGetUsersRoute(final MongoClient mongo, final Router router) {
         router.get("/users").handler(routingContext -> {
-
             mongo.find("users", new JsonObject(), getUsersAsyncResultHandler(routingContext));
+        });
+    }
+
+    private void setGetUserRoute(final MongoClient mongo, final Router router) {
+        router.get("/user/:attributeName/:value").handler(routingContext -> {
+            JsonObject query = new JsonObject();
+            query.put(routingContext.request().getParam("attributeName"), routingContext.request().getParam("value"));
+            mongo.findOne("users", query, null, getUserAsyncResultHandler(routingContext));
         });
     }
 
@@ -100,6 +106,19 @@ public class VertxRest {
             }
             routingContext.response().setStatusCode(201);
             routingContext.response().end();
+        };
+    }
+
+    private Handler<AsyncResult<JsonObject>> getUserAsyncResultHandler(final RoutingContext routingContext) {
+        return lookup -> {
+            if (lookup.failed()) {
+                routingContext.fail(lookup.cause());
+                return;
+            }
+            final JsonObject json = lookup.result();
+            routingContext.response().putHeader(HttpHeaders.CONTENT_TYPE, "application/json");
+            // encode to json string
+            routingContext.response().end(json.encode());
         };
     }
 
