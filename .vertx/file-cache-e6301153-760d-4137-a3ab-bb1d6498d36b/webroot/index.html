@@ -1,0 +1,78 @@
+<html>
+<head>
+</head>
+<body>
+
+<h1>Politrons Vertx Server</h1>
+
+<br>
+<br>
+
+
+<div id="userList">
+    <table>
+        <thead>
+        <th>
+            Name
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            Action
+        </th>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+</div>
+<br>
+<br>
+
+'username': $('#addUser fieldset input#inputUserName').val(),
+'email': $('#addUser fieldset input#inputUserEmail').val(),
+'fullname': $('#addUser fieldset input#inputUserFullname').val(),
+'age': $('#addUser fieldset input#inputUserAge').val(),
+'location': $('#addUser fieldset input#inputUserLocation').val(),
+'gender': $('#addUser fieldset input#inputUserGender').val()
+
+<div id="addUser">
+    <h3>Add User</h3>
+    <label id="inputUserNameLabel" type="text"><input id="inputUserName" type="text"/></label>
+    <label id="inputUserEmailLabel" type="text"><input id="inputUserEmail" type="text"/></label>
+    <label id="inputUserFullnameLabel" type="text"><input id="inputUserFullname" type="text"/></label>
+    <label id="inputUserAgeLabel" type="text"><input id="inputUserAge" type="text"/></label>
+    <label id="inputUserLocationLabel" type="text"><input id="inputUserLocation" type="text"/></label>
+    <label id="inputUserGenderLabel" type="text"><input id="inputUserGender" type="text"/></label>
+    <input type="button" id="addUserButtonId" value="search"/>
+
+</div>
+
+<div id="user">
+    <h3>User</h3>
+    <label id="userInfoName" type="text"></label>
+    <label id="userInfoAge" type="text"></label>
+    <label id="userInfoGender" type="text"></label>
+    <label id="userInfoLocation" type="text"></label>
+</div>
+
+<div id="search">
+    <h3>Search user</h3>
+    <input id="inputSearchBy" type="text"/>
+    <select id="searchBy">
+        <option value="username">Username</option>
+        <option value="email">Email</option>
+        <option value="age">Age</option>
+    </select>
+    <input type="button" id="searchByButton" value="search"/>
+
+</div>
+
+
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/index.js"></script>
+

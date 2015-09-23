@@ -1,0 +1,121 @@
+<html>
+<head>
+</head>
+<body>
+
+<h1>Politrons Vertx Server</h1>
+
+<br>
+<br>
+
+
+<div id="userList">
+    <table>
+        <thead>
+        <th>
+            Name
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            Action
+        </th>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+</div>
+<br>
+<br>
+
+<div id="addUser">
+    <h3>Add User</h3>
+
+    <p><label id="inputUserNameLabel" type="text">User name<input id="inputUserName" type="text"/></label></p>
+
+    <p><label id="inputUserEmailLabel" type="text">Email<input id="inputUserEmail" type="text"/></label></p>
+
+    <p><label id="inputUserFullnameLabel" type="text">Full name<input id="inputUserFullname" type="text"/></label></p>
+
+    <p><label id="inputUserAgeLabel" type="text">Age<input id="inputUserAge" type="text"/></label></p>
+
+    <p><label id="inputUserLocationLabel" type="text">Location<input id="inputUserLocation" type="text"/></label></p>
+
+    <p><label id="inputUserGenderLabel" type="text">Gender<input id="inputUserGender" type="text"/></label></p>
+
+    <p><input type="button" id="addUserButtonId" value="Add"/>
+
+</div>
+
+<div id="search">
+    <h3>Search user</h3>
+    <input id="inputSearchBy" type="text"/>
+    <select id="searchBy">
+        <option value="username">Username</option>
+        <option value="email">Email</option>
+        <option value="age">Age</option>
+    </select>
+    <input type="button" id="searchByButton" value="search"/>
+</div>
+<div id="eventBus">
+    <p>
+        <label>Event Bus
+            <input id="input" type="text" onkeydown="send(event)" class="inset">
+        </label>
+    </p>
+</div>
+
+<div id="busEvent">
+    <h3>Bus event</h3>
+    <input id="busInputSearchBy" type="text"/>
+    <!--<select id="busSearchBy">-->
+        <!--<option value="username">Username</option>-->
+        <!--<option value="email">Email</option>-->
+        <!--<option value="age">Age</option>-->
+    <!--</select>-->
+    <input type="button" id="busSearchByButton" value="search user"/>
+    <input id="busInputResponse" type="text"/>
+
+</div>
+
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/index.js"></script>
+<script src="//cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"></script>
+<script src="js/vertxbus.js"></script>
+<script>
+    var eb = new vertx.EventBus("/eventbus/");
+    eb.onopen = function () {
+        eb.registerHandler("chat.to.client", function (msg) {
+            $('#chat').append(msg + "\n");
+        });
+
+        eb.registerHandler("find.user.client", function (msg) {
+            debugger;
+            $('#busInputResponse').append(msg + "\n");
+        });
+    };
+
+
+    $("#busSearchByButton").on('click', function () {
+        debugger;
+        var inputSearch = $("#busInputSearchBy").val();
+        eb.publish("find.user.server", inputSearch);
+        $('#input').val("");
+    };
+
+    function send(event) {
+        if (event.keyCode == 13 || event.which == 13) {
+            var message = $('#input').val();
+            if (message.length > 0) {
+                console.log($('#input'));
+                eb.publish("chat.to.server", message);
+                $('#input').val("");
+            }
+        }
+    }
+</script>

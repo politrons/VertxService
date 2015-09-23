@@ -3,6 +3,7 @@ package org.politrons;
 import io.vertx.core.AsyncResult;
 import io.vertx.core.Handler;
 import io.vertx.core.Vertx;
+import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.http.HttpHeaders;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
@@ -11,6 +12,9 @@ import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
 import io.vertx.ext.web.handler.BodyHandler;
 import io.vertx.ext.web.handler.StaticHandler;
+import io.vertx.ext.web.handler.sockjs.BridgeOptions;
+import io.vertx.ext.web.handler.sockjs.PermittedOptions;
+import io.vertx.ext.web.handler.sockjs.SockJSHandler;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -60,6 +64,7 @@ public class VertxRest {
         setCreateUserRoute(mongo, router);
         setDeleteUserRoute(mongo, router);
         setGetUserRoute(mongo, router);
+        initEventBus(mongo, router);
         // Serve the non private static pages
         router.route().handler(StaticHandler.create());
     }
@@ -148,5 +153,36 @@ public class VertxRest {
             routingContext.response().end();
         };
     }
+
+    //**********EVENT BUS*************\\
+    public void initEventBus(final MongoClient mongo, Router router) {
+        // Allow events for the designated addresses in/out of the event bus bridge
+        BridgeOptions opts = new BridgeOptions()
+                .addInboundPermitted(new PermittedOptions().setAddress("find.user.server"))
+                .addOutboundPermitted(new PermittedOptions().setAddress("find.user.client"));
+
+        // Create the event bus bridge and add it to the router.
+        SockJSHandler ebHandler = SockJSHandler.create(vertx).bridge(opts);
+        router.route("/eventbus/*").handler(ebHandler);
+        EventBus eb = vertx.eventBus();
+
+        eb.consumer("find.user.server").handler(message -> {
+            JsonObject query = new JsonObject();
+            query.put("username", message.body());
+            mongo.findOne("users", query, null, getEventBusUserAsyncResultHandler(eb));
+        });
+    }
+
+    private Handler<AsyncResult<JsonObject>> getEventBusUserAsyncResultHandler(final EventBus eb) {
+        return lookup -> {
+            if (lookup.failed()) {
+                eb.publish("find.user.client", "user does not exist");
+                return;
+            }
+            final JsonObject json = lookup.result();
+            eb.publish("find.user.client", json.encode());
+        };
+    }
+
 
 }

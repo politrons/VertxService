@@ -4,38 +4,56 @@ var userListData = [];
 // DOM Ready =============================================================
 $(document).ready(function () {
     populateTable();
+    initEventBus();
     initListetener();
 });
 
-function initListetener(){
-    $(".linkShowUser").on('click',function(){
+var eb;
+
+function initEventBus() {
+    eb = new vertx.EventBus("/eventbus/");
+    eb.onopen = function () {
+        eb.registerHandler("find.user.client", function (data) {
+            setUserInformation(jQuery.parseJSON(data))
+        });
+    };
+}
+
+function initListetener() {
+    $(".linkShowUser").on('click', function () {
         showUserInfo($(this));
     });
-    $(".linkDeleteUser").on('click',function(){
+    $(".linkDeleteUser").on('click', function () {
         deleteUser($(this));
     });
-    $("#searchByNameButton").on('click',function(){
-        searchBy($(this).attr("attributeName"), $("#inputSearchByName").val());
+    $("#searchByButton").on('click', function () {
+        var selectedOption = $('#searchBy').find(":selected").val();
+        searchBy(selectedOption, $("#inputSearchBy").val());
     });
-    $("#inputSearchByEmail").on('click',function(){
-        searchBy($("#inputSearchByEmail").val());
+    $("#addUserButtonId").on('click', function () {
+        addUser();
     });
-    $("#inputSearchByAge").on('click',function(){
-        searchBy($("#inputSearchByAge").val());
+    $("#busSearchByButton").on('click', function () {
+        var inputSearch = $("#busInputSearchBy").val();
+        eb.publish("find.user.server", inputSearch);
+        $('#busInputSearchBy').val("");
     });
+
+
 }
 
 // Functions =============================================================
 
-function searchBy(attributeName, value){
-    $.getJSON('/user/'+ attributeName + "/"+value, function (data) {
-        userListData = data;
-        $.each(data, function () {
-            $('#userInfoName').text(data.fullname);
-            $('#userInfoAge').text(data.age);
-            $('#userInfoGender').text(data.gender);
-            $('#userInfoLocation').text(data.location);
-        });
+function setUserInformation(data) {
+    $('#inputUserName').val(data.fullname);
+    $('#inputUserEmail').val(data.age);
+    $('#inputUserFullname').val(data.gender);
+    $('#inputUserAge').val(data.location);
+}
+
+function searchBy(attributeName, value) {
+    $.getJSON('/user/' + attributeName + "/" + value, function (data) {
+        setUserInformation(data);
     });
 }
 
@@ -66,10 +84,10 @@ function showUserInfo(element) {
     // Get our User Object
     var thisUserObject = userListData[arrayPosition];
     //Populate Info Box
-    $('#userInfoName').text(thisUserObject.fullname);
-    $('#userInfoAge').text(thisUserObject.age);
-    $('#userInfoGender').text(thisUserObject.gender);
-    $('#userInfoLocation').text(thisUserObject.location);
+    $('#inputUserName').val(thisUserObject.fullname);
+    $('#inputUserEmail').val(thisUserObject.age);
+    $('#inputUserFullname').val(thisUserObject.gender);
+    $('#inputUserAge').val(thisUserObject.location);
 
 };
 
@@ -86,12 +104,12 @@ function addUser() {
     if (errorCount === 0) {
         // If it is, compile all user info into one object
         var newUser = {
-            'username': $('#addUser fieldset input#inputUserName').val(),
-            'email': $('#addUser fieldset input#inputUserEmail').val(),
-            'fullname': $('#addUser fieldset input#inputUserFullname').val(),
-            'age': $('#addUser fieldset input#inputUserAge').val(),
-            'location': $('#addUser fieldset input#inputUserLocation').val(),
-            'gender': $('#addUser fieldset input#inputUserGender').val()
+            'username': $('#inputUserName').val(),
+            'email': $('#inputUserEmail').val(),
+            'fullname': $('#inputUserFullname').val(),
+            'age': $('#inputUserAge').val(),
+            'location': $('#inputUserLocation').val(),
+            'gender': $('#inputUserGender').val()
         };
         // Use AJAX to post the object to our adduser service
         $.ajax({
