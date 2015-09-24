@@ -1,6 +1,7 @@
 package org.politrons;
 
 import io.vertx.core.AsyncResult;
+import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Handler;
 import io.vertx.core.Vertx;
 import io.vertx.core.eventbus.EventBus;
@@ -37,6 +38,12 @@ import java.util.List;
 @Component
 public class VertxRest {
 
+    public static final String MONGO_FIND_USER = "mongo.find.user";
+    public static final String ORG_POLITRONS_MOD_USER_MONGO_WORKER = "org.politrons.mod.UserMongoWorker";
+    public static final String FIND_USER_SERVER = "find.user.server";
+    public static final String FIND_USER_CLIENT = "find.user.client";
+    public static final String DELETE_USER_SERVER = "delete.user.server";
+    public static final String MONGO_DELETE_USER = "mongo.delete.user";
     private Vertx vertx;
 
     @Resource
@@ -64,7 +71,7 @@ public class VertxRest {
         setCreateUserRoute(mongo, router);
         setDeleteUserRoute(mongo, router);
         setGetUserRoute(mongo, router);
-        initEventBus(mongo, router);
+        initEventBus(router);
         // Serve the non private static pages
         router.route().handler(StaticHandler.create());
     }
@@ -154,35 +161,34 @@ public class VertxRest {
         };
     }
 
-    //**********EVENT BUS*************\\
-    public void initEventBus(final MongoClient mongo, Router router) {
+    //**********EVENT BUS API REST*************\\
+    public void initEventBus(Router router) {
         // Allow events for the designated addresses in/out of the event bus bridge
         BridgeOptions opts = new BridgeOptions()
-                .addInboundPermitted(new PermittedOptions().setAddress("find.user.server"))
-                .addOutboundPermitted(new PermittedOptions().setAddress("find.user.client"));
-
+                .addInboundPermitted(new PermittedOptions().setAddress(FIND_USER_SERVER))
+                .addOutboundPermitted(new PermittedOptions().setAddress(FIND_USER_CLIENT));
         // Create the event bus bridge and add it to the router.
         SockJSHandler ebHandler = SockJSHandler.create(vertx).bridge(opts);
         router.route("/eventbus/*").handler(ebHandler);
         EventBus eb = vertx.eventBus();
+        deployModules();
+        defineRestConsumers(eb);
+    }
 
-        eb.consumer("find.user.server").handler(message -> {
-            JsonObject query = new JsonObject();
-            query.put("username", message.body());
-            mongo.findOne("users", query, null, getEventBusUserAsyncResultHandler(eb));
+    private void deployModules() {
+        vertx.deployVerticle(ORG_POLITRONS_MOD_USER_MONGO_WORKER, new DeploymentOptions().setWorker(true));
+    }
+
+    private void defineRestConsumers(final EventBus eb) {
+        eb.consumer(FIND_USER_SERVER).handler(message -> {
+            eb.publish(MONGO_FIND_USER, message.body());
+        });
+        eb.consumer(DELETE_USER_SERVER).handler(message -> {
+            eb.publish(MONGO_DELETE_USER, message.body());
         });
     }
 
-    private Handler<AsyncResult<JsonObject>> getEventBusUserAsyncResultHandler(final EventBus eb) {
-        return lookup -> {
-            if (lookup.failed()) {
-                eb.publish("find.user.client", "user does not exist");
-                return;
-            }
-            final JsonObject json = lookup.result();
-            eb.publish("find.user.client", json.encode());
-        };
-    }
+
 
 
 }

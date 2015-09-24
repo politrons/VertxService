@@ -10,25 +10,13 @@ $(document).ready(function () {
 
 var eb;
 
-
 function initEventBus() {
     eb = new vertx.EventBus("/eventbus/");
     eb.onopen = function () {
-        registerHandlers();
+        eb.registerHandler("find.user.client", function (data) {
+            setUserInformation(jQuery.parseJSON(data))
+        });
     };
-}
-
-function registerHandlers() {
-    eb.registerHandler("find.user.client", function (data) {
-        setUserInformation(jQuery.parseJSON(data))
-    });
-    eb.registerHandler("delete.user.client", function (data) {
-        debugger;
-        var status = jQuery.parseJSON(data).status;
-        if(status === 1){
-            populateTable();
-        }
-    });
 }
 
 function initListetener() {
@@ -49,9 +37,6 @@ function initListetener() {
         var inputSearch = $("#busInputSearchBy").val();
         eb.publish("find.user.server", inputSearch);
         $('#busInputSearchBy').val("");
-    });
-    $(".busLinkDeleteUser").on('click', function () {
-        eb.publish("delete.user.server", $(this).attr('rel'));
     });
 
 
@@ -82,7 +67,6 @@ function populateTable() {
             tableContent += '<td><a href="#" class="linkShowUser" rel="' + this.username + '" title="Show Details">' + this.username + '</a></td>';
             tableContent += '<td>' + this.email + '</td>';
             tableContent += '<td><a href="#" class="linkDeleteUser" rel="' + this._id + '">delete</a></td>';
-            tableContent += '<td><a href="#" class="busLinkDeleteUser" rel="' + this._id + '">delete by bus</a></td>';
             tableContent += '</tr>';
         });
         $('#userList table tbody').html(tableContent);

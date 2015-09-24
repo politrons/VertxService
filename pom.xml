@@ -19,6 +19,12 @@
 
         <dependency>
             <groupId>io.vertx</groupId>
+            <artifactId>vertx-platform</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.vertx</groupId>
             <artifactId>vertx-core</artifactId>
             <version>${project.version}</version>
         </dependency>
