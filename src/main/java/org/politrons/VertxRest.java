@@ -43,7 +43,12 @@ public class VertxRest {
     public static final String FIND_USER_SERVER = "find.user.server";
     public static final String FIND_USER_CLIENT = "find.user.client";
     public static final String DELETE_USER_SERVER = "delete.user.server";
+    public static final String DELETE_USER_CLIENT = "delete.user.client";
     public static final String MONGO_DELETE_USER = "mongo.delete.user";
+    public static final String ADD_USER_SERVER = "add.user.server";
+    public static final String MONGO_ADD_USER = "mongo.add.user";
+    public static final String ADD_USER_CLIENT = "add.user.client";
+
     private Vertx vertx;
 
     @Resource
@@ -164,22 +169,33 @@ public class VertxRest {
     //**********EVENT BUS API REST*************\\
     public void initEventBus(Router router) {
         // Allow events for the designated addresses in/out of the event bus bridge
-        BridgeOptions opts = new BridgeOptions()
-                .addInboundPermitted(new PermittedOptions().setAddress(FIND_USER_SERVER))
-                .addOutboundPermitted(new PermittedOptions().setAddress(FIND_USER_CLIENT));
+        BridgeOptions opts = createBridgeOptions();
         // Create the event bus bridge and add it to the router.
         SockJSHandler ebHandler = SockJSHandler.create(vertx).bridge(opts);
         router.route("/eventbus/*").handler(ebHandler);
         EventBus eb = vertx.eventBus();
-        deployModules();
+        deployWorkers();
         defineRestConsumers(eb);
     }
 
-    private void deployModules() {
+    private BridgeOptions createBridgeOptions() {
+        return new BridgeOptions()
+                .addInboundPermitted(new PermittedOptions().setAddress(FIND_USER_SERVER))
+                .addOutboundPermitted(new PermittedOptions().setAddress(FIND_USER_CLIENT))
+                .addInboundPermitted(new PermittedOptions().setAddress(DELETE_USER_SERVER))
+                .addOutboundPermitted(new PermittedOptions().setAddress(DELETE_USER_CLIENT))
+                .addInboundPermitted(new PermittedOptions().setAddress(ADD_USER_SERVER))
+                .addOutboundPermitted(new PermittedOptions().setAddress(ADD_USER_CLIENT));
+    }
+
+    private void deployWorkers() {
         vertx.deployVerticle(ORG_POLITRONS_MOD_USER_MONGO_WORKER, new DeploymentOptions().setWorker(true));
     }
 
     private void defineRestConsumers(final EventBus eb) {
+        eb.consumer(ADD_USER_SERVER).handler(message -> {
+            eb.publish(MONGO_ADD_USER, message.body());
+        });
         eb.consumer(FIND_USER_SERVER).handler(message -> {
             eb.publish(MONGO_FIND_USER, message.body());
         });
@@ -187,8 +203,6 @@ public class VertxRest {
             eb.publish(MONGO_DELETE_USER, message.body());
         });
     }
-
-
 
 
 }

@@ -23,12 +23,7 @@ function registerHandlers() {
         setUserInformation(jQuery.parseJSON(data))
     });
     eb.registerHandler("delete.user.client", function (data) {
-        var status = jQuery.parseJSON(data).status;
-        if(status === 1){
-            populateTable();
-        }
-    });
-    eb.registerHandler("add.user.client", function (data) {
+        debugger;
         var status = jQuery.parseJSON(data).status;
         if(status === 1){
             populateTable();
@@ -36,8 +31,10 @@ function registerHandlers() {
     });
 }
 
-
 function initListetener() {
+    $(".linkShowUser").on('click', function () {
+        showUserInfo($(this));
+    });
     $(".linkDeleteUser").on('click', function () {
         deleteUser($(this));
     });
@@ -48,12 +45,10 @@ function initListetener() {
     $("#addUserButtonId").on('click', function () {
         addUser();
     });
-    $("#busAddUserButtonId").on('click', function () {
-        var newUser = getUserData();
-        eb.publish("add.user.server", newUser);
-    });
     $("#busSearchByButton").on('click', function () {
-        eb.publish("find.user.server", findUserData());
+        var inputSearch = $("#busInputSearchBy").val();
+        eb.publish("find.user.server", inputSearch);
+        $('#busInputSearchBy').val("");
     });
     $(".busLinkDeleteUser").on('click', function () {
         eb.publish("delete.user.server", $(this).attr('rel'));
@@ -63,26 +58,6 @@ function initListetener() {
 }
 
 // Functions =============================================================
-
-function findUserData() {
-    var findUser = {
-        'searchBy': $('#searchBy').find(":selected").val(),
-        'inputValue': $("#inputSearchBy").val()
-    };
-    return findUser;
-}
-
-function getUserData() {
-    var newUser = {
-        'username': $('#inputUserName').val(),
-        'email': $('#inputUserEmail').val(),
-        'fullname': $('#inputUserFullname').val(),
-        'age': $('#inputUserAge').val(),
-        'location': $('#inputUserLocation').val(),
-        'gender': $('#inputUserGender').val()
-    };
-    return newUser;
-}
 
 function setUserInformation(data) {
     $('#inputUserName').val(data.fullname);
@@ -104,7 +79,7 @@ function populateTable() {
         userListData = data;
         $.each(data, function () {
             tableContent += '<tr>';
-            tableContent += '<td>' + this.username + '</td>';
+            tableContent += '<td><a href="#" class="linkShowUser" rel="' + this.username + '" title="Show Details">' + this.username + '</a></td>';
             tableContent += '<td>' + this.email + '</td>';
             tableContent += '<td><a href="#" class="linkDeleteUser" rel="' + this._id + '">delete</a></td>';
             tableContent += '<td><a href="#" class="busLinkDeleteUser" rel="' + this._id + '">delete by bus</a></td>';
@@ -143,11 +118,19 @@ function addUser() {
     });
     // Check and make sure errorCount's still at zero
     if (errorCount === 0) {
-
+        // If it is, compile all user info into one object
+        var newUser = {
+            'username': $('#inputUserName').val(),
+            'email': $('#inputUserEmail').val(),
+            'fullname': $('#inputUserFullname').val(),
+            'age': $('#inputUserAge').val(),
+            'location': $('#inputUserLocation').val(),
+            'gender': $('#inputUserGender').val()
+        };
         // Use AJAX to post the object to our adduser service
         $.ajax({
             type: 'POST',
-            data: getUserData(),
+            data: newUser,
             url: '/users'
         }).done(function (response) {
             // Clear the form inputs

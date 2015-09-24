@@ -18,6 +18,8 @@ public class UserMongoWorker extends AbstractVerticle {
     public static final String MONGO_DELETE_USER = "mongo.delete.user";
     public static final String FIND_USER_CLIENT = "find.user.client";
     public static final String DELETE_USER_CLIENT = "delete.user.client";
+    public static final String ADD_USER_CLIENT = "add.user.client";
+    public static final String MONGO_ADD_USER = "mongo.add.user";
 
     @Override
     public void start() throws Exception {
@@ -28,10 +30,16 @@ public class UserMongoWorker extends AbstractVerticle {
     }
 
     private void defineConsumers(final MongoClient mongo, final EventBus eb) {
+        eb.consumer(MONGO_ADD_USER, message -> {
+            System.out.println("[Worker] add user name" + Thread.currentThread().getName());
+            JsonObject user = (JsonObject) message.body();
+            mongo.insert("users", user, insertUserAsyncResultHandler(eb));
+        });
         eb.consumer(MONGO_FIND_USER, message -> {
             System.out.println("[Worker] find user name" + Thread.currentThread().getName());
+            JsonObject jsonObject = (JsonObject) message.body();
             JsonObject query = new JsonObject();
-            query.put("username", message.body());
+            query.put(jsonObject.getString("searchBy"), jsonObject.getString("inputValue"));
             mongo.findOne("users", query, null, getEventBusUserAsyncResultHandler(eb));
         });
         eb.consumer(MONGO_DELETE_USER, message -> {
@@ -40,6 +48,14 @@ public class UserMongoWorker extends AbstractVerticle {
             query.put("username", message.body());
             mongo.removeOne("users", new JsonObject().put("_id", message.body()), deleteUserAsyncResultHandler(eb));
         });
+    }
+
+    private Handler<AsyncResult<String>> insertUserAsyncResultHandler(final EventBus eb) {
+        return lookup -> {
+            JsonObject jsonObject = new JsonObject();
+            jsonObject.put("status", 1);
+            eb.publish(ADD_USER_CLIENT, jsonObject.encode());
+        };
     }
 
     private Handler<AsyncResult<JsonObject>> getEventBusUserAsyncResultHandler(final EventBus eb) {

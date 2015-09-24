@@ -29,13 +29,13 @@ function registerHandlers() {
         }
     });
     eb.registerHandler("add.user.client", function (data) {
+        debugger;
         var status = jQuery.parseJSON(data).status;
         if(status === 1){
             populateTable();
         }
     });
 }
-
 
 function initListetener() {
     $(".linkDeleteUser").on('click', function () {
@@ -49,11 +49,21 @@ function initListetener() {
         addUser();
     });
     $("#busAddUserButtonId").on('click', function () {
-        var newUser = getUserData();
+        var newUser = {
+            'username': $('#inputUserName').val(),
+            'email': $('#inputUserEmail').val(),
+            'fullname': $('#inputUserFullname').val(),
+            'age': $('#inputUserAge').val(),
+            'location': $('#inputUserLocation').val(),
+            'gender': $('#inputUserGender').val()
+        };
         eb.publish("add.user.server", newUser);
     });
     $("#busSearchByButton").on('click', function () {
-        eb.publish("find.user.server", findUserData());
+        var busInputSearchElement = $("#busInputSearchBy");
+        var inputSearch = busInputSearchElement.val();
+        eb.publish("find.user.server", inputSearch);
+        busInputSearchElement.val("");
     });
     $(".busLinkDeleteUser").on('click', function () {
         eb.publish("delete.user.server", $(this).attr('rel'));
@@ -63,26 +73,6 @@ function initListetener() {
 }
 
 // Functions =============================================================
-
-function findUserData() {
-    var findUser = {
-        'searchBy': $('#searchBy').find(":selected").val(),
-        'inputValue': $("#inputSearchBy").val()
-    };
-    return findUser;
-}
-
-function getUserData() {
-    var newUser = {
-        'username': $('#inputUserName').val(),
-        'email': $('#inputUserEmail').val(),
-        'fullname': $('#inputUserFullname').val(),
-        'age': $('#inputUserAge').val(),
-        'location': $('#inputUserLocation').val(),
-        'gender': $('#inputUserGender').val()
-    };
-    return newUser;
-}
 
 function setUserInformation(data) {
     $('#inputUserName').val(data.fullname);
@@ -143,11 +133,19 @@ function addUser() {
     });
     // Check and make sure errorCount's still at zero
     if (errorCount === 0) {
-
+        // If it is, compile all user info into one object
+        var newUser = {
+            'username': $('#inputUserName').val(),
+            'email': $('#inputUserEmail').val(),
+            'fullname': $('#inputUserFullname').val(),
+            'age': $('#inputUserAge').val(),
+            'location': $('#inputUserLocation').val(),
+            'gender': $('#inputUserGender').val()
+        };
         // Use AJAX to post the object to our adduser service
         $.ajax({
             type: 'POST',
-            data: getUserData(),
+            data: newUser,
             url: '/users'
         }).done(function (response) {
             // Clear the form inputs

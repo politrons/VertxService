@@ -53,7 +53,8 @@ function initListetener() {
         eb.publish("add.user.server", newUser);
     });
     $("#busSearchByButton").on('click', function () {
-        eb.publish("find.user.server", findUserData());
+        debugger;
+        eb.publish("find.user.server", findUserData);
     });
     $(".busLinkDeleteUser").on('click', function () {
         eb.publish("delete.user.server", $(this).attr('rel'));
