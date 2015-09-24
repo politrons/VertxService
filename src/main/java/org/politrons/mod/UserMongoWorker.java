@@ -99,7 +99,7 @@ public class UserMongoWorker extends AbstractVerticle {
         return lookup -> {
             JsonObject jsonObject = new JsonObject();
             jsonObject.put(STATUS, SUCCESS);
-            eb.publish(MONGO_FIND_USERS, jsonObject.encode());
+            eb.publish(UPDATE_USER_CLIENT, jsonObject.encode());
         };
     }
 

@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c913bacf-2db2-4c98-9e0f-987814247985" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/index.html" afterPath="$PROJECT_DIR$/src/main/resources/webroot/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/js/index.js" afterPath="$PROJECT_DIR$/src/main/resources/webroot/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vertService.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="3.36">
               <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
               <folding />
             </state>
@@ -103,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMongoWorker.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserMongoWorker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.24">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -163,8 +159,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/webroot/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java" />
         <option value="$PROJECT_DIR$/src/main/resources/webroot/js/index.js" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java" />
       </list>
     </option>
   </component>
@@ -858,12 +854,12 @@
       <workItem from="1442825606674" duration="397000" />
       <workItem from="1442842132106" duration="184000" />
       <workItem from="1442902625575" duration="13627000" />
-      <workItem from="1443092968714" duration="7088000" />
+      <workItem from="1443092968714" duration="7223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37149000" />
+    <option name="totallyTimeSpent" value="37284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="23" width="1881" height="1057" extended-state="6" />
@@ -887,7 +883,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2718869" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2718869" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -938,14 +934,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java</url>
-          <line>112</line>
-          <properties />
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="56" />
     </breakpoint-manager>
     <watches-manager />
@@ -1332,14 +1320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1352,8 +1332,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.24">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.36">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
           <folding />
         </state>
       </provider>
