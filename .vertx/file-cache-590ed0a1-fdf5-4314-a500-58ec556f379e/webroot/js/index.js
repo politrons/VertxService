@@ -125,6 +125,7 @@ function loadTable(data) {
     userListData = data;
     var tableContent='';
     $.each(data, function () {
+        debugger;
         tableContent += '<tr>';
         tableContent += '<td>' + this.username + '</td>';
         tableContent += '<td>' + this.email + '</td>';

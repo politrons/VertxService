@@ -1,6 +1,3 @@
-// Userlist data array for filling in info box
-var userListData = [];
-
 // DOM Ready =============================================================
 $(document).ready(function () {
     populateTable();
@@ -9,6 +6,7 @@ $(document).ready(function () {
 });
 
 var eb;
+var userListData = [];
 
 
 function initEventBus() {
@@ -20,18 +18,32 @@ function initEventBus() {
 
 function registerHandlers() {
     eb.registerHandler("find.user.client", function (data) {
-        setUserInformation(jQuery.parseJSON(data))
+        var status = jQuery.parseJSON(data).status;
+        if (status === 1) {
+            setUserInformation(jQuery.parseJSON(data))
+        } else {
+            alert("User not found");
+        }
+    });
+    eb.registerHandler("find.users.client", function (data) {
+        loadTable(jQuery.parseJSON(data));
     });
     eb.registerHandler("delete.user.client", function (data) {
         var status = jQuery.parseJSON(data).status;
-        if(status === 1){
-            populateTable();
+        if (status === 1) {
+            eb.send("find.users.server", null);
         }
     });
     eb.registerHandler("add.user.client", function (data) {
         var status = jQuery.parseJSON(data).status;
-        if(status === 1){
-            populateTable();
+        if (status === 1) {
+            eb.send("find.users.server", null);
+        }
+    });
+    eb.registerHandler("update.user.client", function (data) {
+        var status = jQuery.parseJSON(data).status;
+        if (status === 1) {
+            eb.send("find.users.server", null);
         }
     });
 }
@@ -50,16 +62,18 @@ function initListetener() {
     });
     $("#busAddUserButtonId").on('click', function () {
         var newUser = getUserData();
-        eb.publish("add.user.server", newUser);
+        eb.send("add.user.server", newUser);
     });
     $("#busSearchByButton").on('click', function () {
-        eb.publish("find.user.server", findUserData());
+        eb.send("find.user.server", findUserData());
     });
     $(".busLinkDeleteUser").on('click', function () {
-        eb.publish("delete.user.server", $(this).attr('rel'));
+        eb.send("delete.user.server", $(this).attr('rel'));
     });
-
-
+    $("#busUpdateUserButtonId").on('click', function () {
+        var newUser = getUserData();
+        eb.send("update.user.server", newUser);
+    });
 }
 
 // Functions =============================================================
@@ -74,6 +88,7 @@ function findUserData() {
 
 function getUserData() {
     var newUser = {
+        '_id': $('#inputUserId').val(),
         'username': $('#inputUserName').val(),
         'email': $('#inputUserEmail').val(),
         'fullname': $('#inputUserFullname').val(),
@@ -85,10 +100,13 @@ function getUserData() {
 }
 
 function setUserInformation(data) {
-    $('#inputUserName').val(data.fullname);
-    $('#inputUserEmail').val(data.age);
-    $('#inputUserFullname').val(data.gender);
-    $('#inputUserAge').val(data.location);
+    $('#inputUserId').val(data._id);
+    $('#inputUserName').val(data.username);
+    $('#inputUserEmail').val(data.email);
+    $('#inputUserFullname').val(data.fullname);
+    $('#inputUserAge').val(data.age);
+    $('#inputUserGender').val(data.gender);
+    $('#inputUserLocation').val(data.location);
 }
 
 function searchBy(attributeName, value) {
@@ -97,23 +115,26 @@ function searchBy(attributeName, value) {
     });
 }
 
-
 function populateTable() {
-    var tableContent = '';
     $.getJSON('/users', function (data) {
-        userListData = data;
-        $.each(data, function () {
-            tableContent += '<tr>';
-            tableContent += '<td>' + this.username + '</td>';
-            tableContent += '<td>' + this.email + '</td>';
-            tableContent += '<td><a href="#" class="linkDeleteUser" rel="' + this._id + '">delete</a></td>';
-            tableContent += '<td><a href="#" class="busLinkDeleteUser" rel="' + this._id + '">delete by bus</a></td>';
-            tableContent += '</tr>';
-        });
-        $('#userList table tbody').html(tableContent);
-        initListetener();
+        loadTable(data);
     });
 };
+
+function loadTable(data) {
+    userListData = data;
+    var tableContent='';
+    $.each(data, function () {
+        tableContent += '<tr>';
+        tableContent += '<td>' + this.username + '</td>';
+        tableContent += '<td>' + this.email + '</td>';
+        tableContent += '<td><a href="#" class="linkDeleteUser" rel="' + this._id + '">delete</a></td>';
+        tableContent += '<td><a href="#" class="busLinkDeleteUser" rel="' + this._id + '">delete by bus</a></td>';
+        tableContent += '</tr>';
+    });
+    $('#userList table tbody').html(tableContent);
+    initListetener();
+}
 
 // Show User Info
 function showUserInfo(element) {

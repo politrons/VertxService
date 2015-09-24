@@ -1,3 +1,4 @@
+
 // DOM Ready =============================================================
 $(document).ready(function () {
     populateTable();
@@ -6,6 +7,7 @@ $(document).ready(function () {
 });
 
 var eb;
+var tableContent = '';
 var userListData = [];
 
 
@@ -19,30 +21,34 @@ function initEventBus() {
 function registerHandlers() {
     eb.registerHandler("find.user.client", function (data) {
         var status = jQuery.parseJSON(data).status;
-        if (status === 1) {
+        if(status === 1) {
             setUserInformation(jQuery.parseJSON(data))
-        } else {
+        }else{
             alert("User not found");
         }
     });
     eb.registerHandler("find.users.client", function (data) {
-        loadTable(jQuery.parseJSON(data));
+        debugger;
+        var status = jQuery.parseJSON(data).status;
+        if(status === 1){
+            loadTable(data);
+        }
     });
     eb.registerHandler("delete.user.client", function (data) {
         var status = jQuery.parseJSON(data).status;
-        if (status === 1) {
+        if(status === 1){
             eb.send("find.users.server", null);
         }
     });
     eb.registerHandler("add.user.client", function (data) {
         var status = jQuery.parseJSON(data).status;
-        if (status === 1) {
+        if(status === 1){
             eb.send("find.users.server", null);
         }
     });
     eb.registerHandler("update.user.client", function (data) {
         var status = jQuery.parseJSON(data).status;
-        if (status === 1) {
+        if(status === 1){
             eb.send("find.users.server", null);
         }
     });
@@ -123,7 +129,6 @@ function populateTable() {
 
 function loadTable(data) {
     userListData = data;
-    var tableContent='';
     $.each(data, function () {
         tableContent += '<tr>';
         tableContent += '<td>' + this.username + '</td>';

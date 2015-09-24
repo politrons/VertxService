@@ -6,6 +6,7 @@ $(document).ready(function () {
 });
 
 var eb;
+var tableContent = '';
 var userListData = [];
 
 
@@ -26,6 +27,7 @@ function registerHandlers() {
         }
     });
     eb.registerHandler("find.users.client", function (data) {
+        debugger;
         loadTable(jQuery.parseJSON(data));
     });
     eb.registerHandler("delete.user.client", function (data) {
@@ -123,7 +125,6 @@ function populateTable() {
 
 function loadTable(data) {
     userListData = data;
-    var tableContent='';
     $.each(data, function () {
         tableContent += '<tr>';
         tableContent += '<td>' + this.username + '</td>';
