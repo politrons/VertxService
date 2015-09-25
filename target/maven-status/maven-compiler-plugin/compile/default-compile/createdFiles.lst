@@ -1,2 +1,3 @@
-utils/ExampleRunner.class
+org/politrons/Application.class
+org/politrons/mod/UserMongoWorker.class
 org/politrons/VertxRest.class
