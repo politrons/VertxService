@@ -17,7 +17,7 @@ var geolocation = (function () {
             if (currentUser.username !== otherUser.username) {
                 console.log("New position for user " + otherUser.username);
                 x.innerHTML = "Distance between " +
-                currentUser.username + " and " + otherUser.username +
+                currentUser.fullname + " and " + otherUser.fullname +
                 " is " + calculateDistance(currentUser.position, otherUser.position);
             }
         });
