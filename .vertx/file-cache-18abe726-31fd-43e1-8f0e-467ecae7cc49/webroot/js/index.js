@@ -23,8 +23,8 @@ var index = (function () {
 
         };
         eb.onclose = function() {
+            debugger;
             eb = null;
-            console.log("event bus socket closed")
         };
     }
 

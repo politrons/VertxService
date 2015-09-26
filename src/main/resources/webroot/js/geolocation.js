@@ -16,6 +16,9 @@ var geolocation = (function () {
             var currentUser = index.getUserData();
             if (currentUser.username !== otherUser.username) {
                 console.log("New position for user " + otherUser.username);
+                console.log(currentUser.fullname + " position "+ currentUser.position.longitude + " " + currentUser.position.latitude);
+                console.log(otherUser.fullname + " position "+ otherUser.position.longitude + " " + otherUser.position.latitude);
+
                 x.innerHTML = "Distance between " +
                 currentUser.fullname + " and " + otherUser.fullname +
                 " is " + calculateDistance(currentUser.position, otherUser.position);
@@ -28,10 +31,12 @@ var geolocation = (function () {
         startTrakingButton.unbind('click');
         startTrakingButton.on('click', function () {
             stop=false;
+            $("#startTrakingButton").attr("disabled", "disabled");
             startTraking();
         });
         $("#stopTrakingButton").on('click', function () {
             stopTracking();
+            $("#startTrakingButton").removeAttr("disabled");
         });
     }
 
@@ -89,6 +94,8 @@ var geolocation = (function () {
 
     /*Converts degree to radians*/
     function degreesToRadians(degrees) {
+        degrees = parseFloat(degrees);
+        degrees.toFixed(2);
         var radians = (degrees * Math.PI) / 180;
         return radians;
     }

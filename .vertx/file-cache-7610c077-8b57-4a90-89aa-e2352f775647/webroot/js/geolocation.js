@@ -31,12 +31,10 @@ var geolocation = (function () {
         startTrakingButton.unbind('click');
         startTrakingButton.on('click', function () {
             stop=false;
-            $("#startTrakingButton").attr("disabled", "disabled");
             startTraking();
         });
         $("#stopTrakingButton").on('click', function () {
             stopTracking();
-            $("#startTrakingButton").removeAttr("disabled");
         });
     }
 

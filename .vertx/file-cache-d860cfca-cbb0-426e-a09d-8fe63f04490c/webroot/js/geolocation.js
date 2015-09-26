@@ -31,12 +31,10 @@ var geolocation = (function () {
         startTrakingButton.unbind('click');
         startTrakingButton.on('click', function () {
             stop=false;
-            $("#startTrakingButton").attr("disabled", "disabled");
             startTraking();
         });
         $("#stopTrakingButton").on('click', function () {
             stopTracking();
-            $("#startTrakingButton").removeAttr("disabled");
         });
     }
 
@@ -84,6 +82,7 @@ var geolocation = (function () {
         var startLongRads = degreesToRadians(userPosition.longitude);
         var destLatRads = degreesToRadians(otherUserPosition.latitude);
         var destLongRads = degreesToRadians(otherUserPosition.longitude);
+        debugger;
         var Radius = 6371; // radius of the Earth in kilometres
         var distance = Math.acos(Math.sin(startLatRads) * Math.sin(destLatRads) +
                 Math.cos(startLatRads) * Math.cos(destLatRads) *
@@ -94,7 +93,7 @@ var geolocation = (function () {
 
     /*Converts degree to radians*/
     function degreesToRadians(degrees) {
-        degrees = parseFloat(degrees);
+        degrees = parseFloat(degrees * 1000);
         degrees.toFixed(2);
         var radians = (degrees * Math.PI) / 180;
         return radians;
