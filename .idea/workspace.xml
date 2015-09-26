@@ -2,306 +2,257 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c913bacf-2db2-4c98-9e0f-987814247985" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-01236d9c-25b8-4cd1-ac4c-8fdb69f807d5/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-01236d9c-25b8-4cd1-ac4c-8fdb69f807d5/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-01236d9c-25b8-4cd1-ac4c-8fdb69f807d5/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-01236d9c-25b8-4cd1-ac4c-8fdb69f807d5/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-03c35163-8a05-4598-99f1-1a1e2470edb9/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-03c35163-8a05-4598-99f1-1a1e2470edb9/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-03c35163-8a05-4598-99f1-1a1e2470edb9/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-03c35163-8a05-4598-99f1-1a1e2470edb9/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0491252f-f3db-4965-bb5b-6eb9cea2ed83/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0491252f-f3db-4965-bb5b-6eb9cea2ed83/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0491252f-f3db-4965-bb5b-6eb9cea2ed83/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0491252f-f3db-4965-bb5b-6eb9cea2ed83/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0566554b-b6ab-437c-b914-0e446be92e16/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0566554b-b6ab-437c-b914-0e446be92e16/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-06c4094f-6111-47b4-9479-ae3ca2b254a4/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-06c4094f-6111-47b4-9479-ae3ca2b254a4/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-06c4094f-6111-47b4-9479-ae3ca2b254a4/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-06c4094f-6111-47b4-9479-ae3ca2b254a4/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-098d2ad8-9b1f-45f8-94d6-27f51a29df07/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-098d2ad8-9b1f-45f8-94d6-27f51a29df07/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-098d2ad8-9b1f-45f8-94d6-27f51a29df07/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-098d2ad8-9b1f-45f8-94d6-27f51a29df07/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0b9750e4-46a0-4cb6-905f-d34352119b9e/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0b9750e4-46a0-4cb6-905f-d34352119b9e/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0b9750e4-46a0-4cb6-905f-d34352119b9e/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0b9750e4-46a0-4cb6-905f-d34352119b9e/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0ccb276c-7a8c-48d1-9320-5002915ea69c/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0ccb276c-7a8c-48d1-9320-5002915ea69c/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0ccb276c-7a8c-48d1-9320-5002915ea69c/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0d0051cd-6953-405a-8a70-9a637dbcfeaa/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0d0051cd-6953-405a-8a70-9a637dbcfeaa/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0d0051cd-6953-405a-8a70-9a637dbcfeaa/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-189f336a-d2b3-458b-a866-4e940537aedb/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-189f336a-d2b3-458b-a866-4e940537aedb/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-189f336a-d2b3-458b-a866-4e940537aedb/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-189f336a-d2b3-458b-a866-4e940537aedb/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-19d6e01f-53b4-44fc-ab56-babe51661aaf/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-19d6e01f-53b4-44fc-ab56-babe51661aaf/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-19d6e01f-53b4-44fc-ab56-babe51661aaf/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-19d6e01f-53b4-44fc-ab56-babe51661aaf/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cb5a2f9-137a-4563-9269-c3e275f67d33/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cb5a2f9-137a-4563-9269-c3e275f67d33/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cb5a2f9-137a-4563-9269-c3e275f67d33/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cb5a2f9-137a-4563-9269-c3e275f67d33/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1ede88bf-4fd3-4ab0-a192-363feda30e43/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1ede88bf-4fd3-4ab0-a192-363feda30e43/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1ede88bf-4fd3-4ab0-a192-363feda30e43/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-225048c6-a0c4-4a3e-a077-94fa95447460/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-225048c6-a0c4-4a3e-a077-94fa95447460/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-225048c6-a0c4-4a3e-a077-94fa95447460/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-225048c6-a0c4-4a3e-a077-94fa95447460/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-248ec1ba-ed0b-4ee5-9bcc-51ca73fdf999/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-248ec1ba-ed0b-4ee5-9bcc-51ca73fdf999/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-248ec1ba-ed0b-4ee5-9bcc-51ca73fdf999/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-24f2a751-70cd-42dc-881f-267befb1e5af/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-24f2a751-70cd-42dc-881f-267befb1e5af/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-24f2a751-70cd-42dc-881f-267befb1e5af/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-24f2a751-70cd-42dc-881f-267befb1e5af/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-275fcabe-c80f-4fda-a36c-904475a87afb/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-275fcabe-c80f-4fda-a36c-904475a87afb/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-275fcabe-c80f-4fda-a36c-904475a87afb/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2a6b2d78-d33e-4e0b-8792-3e0b19c051a9/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2a6b2d78-d33e-4e0b-8792-3e0b19c051a9/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2a6b2d78-d33e-4e0b-8792-3e0b19c051a9/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2a6b2d78-d33e-4e0b-8792-3e0b19c051a9/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-30fd77b4-11f7-4257-b99f-2c392597b78e/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-30fd77b4-11f7-4257-b99f-2c392597b78e/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-30fd77b4-11f7-4257-b99f-2c392597b78e/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-30fd77b4-11f7-4257-b99f-2c392597b78e/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-32da1f63-2b23-47a5-bfbb-2e3bb1d31d31/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-32da1f63-2b23-47a5-bfbb-2e3bb1d31d31/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-32da1f63-2b23-47a5-bfbb-2e3bb1d31d31/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3358cc48-f0cd-4814-81c8-70c0d63d36c0/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3358cc48-f0cd-4814-81c8-70c0d63d36c0/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3358cc48-f0cd-4814-81c8-70c0d63d36c0/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-36b6094c-c14b-4928-b714-cce6afe0b1bd/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-36b6094c-c14b-4928-b714-cce6afe0b1bd/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-36b6094c-c14b-4928-b714-cce6afe0b1bd/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-36b6094c-c14b-4928-b714-cce6afe0b1bd/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3e331138-dc3c-4e23-a0cc-641f52ee9663/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3e331138-dc3c-4e23-a0cc-641f52ee9663/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3e331138-dc3c-4e23-a0cc-641f52ee9663/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3e331138-dc3c-4e23-a0cc-641f52ee9663/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-40a59cb6-c678-4702-87ce-229df73a98c5/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-40a59cb6-c678-4702-87ce-229df73a98c5/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-40a59cb6-c678-4702-87ce-229df73a98c5/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-40a59cb6-c678-4702-87ce-229df73a98c5/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-420effa8-dbc9-4ea3-bcf8-a9991d776d1a/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-420effa8-dbc9-4ea3-bcf8-a9991d776d1a/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-420effa8-dbc9-4ea3-bcf8-a9991d776d1a/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-420effa8-dbc9-4ea3-bcf8-a9991d776d1a/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-42a1542d-f679-44ca-ad22-57dd78cc3a82/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-42a1542d-f679-44ca-ad22-57dd78cc3a82/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-42a1542d-f679-44ca-ad22-57dd78cc3a82/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-42a1542d-f679-44ca-ad22-57dd78cc3a82/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4cf40922-5c44-4387-b6dc-d825225cfc96/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4cf40922-5c44-4387-b6dc-d825225cfc96/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4cf40922-5c44-4387-b6dc-d825225cfc96/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4cf40922-5c44-4387-b6dc-d825225cfc96/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4e7252ec-8ed9-44b4-be02-62c190325039/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4e7252ec-8ed9-44b4-be02-62c190325039/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4e7252ec-8ed9-44b4-be02-62c190325039/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4e7252ec-8ed9-44b4-be02-62c190325039/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4f719897-ef99-4c55-8165-e4b563d31c9b/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4f719897-ef99-4c55-8165-e4b563d31c9b/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4f719897-ef99-4c55-8165-e4b563d31c9b/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4f719897-ef99-4c55-8165-e4b563d31c9b/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-525a78ca-3d2a-4209-a7d8-6bf26a046e85/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-525a78ca-3d2a-4209-a7d8-6bf26a046e85/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-525a78ca-3d2a-4209-a7d8-6bf26a046e85/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-54936c8a-2528-4c6a-973d-cf4e12c740a1/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-54936c8a-2528-4c6a-973d-cf4e12c740a1/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-54936c8a-2528-4c6a-973d-cf4e12c740a1/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-54936c8a-2528-4c6a-973d-cf4e12c740a1/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-56f3bea6-23c7-4fd3-a7e4-52c041bb511a/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-56f3bea6-23c7-4fd3-a7e4-52c041bb511a/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-56f3bea6-23c7-4fd3-a7e4-52c041bb511a/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-56f3bea6-23c7-4fd3-a7e4-52c041bb511a/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-590ed0a1-fdf5-4314-a500-58ec556f379e/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-590ed0a1-fdf5-4314-a500-58ec556f379e/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-590ed0a1-fdf5-4314-a500-58ec556f379e/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-590ed0a1-fdf5-4314-a500-58ec556f379e/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-59e3aead-f045-4008-b562-8c45d931298c/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-59e3aead-f045-4008-b562-8c45d931298c/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-59e3aead-f045-4008-b562-8c45d931298c/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-634d60e2-2b41-4a21-ab40-f85ae6a6cd4e/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-634d60e2-2b41-4a21-ab40-f85ae6a6cd4e/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-634d60e2-2b41-4a21-ab40-f85ae6a6cd4e/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-634d60e2-2b41-4a21-ab40-f85ae6a6cd4e/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6840ba58-535b-4ddb-af88-3523847aac0a/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6840ba58-535b-4ddb-af88-3523847aac0a/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6840ba58-535b-4ddb-af88-3523847aac0a/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6840ba58-535b-4ddb-af88-3523847aac0a/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6b1b1723-2683-44e4-928c-0e79ab071b36/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6b1b1723-2683-44e4-928c-0e79ab071b36/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6b1b1723-2683-44e4-928c-0e79ab071b36/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6b1b1723-2683-44e4-928c-0e79ab071b36/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6bf43302-7097-435e-87f3-feb47bc11876/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6bf43302-7097-435e-87f3-feb47bc11876/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6bf43302-7097-435e-87f3-feb47bc11876/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6c325e98-1e1c-406d-ab5b-d13b1f834844/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6c325e98-1e1c-406d-ab5b-d13b1f834844/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6c325e98-1e1c-406d-ab5b-d13b1f834844/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6d398842-b2ed-4517-b93a-127273c7ca0a/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6d398842-b2ed-4517-b93a-127273c7ca0a/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6d398842-b2ed-4517-b93a-127273c7ca0a/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-721c213a-19a6-4262-8fa6-153c0480290d/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-721c213a-19a6-4262-8fa6-153c0480290d/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-721c213a-19a6-4262-8fa6-153c0480290d/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-721c213a-19a6-4262-8fa6-153c0480290d/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-76317d5f-ff08-49c6-bd29-3bb4849eda30/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-76317d5f-ff08-49c6-bd29-3bb4849eda30/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-76317d5f-ff08-49c6-bd29-3bb4849eda30/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-76317d5f-ff08-49c6-bd29-3bb4849eda30/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-77b1f434-734d-4fcd-b781-b3b2d7d067fe/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-77b1f434-734d-4fcd-b781-b3b2d7d067fe/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-77b1f434-734d-4fcd-b781-b3b2d7d067fe/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-77b1f434-734d-4fcd-b781-b3b2d7d067fe/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7ae98f6d-b9d2-44b1-ad38-6bd90767f628/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7ae98f6d-b9d2-44b1-ad38-6bd90767f628/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7ae98f6d-b9d2-44b1-ad38-6bd90767f628/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-806ca52b-a997-4ee1-8dc4-1438b2e30faf/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-806ca52b-a997-4ee1-8dc4-1438b2e30faf/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-806ca52b-a997-4ee1-8dc4-1438b2e30faf/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-806ca52b-a997-4ee1-8dc4-1438b2e30faf/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8467604f-8e02-4046-bab5-ff12a3806c07/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8467604f-8e02-4046-bab5-ff12a3806c07/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8467604f-8e02-4046-bab5-ff12a3806c07/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-88917497-0963-4401-a896-c5d1910cfbd9/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-88917497-0963-4401-a896-c5d1910cfbd9/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-88917497-0963-4401-a896-c5d1910cfbd9/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-89c12ccc-07c4-4a21-8651-b4bb49636af0/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-89c12ccc-07c4-4a21-8651-b4bb49636af0/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-89c12ccc-07c4-4a21-8651-b4bb49636af0/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-89c12ccc-07c4-4a21-8651-b4bb49636af0/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8ae9bb83-2ff1-4e52-afd1-c40f1615d003/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8ae9bb83-2ff1-4e52-afd1-c40f1615d003/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8ae9bb83-2ff1-4e52-afd1-c40f1615d003/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8ae9bb83-2ff1-4e52-afd1-c40f1615d003/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-92ca396a-a948-41ce-9a22-2ab15c3c1397/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-92ca396a-a948-41ce-9a22-2ab15c3c1397/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-92ca396a-a948-41ce-9a22-2ab15c3c1397/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-95e4b977-b19d-49ee-a15a-81004f1e8daa/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-95e4b977-b19d-49ee-a15a-81004f1e8daa/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-95e4b977-b19d-49ee-a15a-81004f1e8daa/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9883a668-b79c-40fc-b742-1bf5d660b8e0/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9883a668-b79c-40fc-b742-1bf5d660b8e0/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9883a668-b79c-40fc-b742-1bf5d660b8e0/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9883a668-b79c-40fc-b742-1bf5d660b8e0/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-989a2eef-81f7-498e-a8c8-b6661a3b7eeb/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9b28f658-5a8d-47d7-87ad-d46005707648/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9b28f658-5a8d-47d7-87ad-d46005707648/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9b28f658-5a8d-47d7-87ad-d46005707648/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9b28f658-5a8d-47d7-87ad-d46005707648/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0688853-ccd5-4272-a2a1-f62465998641/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0688853-ccd5-4272-a2a1-f62465998641/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0688853-ccd5-4272-a2a1-f62465998641/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0688853-ccd5-4272-a2a1-f62465998641/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a589eec5-5fb5-4bb1-a758-93247c0bc161/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a589eec5-5fb5-4bb1-a758-93247c0bc161/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a589eec5-5fb5-4bb1-a758-93247c0bc161/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a589eec5-5fb5-4bb1-a758-93247c0bc161/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a7a52dd0-757c-4e47-aca5-ab55e3859dff/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a7a52dd0-757c-4e47-aca5-ab55e3859dff/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a7a52dd0-757c-4e47-aca5-ab55e3859dff/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a7a52dd0-757c-4e47-aca5-ab55e3859dff/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a9b91495-5ce6-4e64-a803-70942173a4bf/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a9b91495-5ce6-4e64-a803-70942173a4bf/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a9b91495-5ce6-4e64-a803-70942173a4bf/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a9b91495-5ce6-4e64-a803-70942173a4bf/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ae499a9c-d7c6-474c-9cbe-cae9bc2b4db9/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ae499a9c-d7c6-474c-9cbe-cae9bc2b4db9/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ae499a9c-d7c6-474c-9cbe-cae9bc2b4db9/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b2a8e0ca-a264-44be-8775-cb76bcfd4671/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b2a8e0ca-a264-44be-8775-cb76bcfd4671/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b2a8e0ca-a264-44be-8775-cb76bcfd4671/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b2a8e0ca-a264-44be-8775-cb76bcfd4671/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b65708f9-50d5-49b1-a24f-a336b115f183/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b65708f9-50d5-49b1-a24f-a336b115f183/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b65708f9-50d5-49b1-a24f-a336b115f183/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b65708f9-50d5-49b1-a24f-a336b115f183/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-baea9062-3f42-41c4-a8fa-da7812006f18/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-baea9062-3f42-41c4-a8fa-da7812006f18/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-baea9062-3f42-41c4-a8fa-da7812006f18/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-baea9062-3f42-41c4-a8fa-da7812006f18/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c021334f-fb73-491c-85ed-a42944887075/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c021334f-fb73-491c-85ed-a42944887075/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c021334f-fb73-491c-85ed-a42944887075/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c021334f-fb73-491c-85ed-a42944887075/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c2241835-df53-46c6-8da3-41375fc1ebe2/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c2241835-df53-46c6-8da3-41375fc1ebe2/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c2241835-df53-46c6-8da3-41375fc1ebe2/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c2241835-df53-46c6-8da3-41375fc1ebe2/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c26a58da-c79a-49e5-919c-082e6b269a63/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c26a58da-c79a-49e5-919c-082e6b269a63/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c26a58da-c79a-49e5-919c-082e6b269a63/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c26a58da-c79a-49e5-919c-082e6b269a63/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c53915e9-8504-456d-ae6e-2918c7cda438/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c53915e9-8504-456d-ae6e-2918c7cda438/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c53915e9-8504-456d-ae6e-2918c7cda438/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c5ab0c74-6239-4c8a-be8f-4c0c9803ea80/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c5ab0c74-6239-4c8a-be8f-4c0c9803ea80/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c5ab0c74-6239-4c8a-be8f-4c0c9803ea80/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c5b26bd2-e9ca-4e54-bb5d-2343aa2706bf/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c5b26bd2-e9ca-4e54-bb5d-2343aa2706bf/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c5b26bd2-e9ca-4e54-bb5d-2343aa2706bf/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ca4a0db4-a8c6-4cd9-9209-2de3e52b236d/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ca4a0db4-a8c6-4cd9-9209-2de3e52b236d/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ca4a0db4-a8c6-4cd9-9209-2de3e52b236d/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dfab41bd-74f3-402c-ae9a-e60e06dcb82c/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dfab41bd-74f3-402c-ae9a-e60e06dcb82c/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dfab41bd-74f3-402c-ae9a-e60e06dcb82c/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dfab41bd-74f3-402c-ae9a-e60e06dcb82c/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dfd5622d-39a8-4ff2-bab8-0859e8a926ad/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dfd5622d-39a8-4ff2-bab8-0859e8a926ad/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dfd5622d-39a8-4ff2-bab8-0859e8a926ad/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dfd5622d-39a8-4ff2-bab8-0859e8a926ad/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e260072f-8ac3-43ee-ac9e-37fde85757b5/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e260072f-8ac3-43ee-ac9e-37fde85757b5/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e260072f-8ac3-43ee-ac9e-37fde85757b5/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e260072f-8ac3-43ee-ac9e-37fde85757b5/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e4df5593-2680-48d1-a9af-21b2bdab87f2/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e4df5593-2680-48d1-a9af-21b2bdab87f2/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e4df5593-2680-48d1-a9af-21b2bdab87f2/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e4df5593-2680-48d1-a9af-21b2bdab87f2/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e6301153-760d-4137-a3ab-bb1d6498d36b/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e6301153-760d-4137-a3ab-bb1d6498d36b/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e6301153-760d-4137-a3ab-bb1d6498d36b/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e7cd32fd-e494-44f2-aa33-130646203a22/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e7cd32fd-e494-44f2-aa33-130646203a22/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e7cd32fd-e494-44f2-aa33-130646203a22/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ef20a453-1cc2-4a72-8e02-e47430a227e5/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ef20a453-1cc2-4a72-8e02-e47430a227e5/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ef20a453-1cc2-4a72-8e02-e47430a227e5/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ef20a453-1cc2-4a72-8e02-e47430a227e5/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-efac6032-5609-416a-80fd-475b68db373a/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-efac6032-5609-416a-80fd-475b68db373a/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-efac6032-5609-416a-80fd-475b68db373a/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-efac6032-5609-416a-80fd-475b68db373a/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f113a8e6-f15a-477a-8719-f85be7583c4c/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f113a8e6-f15a-477a-8719-f85be7583c4c/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f113a8e6-f15a-477a-8719-f85be7583c4c/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f113a8e6-f15a-477a-8719-f85be7583c4c/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f50f743d-2c40-4df8-8520-2dccacbb9d0a/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f50f743d-2c40-4df8-8520-2dccacbb9d0a/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f50f743d-2c40-4df8-8520-2dccacbb9d0a/webroot/js/vertxbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fb6f05b2-59fd-4610-9211-280554149fae/webroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fb6f05b2-59fd-4610-9211-280554149fae/webroot/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fb6f05b2-59fd-4610-9211-280554149fae/webroot/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fb6f05b2-59fd-4610-9211-280554149fae/webroot/js/vertxbus.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f50f743d-2c40-4df8-8520-2dccacbb9d0a/webroot/js/index.js" afterPath="$PROJECT_DIR$/src/main/resources/webroot/js/geolocation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/politrons/mod/UserMongoWorker.class" afterPath="$PROJECT_DIR$/target/classes/org/politrons/mod/UserMongoWorker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/politrons/VertxRest.class" afterPath="$PROJECT_DIR$/target/classes/org/politrons/VertxRest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/index.html" afterPath="$PROJECT_DIR$/src/main/resources/webroot/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/webroot/index.html" afterPath="$PROJECT_DIR$/target/classes/webroot/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/js/index.js" afterPath="$PROJECT_DIR$/src/main/resources/webroot/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/webroot/js/index.js" afterPath="$PROJECT_DIR$/target/classes/webroot/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0df3ff0e-a348-4d75-bf70-b78729c3569d/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0df3ff0e-a348-4d75-bf70-b78729c3569d/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0df3ff0e-a348-4d75-bf70-b78729c3569d/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0df3ff0e-a348-4d75-bf70-b78729c3569d/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0df3ff0e-a348-4d75-bf70-b78729c3569d/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-148d647f-1b9f-4af4-a90d-ac260e48efd7/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-148d647f-1b9f-4af4-a90d-ac260e48efd7/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-148d647f-1b9f-4af4-a90d-ac260e48efd7/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-148d647f-1b9f-4af4-a90d-ac260e48efd7/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-148d647f-1b9f-4af4-a90d-ac260e48efd7/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-153b5f44-b58e-4d87-8c45-ff74e9cd35c2/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-153b5f44-b58e-4d87-8c45-ff74e9cd35c2/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-153b5f44-b58e-4d87-8c45-ff74e9cd35c2/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-153b5f44-b58e-4d87-8c45-ff74e9cd35c2/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-153b5f44-b58e-4d87-8c45-ff74e9cd35c2/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-15b8c599-ae74-4ca8-ba60-df6953ce256c/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-15b8c599-ae74-4ca8-ba60-df6953ce256c/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-15b8c599-ae74-4ca8-ba60-df6953ce256c/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-15b8c599-ae74-4ca8-ba60-df6953ce256c/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-15b8c599-ae74-4ca8-ba60-df6953ce256c/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-161dde76-ea73-41e7-8ccd-19f9bd55fe65/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-161dde76-ea73-41e7-8ccd-19f9bd55fe65/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-161dde76-ea73-41e7-8ccd-19f9bd55fe65/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-161dde76-ea73-41e7-8ccd-19f9bd55fe65/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-161dde76-ea73-41e7-8ccd-19f9bd55fe65/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-182b3314-1f0c-4173-8a8a-743b67c206fa/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-182b3314-1f0c-4173-8a8a-743b67c206fa/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-182b3314-1f0c-4173-8a8a-743b67c206fa/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-182b3314-1f0c-4173-8a8a-743b67c206fa/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-182b3314-1f0c-4173-8a8a-743b67c206fa/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-183080c3-8514-4d7d-aeb8-2bc85f642a4a/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-183080c3-8514-4d7d-aeb8-2bc85f642a4a/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-183080c3-8514-4d7d-aeb8-2bc85f642a4a/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-183080c3-8514-4d7d-aeb8-2bc85f642a4a/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-183080c3-8514-4d7d-aeb8-2bc85f642a4a/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-44dcdcf3-4a42-48af-a48d-87a5e5e2a915/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-44dcdcf3-4a42-48af-a48d-87a5e5e2a915/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-44dcdcf3-4a42-48af-a48d-87a5e5e2a915/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-44dcdcf3-4a42-48af-a48d-87a5e5e2a915/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-44dcdcf3-4a42-48af-a48d-87a5e5e2a915/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46f0e67e-af7e-464e-a630-6ad625d8cb78/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46f0e67e-af7e-464e-a630-6ad625d8cb78/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46f0e67e-af7e-464e-a630-6ad625d8cb78/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46f0e67e-af7e-464e-a630-6ad625d8cb78/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46f0e67e-af7e-464e-a630-6ad625d8cb78/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4a541693-dbc2-47e1-bb78-d3f14c25632c/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4a541693-dbc2-47e1-bb78-d3f14c25632c/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4a541693-dbc2-47e1-bb78-d3f14c25632c/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4a541693-dbc2-47e1-bb78-d3f14c25632c/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4a541693-dbc2-47e1-bb78-d3f14c25632c/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4a6365a2-ab47-4939-ba2c-3feb8959f006/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4a6365a2-ab47-4939-ba2c-3feb8959f006/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4a6365a2-ab47-4939-ba2c-3feb8959f006/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4a6365a2-ab47-4939-ba2c-3feb8959f006/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4a6365a2-ab47-4939-ba2c-3feb8959f006/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-549c71c5-5528-4252-87d4-1629c37203d6/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-549c71c5-5528-4252-87d4-1629c37203d6/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-549c71c5-5528-4252-87d4-1629c37203d6/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-549c71c5-5528-4252-87d4-1629c37203d6/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-549c71c5-5528-4252-87d4-1629c37203d6/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5654411a-549f-4624-8f50-fc3c48f696db/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5654411a-549f-4624-8f50-fc3c48f696db/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5654411a-549f-4624-8f50-fc3c48f696db/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5654411a-549f-4624-8f50-fc3c48f696db/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5654411a-549f-4624-8f50-fc3c48f696db/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-56b41fa9-35e1-403b-bb1c-08660b1716f5/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-56b41fa9-35e1-403b-bb1c-08660b1716f5/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-56b41fa9-35e1-403b-bb1c-08660b1716f5/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-56b41fa9-35e1-403b-bb1c-08660b1716f5/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-56b41fa9-35e1-403b-bb1c-08660b1716f5/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6216d603-87b8-48eb-bfa2-8b006dd80581/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6216d603-87b8-48eb-bfa2-8b006dd80581/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6216d603-87b8-48eb-bfa2-8b006dd80581/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6216d603-87b8-48eb-bfa2-8b006dd80581/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6216d603-87b8-48eb-bfa2-8b006dd80581/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6a55339a-7393-4a41-aa9c-fe59f532a536/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6a55339a-7393-4a41-aa9c-fe59f532a536/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6a55339a-7393-4a41-aa9c-fe59f532a536/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6a55339a-7393-4a41-aa9c-fe59f532a536/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6a55339a-7393-4a41-aa9c-fe59f532a536/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-72989750-23b1-42e9-92aa-1b82765be269/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-72989750-23b1-42e9-92aa-1b82765be269/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-72989750-23b1-42e9-92aa-1b82765be269/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-72989750-23b1-42e9-92aa-1b82765be269/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-72989750-23b1-42e9-92aa-1b82765be269/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7757749c-207b-429a-aca9-76cc873b4d83/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7757749c-207b-429a-aca9-76cc873b4d83/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7757749c-207b-429a-aca9-76cc873b4d83/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7757749c-207b-429a-aca9-76cc873b4d83/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7757749c-207b-429a-aca9-76cc873b4d83/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-777cc29b-ac84-406e-b6be-55f5f065342a/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-777cc29b-ac84-406e-b6be-55f5f065342a/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-777cc29b-ac84-406e-b6be-55f5f065342a/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-777cc29b-ac84-406e-b6be-55f5f065342a/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-777cc29b-ac84-406e-b6be-55f5f065342a/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7a0a2d10-d6dc-414b-a3ac-365e3de65053/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7a0a2d10-d6dc-414b-a3ac-365e3de65053/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7a0a2d10-d6dc-414b-a3ac-365e3de65053/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7a0a2d10-d6dc-414b-a3ac-365e3de65053/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7a0a2d10-d6dc-414b-a3ac-365e3de65053/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7b5dbe86-98ba-4adc-a91d-b2b6c5f7c61b/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7b5dbe86-98ba-4adc-a91d-b2b6c5f7c61b/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7b5dbe86-98ba-4adc-a91d-b2b6c5f7c61b/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7b5dbe86-98ba-4adc-a91d-b2b6c5f7c61b/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7b5dbe86-98ba-4adc-a91d-b2b6c5f7c61b/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7e6f1248-f231-407f-8bd0-92b4afdb0195/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7e6f1248-f231-407f-8bd0-92b4afdb0195/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7e6f1248-f231-407f-8bd0-92b4afdb0195/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7e6f1248-f231-407f-8bd0-92b4afdb0195/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7e6f1248-f231-407f-8bd0-92b4afdb0195/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-87390797-8068-4722-943d-f63210e8ff82/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-87390797-8068-4722-943d-f63210e8ff82/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-87390797-8068-4722-943d-f63210e8ff82/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-87390797-8068-4722-943d-f63210e8ff82/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-87390797-8068-4722-943d-f63210e8ff82/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8a3bcb8e-9e17-4373-9102-9c4bbc33943e/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8a3bcb8e-9e17-4373-9102-9c4bbc33943e/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8a3bcb8e-9e17-4373-9102-9c4bbc33943e/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8a3bcb8e-9e17-4373-9102-9c4bbc33943e/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8a3bcb8e-9e17-4373-9102-9c4bbc33943e/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8c6adc50-e727-4bdc-9137-6957361feaa3/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8c6adc50-e727-4bdc-9137-6957361feaa3/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8c6adc50-e727-4bdc-9137-6957361feaa3/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8c6adc50-e727-4bdc-9137-6957361feaa3/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8c6adc50-e727-4bdc-9137-6957361feaa3/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-952e0e8d-b117-4450-893c-ca33bd111666/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-952e0e8d-b117-4450-893c-ca33bd111666/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-952e0e8d-b117-4450-893c-ca33bd111666/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-952e0e8d-b117-4450-893c-ca33bd111666/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-952e0e8d-b117-4450-893c-ca33bd111666/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-96320a71-f483-4e51-8cec-565ba5f1d626/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-96320a71-f483-4e51-8cec-565ba5f1d626/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-96320a71-f483-4e51-8cec-565ba5f1d626/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-96320a71-f483-4e51-8cec-565ba5f1d626/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-96320a71-f483-4e51-8cec-565ba5f1d626/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-964bd9d4-d4ff-40ad-8b1e-d66cecab0254/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-964bd9d4-d4ff-40ad-8b1e-d66cecab0254/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-964bd9d4-d4ff-40ad-8b1e-d66cecab0254/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-964bd9d4-d4ff-40ad-8b1e-d66cecab0254/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-964bd9d4-d4ff-40ad-8b1e-d66cecab0254/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a252ffb6-5f77-4fa2-95a1-44de1b509a15/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a252ffb6-5f77-4fa2-95a1-44de1b509a15/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a252ffb6-5f77-4fa2-95a1-44de1b509a15/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a252ffb6-5f77-4fa2-95a1-44de1b509a15/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a252ffb6-5f77-4fa2-95a1-44de1b509a15/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a6debd51-2da3-4f69-a129-2f1bd90b9513/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a6debd51-2da3-4f69-a129-2f1bd90b9513/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a6debd51-2da3-4f69-a129-2f1bd90b9513/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a6debd51-2da3-4f69-a129-2f1bd90b9513/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a6debd51-2da3-4f69-a129-2f1bd90b9513/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a8ed3b8c-4ee4-4446-98e7-48f935998e1d/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a8ed3b8c-4ee4-4446-98e7-48f935998e1d/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a8ed3b8c-4ee4-4446-98e7-48f935998e1d/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a8ed3b8c-4ee4-4446-98e7-48f935998e1d/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a8ed3b8c-4ee4-4446-98e7-48f935998e1d/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a957f76a-bdc4-4f28-be06-2a02c11dea84/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a957f76a-bdc4-4f28-be06-2a02c11dea84/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a957f76a-bdc4-4f28-be06-2a02c11dea84/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a957f76a-bdc4-4f28-be06-2a02c11dea84/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a957f76a-bdc4-4f28-be06-2a02c11dea84/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aa8694a6-6b1f-43e3-85ec-2f6bbfe63867/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aa8694a6-6b1f-43e3-85ec-2f6bbfe63867/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aa8694a6-6b1f-43e3-85ec-2f6bbfe63867/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aa8694a6-6b1f-43e3-85ec-2f6bbfe63867/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aa8694a6-6b1f-43e3-85ec-2f6bbfe63867/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aad060b2-2f87-456b-9ced-bb78a74f7da8/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aad060b2-2f87-456b-9ced-bb78a74f7da8/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aad060b2-2f87-456b-9ced-bb78a74f7da8/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aad060b2-2f87-456b-9ced-bb78a74f7da8/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aad060b2-2f87-456b-9ced-bb78a74f7da8/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b1b85e19-9a99-49bb-a129-534f875d4b04/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b1b85e19-9a99-49bb-a129-534f875d4b04/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b1b85e19-9a99-49bb-a129-534f875d4b04/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b1b85e19-9a99-49bb-a129-534f875d4b04/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b1b85e19-9a99-49bb-a129-534f875d4b04/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b3405044-be3e-4f14-ab4f-63bc46aef548/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b3405044-be3e-4f14-ab4f-63bc46aef548/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b3405044-be3e-4f14-ab4f-63bc46aef548/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b3405044-be3e-4f14-ab4f-63bc46aef548/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b3405044-be3e-4f14-ab4f-63bc46aef548/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b7d80ad9-32ed-48da-a62c-916aefcd43d1/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b7d80ad9-32ed-48da-a62c-916aefcd43d1/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b7d80ad9-32ed-48da-a62c-916aefcd43d1/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b7d80ad9-32ed-48da-a62c-916aefcd43d1/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b7d80ad9-32ed-48da-a62c-916aefcd43d1/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b9555cd2-cb1d-4e79-a7a7-5bfd4f1429a0/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b9555cd2-cb1d-4e79-a7a7-5bfd4f1429a0/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b9555cd2-cb1d-4e79-a7a7-5bfd4f1429a0/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b9555cd2-cb1d-4e79-a7a7-5bfd4f1429a0/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b9555cd2-cb1d-4e79-a7a7-5bfd4f1429a0/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c522cbbf-6ea0-4201-be20-f36d0e27087e/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c522cbbf-6ea0-4201-be20-f36d0e27087e/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c522cbbf-6ea0-4201-be20-f36d0e27087e/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c522cbbf-6ea0-4201-be20-f36d0e27087e/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c522cbbf-6ea0-4201-be20-f36d0e27087e/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c630d4e5-2d70-48f7-9c65-d22c290596e9/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c630d4e5-2d70-48f7-9c65-d22c290596e9/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c630d4e5-2d70-48f7-9c65-d22c290596e9/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c630d4e5-2d70-48f7-9c65-d22c290596e9/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c630d4e5-2d70-48f7-9c65-d22c290596e9/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d4db01ef-7f96-40ee-9113-d146a68426f6/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d4db01ef-7f96-40ee-9113-d146a68426f6/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d4db01ef-7f96-40ee-9113-d146a68426f6/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d4db01ef-7f96-40ee-9113-d146a68426f6/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d4db01ef-7f96-40ee-9113-d146a68426f6/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d7b7d6a1-e103-4b25-bc02-597f210ebe2a/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d7b7d6a1-e103-4b25-bc02-597f210ebe2a/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d7b7d6a1-e103-4b25-bc02-597f210ebe2a/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d7b7d6a1-e103-4b25-bc02-597f210ebe2a/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d7b7d6a1-e103-4b25-bc02-597f210ebe2a/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d90aa508-e670-46e1-9fb0-ac0252472aab/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d90aa508-e670-46e1-9fb0-ac0252472aab/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d90aa508-e670-46e1-9fb0-ac0252472aab/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d90aa508-e670-46e1-9fb0-ac0252472aab/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d90aa508-e670-46e1-9fb0-ac0252472aab/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dad77f60-243d-420f-b670-03f26726ecea/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dad77f60-243d-420f-b670-03f26726ecea/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dad77f60-243d-420f-b670-03f26726ecea/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dad77f60-243d-420f-b670-03f26726ecea/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dad77f60-243d-420f-b670-03f26726ecea/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-df01d677-3393-4dcf-b732-c17a5e1d7a4c/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-df01d677-3393-4dcf-b732-c17a5e1d7a4c/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-df01d677-3393-4dcf-b732-c17a5e1d7a4c/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-df01d677-3393-4dcf-b732-c17a5e1d7a4c/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-df01d677-3393-4dcf-b732-c17a5e1d7a4c/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e322b25f-001d-4ec4-80cd-6cde1f3f94c6/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e322b25f-001d-4ec4-80cd-6cde1f3f94c6/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e322b25f-001d-4ec4-80cd-6cde1f3f94c6/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e322b25f-001d-4ec4-80cd-6cde1f3f94c6/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e322b25f-001d-4ec4-80cd-6cde1f3f94c6/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e4201129-5a60-4f01-bc73-a4d4fc3dd27a/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e4201129-5a60-4f01-bc73-a4d4fc3dd27a/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e4201129-5a60-4f01-bc73-a4d4fc3dd27a/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e4201129-5a60-4f01-bc73-a4d4fc3dd27a/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e4201129-5a60-4f01-bc73-a4d4fc3dd27a/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f10d556d-a7ab-432c-a7aa-c87accc38730/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f10d556d-a7ab-432c-a7aa-c87accc38730/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f10d556d-a7ab-432c-a7aa-c87accc38730/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f10d556d-a7ab-432c-a7aa-c87accc38730/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f10d556d-a7ab-432c-a7aa-c87accc38730/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f190d978-aead-40cd-8520-d4e4d91944e3/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f190d978-aead-40cd-8520-d4e4d91944e3/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f190d978-aead-40cd-8520-d4e4d91944e3/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f190d978-aead-40cd-8520-d4e4d91944e3/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f190d978-aead-40cd-8520-d4e4d91944e3/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f2ed3a52-a152-4fc9-b51b-58ce87f9f824/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f2ed3a52-a152-4fc9-b51b-58ce87f9f824/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f2ed3a52-a152-4fc9-b51b-58ce87f9f824/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f2ed3a52-a152-4fc9-b51b-58ce87f9f824/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f2ed3a52-a152-4fc9-b51b-58ce87f9f824/webroot/js/vertxbus.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/js/geolocation.js" afterPath="$PROJECT_DIR$/src/main/resources/webroot/js/geolocation.js" />
     </list>
     <ignored path="vertService.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -347,8 +298,8 @@
       <file leaf-file-name="geolocation.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/geolocation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4909091">
-              <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.5181818">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -1172,16 +1123,16 @@
       <workItem from="1442825606674" duration="397000" />
       <workItem from="1442842132106" duration="184000" />
       <workItem from="1442902625575" duration="13627000" />
-      <workItem from="1443092968714" duration="25392000" />
+      <workItem from="1443092968714" duration="26312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55453000" />
+    <option name="totallyTimeSpent" value="56373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="23" width="1881" height="1057" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1191,7 +1142,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53222454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3991684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3991684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1202,7 +1153,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27025557" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27025557" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1662,8 +1613,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/geolocation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4909091">
-          <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.5181818">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding />
         </state>
       </provider>

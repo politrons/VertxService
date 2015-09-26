@@ -27,6 +27,7 @@ var geolocation = (function () {
         var startTrakingButton = $("#startTrakingButton");
         startTrakingButton.unbind('click');
         startTrakingButton.on('click', function () {
+            stop=false;
             startTraking();
         });
         $("#stopTrakingButton").on('click', function () {
@@ -82,7 +83,8 @@ var geolocation = (function () {
         var distance = Math.acos(Math.sin(startLatRads) * Math.sin(destLatRads) +
                 Math.cos(startLatRads) * Math.cos(destLatRads) *
                 Math.cos(startLongRads - destLongRads)) * Radius;
-        return distance * 1000;
+        distance = parseFloat(distance * 1000);
+        return distance.toFixed(2);
     }
 
     /*Converts degree to radians*/
