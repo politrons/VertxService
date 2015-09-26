@@ -9,6 +9,10 @@
     <h3>User</h3>
     <input type="hidden" id="inputUserId" type="text"/>
 
+    <input type="hidden" id="inputUserLongitude" type="text"/>
+
+    <input type="hidden" id="inputUserLatitude" type="text"/>
+
     <p><label id="inputUserNameLabel" type="text">User name<input id="inputUserName" type="text"/></label></p>
 
     <p><label id="inputUserEmailLabel" type="text">Email<input id="inputUserEmail" type="text"/></label></p>
@@ -59,12 +63,13 @@
     </table>
 </div>
 
-<p id="demo"></p>
+<div id="tracking">
+    <h3>Tracking users</h3>
 
-<button onclick="getInitialPosition()">Mark position</button>
-<button onclick="getDistance()">Start</button>
-<button onclick="stopTracking()">Stop</button>
-
+    <p id="demo"></p>
+    <button id="startTrakingButton">Start</button>
+    <button id="stopTrakingButton">Stop</button>
+</div>
 
 </body>
 </html>
@@ -72,72 +77,6 @@
 <script src="//cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"></script>
 <script src="js/vertxbus.js"></script>
 <script src="js/index.js"></script>
+<script src="js/geolocation.js"></script>
 
 
-<script>
-    var startPosition;
-    var x = document.getElementById("demo");
-    var stop=false;
-
-    function stopTracking(){
-        stop=true;
-    }
-
-    function getInitialPosition() {
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(saveInitialPosition);
-        } else {
-            x.innerHTML = "Geolocation is not supported by this browser.";
-        }
-    }
-
-    function saveInitialPosition(position) {
-        startPosition = {
-            latitude: position.coords.latitude,
-            longitude: position.coords.longitude
-        };
-    }
-
-    function getDistance() {
-        setInterval(function () {
-            if(stop){
-                return;
-            }
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(showDistance);
-            } else {
-                x.innerHTML = "Geolocation is not supported by this browser!.";
-            }
-        }, 1);
-
-    }
-    function showDistance(position) {
-        var currentPosition = {
-            latitude: position.coords.latitude,
-            longitude: position.coords.longitude
-        };
-        x.innerHTML = "Distance: " + calculateDistance(startPosition,currentPosition);
-    }
-
-
-    /*Function to calculate distance between two coordinates on earth surface*/
-    function calculateDistance(startPosition, currentPosition) {
-        var startLatRads = degreesToRadians(startPosition.latitude);
-        var startLongRads = degreesToRadians(startPosition.longitude);
-        var destLatRads = degreesToRadians(currentPosition.latitude);
-        var destLongRads = degreesToRadians(currentPosition.longitude);
-        var Radius = 6371; // radius of the Earth in metres
-        var distance = Math.acos(Math.sin(startLatRads) * Math.sin(destLatRads) +
-                        Math.cos(startLatRads) * Math.cos(destLatRads) *
-                        Math.cos(startLongRads - destLongRads)) * Radius;
-        return distance;
-    }
-
-    /*Converts degree to radians*/
-    function degreesToRadians(degrees) {
-        var radians = (degrees * Math.PI)/180;
-        return radians;
-    }
-
-
-</script>

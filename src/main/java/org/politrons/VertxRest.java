@@ -16,6 +16,7 @@ import io.vertx.ext.web.handler.StaticHandler;
 import io.vertx.ext.web.handler.sockjs.BridgeOptions;
 import io.vertx.ext.web.handler.sockjs.PermittedOptions;
 import io.vertx.ext.web.handler.sockjs.SockJSHandler;
+import org.politrons.mod.UserMongoWorker;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -38,22 +39,19 @@ import java.util.List;
 @Component
 public class VertxRest {
 
-    public static final String MONGO_FIND_USER = "mongo.find.user";
     public static final String ORG_POLITRONS_MOD_USER_MONGO_WORKER = "org.politrons.mod.UserMongoWorker";
     public static final String FIND_USER_SERVER = "find.user.server";
     public static final String FIND_USER_CLIENT = "find.user.client";
     public static final String DELETE_USER_SERVER = "delete.user.server";
     public static final String DELETE_USER_CLIENT = "delete.user.client";
-    public static final String MONGO_DELETE_USER = "mongo.delete.user";
     public static final String ADD_USER_SERVER = "add.user.server";
-    public static final String MONGO_ADD_USER = "mongo.add.user";
     public static final String ADD_USER_CLIENT = "add.user.client";
     public static final String UPDATE_USER_SERVER = "update.user.server";
     public static final String UPDATE_USER_CLIENT = "update.user.client";
-    public static final String MONGO_UPDATE_USER = "mongo.update.user";
     public static final String FIND_USERS_SERVER = "find.users.server";
     public static final String FIND_USERS_CLIENT = "find.users.client";
-    public static final String MONGO_FIND_USERS = "mongo.find.users";
+    public static final String TRACK_USER_SERVER = "track.user.server";
+    public static final String TRACK_USER_CLIENT = "track.user.client";
 
     private Vertx vertx;
 
@@ -195,7 +193,11 @@ public class VertxRest {
                 .addInboundPermitted(new PermittedOptions().setAddress(UPDATE_USER_SERVER))
                 .addOutboundPermitted(new PermittedOptions().setAddress(UPDATE_USER_CLIENT))
                 .addInboundPermitted(new PermittedOptions().setAddress(FIND_USERS_SERVER))
-                .addOutboundPermitted(new PermittedOptions().setAddress(FIND_USERS_CLIENT));
+                .addOutboundPermitted(new PermittedOptions().setAddress(FIND_USERS_CLIENT))
+                .addInboundPermitted(new PermittedOptions().setAddress(TRACK_USER_SERVER))
+                .addOutboundPermitted(new PermittedOptions().setAddress(TRACK_USER_CLIENT));
+
+
     }
 
     private void deployWorkers() {
@@ -204,20 +206,24 @@ public class VertxRest {
 
     private void defineRestConsumers(final EventBus eb) {
         eb.consumer(ADD_USER_SERVER).handler(message -> {
-            eb.send(MONGO_ADD_USER, message.body());
+            eb.send(UserMongoWorker.MONGO_ADD_USER, message.body());
         });
         eb.consumer(UPDATE_USER_SERVER).handler(message -> {
-            eb.send(MONGO_UPDATE_USER, message.body());
+            eb.send(UserMongoWorker.MONGO_UPDATE_USER, message.body());
         });
         eb.consumer(FIND_USER_SERVER).handler(message -> {
-            eb.send(MONGO_FIND_USER, message.body());
+            eb.send(UserMongoWorker.MONGO_FIND_USER, message.body());
         });
         eb.consumer(FIND_USERS_SERVER).handler(message -> {
-            eb.send(MONGO_FIND_USERS, message.body());
+            eb.send(UserMongoWorker.MONGO_FIND_USERS, message.body());
         });
         eb.consumer(DELETE_USER_SERVER).handler(message -> {
-            eb.send(MONGO_DELETE_USER, message.body());
+            eb.send(UserMongoWorker.MONGO_DELETE_USER, message.body());
         });
+        eb.consumer(TRACK_USER_SERVER).handler(message -> {
+            eb.send(UserMongoWorker.MONGO_TRACK_USER, message.body());
+        });
+
     }
 
 

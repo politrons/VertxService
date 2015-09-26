@@ -1,7 +1,308 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c913bacf-2db2-4c98-9e0f-987814247985" name="Default" comment="" />
+    <list default="true" id="c913bacf-2db2-4c98-9e0f-987814247985" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-01236d9c-25b8-4cd1-ac4c-8fdb69f807d5/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-01236d9c-25b8-4cd1-ac4c-8fdb69f807d5/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-01236d9c-25b8-4cd1-ac4c-8fdb69f807d5/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-01236d9c-25b8-4cd1-ac4c-8fdb69f807d5/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-03c35163-8a05-4598-99f1-1a1e2470edb9/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-03c35163-8a05-4598-99f1-1a1e2470edb9/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-03c35163-8a05-4598-99f1-1a1e2470edb9/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-03c35163-8a05-4598-99f1-1a1e2470edb9/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0491252f-f3db-4965-bb5b-6eb9cea2ed83/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0491252f-f3db-4965-bb5b-6eb9cea2ed83/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0491252f-f3db-4965-bb5b-6eb9cea2ed83/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0491252f-f3db-4965-bb5b-6eb9cea2ed83/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0566554b-b6ab-437c-b914-0e446be92e16/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0566554b-b6ab-437c-b914-0e446be92e16/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-06c4094f-6111-47b4-9479-ae3ca2b254a4/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-06c4094f-6111-47b4-9479-ae3ca2b254a4/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-06c4094f-6111-47b4-9479-ae3ca2b254a4/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-06c4094f-6111-47b4-9479-ae3ca2b254a4/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-098d2ad8-9b1f-45f8-94d6-27f51a29df07/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-098d2ad8-9b1f-45f8-94d6-27f51a29df07/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-098d2ad8-9b1f-45f8-94d6-27f51a29df07/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-098d2ad8-9b1f-45f8-94d6-27f51a29df07/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0b9750e4-46a0-4cb6-905f-d34352119b9e/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0b9750e4-46a0-4cb6-905f-d34352119b9e/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0b9750e4-46a0-4cb6-905f-d34352119b9e/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0b9750e4-46a0-4cb6-905f-d34352119b9e/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0ccb276c-7a8c-48d1-9320-5002915ea69c/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0ccb276c-7a8c-48d1-9320-5002915ea69c/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0ccb276c-7a8c-48d1-9320-5002915ea69c/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0d0051cd-6953-405a-8a70-9a637dbcfeaa/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0d0051cd-6953-405a-8a70-9a637dbcfeaa/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0d0051cd-6953-405a-8a70-9a637dbcfeaa/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-189f336a-d2b3-458b-a866-4e940537aedb/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-189f336a-d2b3-458b-a866-4e940537aedb/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-189f336a-d2b3-458b-a866-4e940537aedb/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-189f336a-d2b3-458b-a866-4e940537aedb/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-19d6e01f-53b4-44fc-ab56-babe51661aaf/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-19d6e01f-53b4-44fc-ab56-babe51661aaf/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-19d6e01f-53b4-44fc-ab56-babe51661aaf/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-19d6e01f-53b4-44fc-ab56-babe51661aaf/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cb5a2f9-137a-4563-9269-c3e275f67d33/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cb5a2f9-137a-4563-9269-c3e275f67d33/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cb5a2f9-137a-4563-9269-c3e275f67d33/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cb5a2f9-137a-4563-9269-c3e275f67d33/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1ede88bf-4fd3-4ab0-a192-363feda30e43/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1ede88bf-4fd3-4ab0-a192-363feda30e43/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1ede88bf-4fd3-4ab0-a192-363feda30e43/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-225048c6-a0c4-4a3e-a077-94fa95447460/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-225048c6-a0c4-4a3e-a077-94fa95447460/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-225048c6-a0c4-4a3e-a077-94fa95447460/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-225048c6-a0c4-4a3e-a077-94fa95447460/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-248ec1ba-ed0b-4ee5-9bcc-51ca73fdf999/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-248ec1ba-ed0b-4ee5-9bcc-51ca73fdf999/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-248ec1ba-ed0b-4ee5-9bcc-51ca73fdf999/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-24f2a751-70cd-42dc-881f-267befb1e5af/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-24f2a751-70cd-42dc-881f-267befb1e5af/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-24f2a751-70cd-42dc-881f-267befb1e5af/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-24f2a751-70cd-42dc-881f-267befb1e5af/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-275fcabe-c80f-4fda-a36c-904475a87afb/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-275fcabe-c80f-4fda-a36c-904475a87afb/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-275fcabe-c80f-4fda-a36c-904475a87afb/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2a6b2d78-d33e-4e0b-8792-3e0b19c051a9/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2a6b2d78-d33e-4e0b-8792-3e0b19c051a9/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2a6b2d78-d33e-4e0b-8792-3e0b19c051a9/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2a6b2d78-d33e-4e0b-8792-3e0b19c051a9/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-30fd77b4-11f7-4257-b99f-2c392597b78e/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-30fd77b4-11f7-4257-b99f-2c392597b78e/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-30fd77b4-11f7-4257-b99f-2c392597b78e/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-30fd77b4-11f7-4257-b99f-2c392597b78e/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-32da1f63-2b23-47a5-bfbb-2e3bb1d31d31/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-32da1f63-2b23-47a5-bfbb-2e3bb1d31d31/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-32da1f63-2b23-47a5-bfbb-2e3bb1d31d31/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3358cc48-f0cd-4814-81c8-70c0d63d36c0/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3358cc48-f0cd-4814-81c8-70c0d63d36c0/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3358cc48-f0cd-4814-81c8-70c0d63d36c0/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-36b6094c-c14b-4928-b714-cce6afe0b1bd/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-36b6094c-c14b-4928-b714-cce6afe0b1bd/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-36b6094c-c14b-4928-b714-cce6afe0b1bd/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-36b6094c-c14b-4928-b714-cce6afe0b1bd/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3e331138-dc3c-4e23-a0cc-641f52ee9663/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3e331138-dc3c-4e23-a0cc-641f52ee9663/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3e331138-dc3c-4e23-a0cc-641f52ee9663/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3e331138-dc3c-4e23-a0cc-641f52ee9663/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-40a59cb6-c678-4702-87ce-229df73a98c5/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-40a59cb6-c678-4702-87ce-229df73a98c5/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-40a59cb6-c678-4702-87ce-229df73a98c5/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-40a59cb6-c678-4702-87ce-229df73a98c5/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-420effa8-dbc9-4ea3-bcf8-a9991d776d1a/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-420effa8-dbc9-4ea3-bcf8-a9991d776d1a/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-420effa8-dbc9-4ea3-bcf8-a9991d776d1a/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-420effa8-dbc9-4ea3-bcf8-a9991d776d1a/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-42a1542d-f679-44ca-ad22-57dd78cc3a82/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-42a1542d-f679-44ca-ad22-57dd78cc3a82/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-42a1542d-f679-44ca-ad22-57dd78cc3a82/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-42a1542d-f679-44ca-ad22-57dd78cc3a82/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4cf40922-5c44-4387-b6dc-d825225cfc96/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4cf40922-5c44-4387-b6dc-d825225cfc96/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4cf40922-5c44-4387-b6dc-d825225cfc96/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4cf40922-5c44-4387-b6dc-d825225cfc96/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4e7252ec-8ed9-44b4-be02-62c190325039/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4e7252ec-8ed9-44b4-be02-62c190325039/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4e7252ec-8ed9-44b4-be02-62c190325039/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4e7252ec-8ed9-44b4-be02-62c190325039/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4f719897-ef99-4c55-8165-e4b563d31c9b/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4f719897-ef99-4c55-8165-e4b563d31c9b/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4f719897-ef99-4c55-8165-e4b563d31c9b/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4f719897-ef99-4c55-8165-e4b563d31c9b/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-525a78ca-3d2a-4209-a7d8-6bf26a046e85/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-525a78ca-3d2a-4209-a7d8-6bf26a046e85/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-525a78ca-3d2a-4209-a7d8-6bf26a046e85/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-54936c8a-2528-4c6a-973d-cf4e12c740a1/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-54936c8a-2528-4c6a-973d-cf4e12c740a1/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-54936c8a-2528-4c6a-973d-cf4e12c740a1/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-54936c8a-2528-4c6a-973d-cf4e12c740a1/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-56f3bea6-23c7-4fd3-a7e4-52c041bb511a/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-56f3bea6-23c7-4fd3-a7e4-52c041bb511a/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-56f3bea6-23c7-4fd3-a7e4-52c041bb511a/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-56f3bea6-23c7-4fd3-a7e4-52c041bb511a/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-590ed0a1-fdf5-4314-a500-58ec556f379e/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-590ed0a1-fdf5-4314-a500-58ec556f379e/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-590ed0a1-fdf5-4314-a500-58ec556f379e/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-590ed0a1-fdf5-4314-a500-58ec556f379e/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-59e3aead-f045-4008-b562-8c45d931298c/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-59e3aead-f045-4008-b562-8c45d931298c/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-59e3aead-f045-4008-b562-8c45d931298c/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-634d60e2-2b41-4a21-ab40-f85ae6a6cd4e/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-634d60e2-2b41-4a21-ab40-f85ae6a6cd4e/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-634d60e2-2b41-4a21-ab40-f85ae6a6cd4e/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-634d60e2-2b41-4a21-ab40-f85ae6a6cd4e/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6840ba58-535b-4ddb-af88-3523847aac0a/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6840ba58-535b-4ddb-af88-3523847aac0a/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6840ba58-535b-4ddb-af88-3523847aac0a/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6840ba58-535b-4ddb-af88-3523847aac0a/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6b1b1723-2683-44e4-928c-0e79ab071b36/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6b1b1723-2683-44e4-928c-0e79ab071b36/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6b1b1723-2683-44e4-928c-0e79ab071b36/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6b1b1723-2683-44e4-928c-0e79ab071b36/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6bf43302-7097-435e-87f3-feb47bc11876/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6bf43302-7097-435e-87f3-feb47bc11876/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6bf43302-7097-435e-87f3-feb47bc11876/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6c325e98-1e1c-406d-ab5b-d13b1f834844/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6c325e98-1e1c-406d-ab5b-d13b1f834844/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6c325e98-1e1c-406d-ab5b-d13b1f834844/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6d398842-b2ed-4517-b93a-127273c7ca0a/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6d398842-b2ed-4517-b93a-127273c7ca0a/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6d398842-b2ed-4517-b93a-127273c7ca0a/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-721c213a-19a6-4262-8fa6-153c0480290d/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-721c213a-19a6-4262-8fa6-153c0480290d/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-721c213a-19a6-4262-8fa6-153c0480290d/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-721c213a-19a6-4262-8fa6-153c0480290d/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-76317d5f-ff08-49c6-bd29-3bb4849eda30/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-76317d5f-ff08-49c6-bd29-3bb4849eda30/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-76317d5f-ff08-49c6-bd29-3bb4849eda30/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-76317d5f-ff08-49c6-bd29-3bb4849eda30/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-77b1f434-734d-4fcd-b781-b3b2d7d067fe/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-77b1f434-734d-4fcd-b781-b3b2d7d067fe/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-77b1f434-734d-4fcd-b781-b3b2d7d067fe/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-77b1f434-734d-4fcd-b781-b3b2d7d067fe/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7ae98f6d-b9d2-44b1-ad38-6bd90767f628/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7ae98f6d-b9d2-44b1-ad38-6bd90767f628/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7ae98f6d-b9d2-44b1-ad38-6bd90767f628/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-806ca52b-a997-4ee1-8dc4-1438b2e30faf/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-806ca52b-a997-4ee1-8dc4-1438b2e30faf/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-806ca52b-a997-4ee1-8dc4-1438b2e30faf/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-806ca52b-a997-4ee1-8dc4-1438b2e30faf/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8467604f-8e02-4046-bab5-ff12a3806c07/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8467604f-8e02-4046-bab5-ff12a3806c07/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8467604f-8e02-4046-bab5-ff12a3806c07/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-88917497-0963-4401-a896-c5d1910cfbd9/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-88917497-0963-4401-a896-c5d1910cfbd9/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-88917497-0963-4401-a896-c5d1910cfbd9/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-89c12ccc-07c4-4a21-8651-b4bb49636af0/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-89c12ccc-07c4-4a21-8651-b4bb49636af0/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-89c12ccc-07c4-4a21-8651-b4bb49636af0/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-89c12ccc-07c4-4a21-8651-b4bb49636af0/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8ae9bb83-2ff1-4e52-afd1-c40f1615d003/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8ae9bb83-2ff1-4e52-afd1-c40f1615d003/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8ae9bb83-2ff1-4e52-afd1-c40f1615d003/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8ae9bb83-2ff1-4e52-afd1-c40f1615d003/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-92ca396a-a948-41ce-9a22-2ab15c3c1397/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-92ca396a-a948-41ce-9a22-2ab15c3c1397/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-92ca396a-a948-41ce-9a22-2ab15c3c1397/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-95e4b977-b19d-49ee-a15a-81004f1e8daa/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-95e4b977-b19d-49ee-a15a-81004f1e8daa/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-95e4b977-b19d-49ee-a15a-81004f1e8daa/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9883a668-b79c-40fc-b742-1bf5d660b8e0/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9883a668-b79c-40fc-b742-1bf5d660b8e0/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9883a668-b79c-40fc-b742-1bf5d660b8e0/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9883a668-b79c-40fc-b742-1bf5d660b8e0/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-989a2eef-81f7-498e-a8c8-b6661a3b7eeb/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9b28f658-5a8d-47d7-87ad-d46005707648/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9b28f658-5a8d-47d7-87ad-d46005707648/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9b28f658-5a8d-47d7-87ad-d46005707648/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9b28f658-5a8d-47d7-87ad-d46005707648/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0688853-ccd5-4272-a2a1-f62465998641/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0688853-ccd5-4272-a2a1-f62465998641/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0688853-ccd5-4272-a2a1-f62465998641/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0688853-ccd5-4272-a2a1-f62465998641/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a589eec5-5fb5-4bb1-a758-93247c0bc161/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a589eec5-5fb5-4bb1-a758-93247c0bc161/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a589eec5-5fb5-4bb1-a758-93247c0bc161/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a589eec5-5fb5-4bb1-a758-93247c0bc161/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a7a52dd0-757c-4e47-aca5-ab55e3859dff/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a7a52dd0-757c-4e47-aca5-ab55e3859dff/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a7a52dd0-757c-4e47-aca5-ab55e3859dff/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a7a52dd0-757c-4e47-aca5-ab55e3859dff/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a9b91495-5ce6-4e64-a803-70942173a4bf/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a9b91495-5ce6-4e64-a803-70942173a4bf/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a9b91495-5ce6-4e64-a803-70942173a4bf/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a9b91495-5ce6-4e64-a803-70942173a4bf/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ae499a9c-d7c6-474c-9cbe-cae9bc2b4db9/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ae499a9c-d7c6-474c-9cbe-cae9bc2b4db9/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ae499a9c-d7c6-474c-9cbe-cae9bc2b4db9/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b2a8e0ca-a264-44be-8775-cb76bcfd4671/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b2a8e0ca-a264-44be-8775-cb76bcfd4671/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b2a8e0ca-a264-44be-8775-cb76bcfd4671/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b2a8e0ca-a264-44be-8775-cb76bcfd4671/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b65708f9-50d5-49b1-a24f-a336b115f183/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b65708f9-50d5-49b1-a24f-a336b115f183/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b65708f9-50d5-49b1-a24f-a336b115f183/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b65708f9-50d5-49b1-a24f-a336b115f183/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-baea9062-3f42-41c4-a8fa-da7812006f18/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-baea9062-3f42-41c4-a8fa-da7812006f18/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-baea9062-3f42-41c4-a8fa-da7812006f18/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-baea9062-3f42-41c4-a8fa-da7812006f18/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c021334f-fb73-491c-85ed-a42944887075/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c021334f-fb73-491c-85ed-a42944887075/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c021334f-fb73-491c-85ed-a42944887075/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c021334f-fb73-491c-85ed-a42944887075/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c2241835-df53-46c6-8da3-41375fc1ebe2/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c2241835-df53-46c6-8da3-41375fc1ebe2/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c2241835-df53-46c6-8da3-41375fc1ebe2/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c2241835-df53-46c6-8da3-41375fc1ebe2/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c26a58da-c79a-49e5-919c-082e6b269a63/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c26a58da-c79a-49e5-919c-082e6b269a63/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c26a58da-c79a-49e5-919c-082e6b269a63/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c26a58da-c79a-49e5-919c-082e6b269a63/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c53915e9-8504-456d-ae6e-2918c7cda438/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c53915e9-8504-456d-ae6e-2918c7cda438/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c53915e9-8504-456d-ae6e-2918c7cda438/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c5ab0c74-6239-4c8a-be8f-4c0c9803ea80/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c5ab0c74-6239-4c8a-be8f-4c0c9803ea80/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c5ab0c74-6239-4c8a-be8f-4c0c9803ea80/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c5b26bd2-e9ca-4e54-bb5d-2343aa2706bf/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c5b26bd2-e9ca-4e54-bb5d-2343aa2706bf/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c5b26bd2-e9ca-4e54-bb5d-2343aa2706bf/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ca4a0db4-a8c6-4cd9-9209-2de3e52b236d/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ca4a0db4-a8c6-4cd9-9209-2de3e52b236d/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ca4a0db4-a8c6-4cd9-9209-2de3e52b236d/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dfab41bd-74f3-402c-ae9a-e60e06dcb82c/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dfab41bd-74f3-402c-ae9a-e60e06dcb82c/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dfab41bd-74f3-402c-ae9a-e60e06dcb82c/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dfab41bd-74f3-402c-ae9a-e60e06dcb82c/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dfd5622d-39a8-4ff2-bab8-0859e8a926ad/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dfd5622d-39a8-4ff2-bab8-0859e8a926ad/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dfd5622d-39a8-4ff2-bab8-0859e8a926ad/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dfd5622d-39a8-4ff2-bab8-0859e8a926ad/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e260072f-8ac3-43ee-ac9e-37fde85757b5/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e260072f-8ac3-43ee-ac9e-37fde85757b5/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e260072f-8ac3-43ee-ac9e-37fde85757b5/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e260072f-8ac3-43ee-ac9e-37fde85757b5/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e4df5593-2680-48d1-a9af-21b2bdab87f2/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e4df5593-2680-48d1-a9af-21b2bdab87f2/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e4df5593-2680-48d1-a9af-21b2bdab87f2/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e4df5593-2680-48d1-a9af-21b2bdab87f2/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e6301153-760d-4137-a3ab-bb1d6498d36b/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e6301153-760d-4137-a3ab-bb1d6498d36b/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e6301153-760d-4137-a3ab-bb1d6498d36b/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e7cd32fd-e494-44f2-aa33-130646203a22/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e7cd32fd-e494-44f2-aa33-130646203a22/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e7cd32fd-e494-44f2-aa33-130646203a22/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ef20a453-1cc2-4a72-8e02-e47430a227e5/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ef20a453-1cc2-4a72-8e02-e47430a227e5/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ef20a453-1cc2-4a72-8e02-e47430a227e5/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ef20a453-1cc2-4a72-8e02-e47430a227e5/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-efac6032-5609-416a-80fd-475b68db373a/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-efac6032-5609-416a-80fd-475b68db373a/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-efac6032-5609-416a-80fd-475b68db373a/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-efac6032-5609-416a-80fd-475b68db373a/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f113a8e6-f15a-477a-8719-f85be7583c4c/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f113a8e6-f15a-477a-8719-f85be7583c4c/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f113a8e6-f15a-477a-8719-f85be7583c4c/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f113a8e6-f15a-477a-8719-f85be7583c4c/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f50f743d-2c40-4df8-8520-2dccacbb9d0a/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f50f743d-2c40-4df8-8520-2dccacbb9d0a/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f50f743d-2c40-4df8-8520-2dccacbb9d0a/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fb6f05b2-59fd-4610-9211-280554149fae/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fb6f05b2-59fd-4610-9211-280554149fae/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fb6f05b2-59fd-4610-9211-280554149fae/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fb6f05b2-59fd-4610-9211-280554149fae/webroot/js/vertxbus.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f50f743d-2c40-4df8-8520-2dccacbb9d0a/webroot/js/index.js" afterPath="$PROJECT_DIR$/src/main/resources/webroot/js/geolocation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/politrons/mod/UserMongoWorker.class" afterPath="$PROJECT_DIR$/target/classes/org/politrons/mod/UserMongoWorker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/politrons/VertxRest.class" afterPath="$PROJECT_DIR$/target/classes/org/politrons/VertxRest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/index.html" afterPath="$PROJECT_DIR$/src/main/resources/webroot/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/webroot/index.html" afterPath="$PROJECT_DIR$/target/classes/webroot/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/js/index.js" afterPath="$PROJECT_DIR$/src/main/resources/webroot/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/webroot/js/index.js" afterPath="$PROJECT_DIR$/target/classes/webroot/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="vertService.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,54 +324,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vertxbus.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/vertxbus.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56808513">
-              <caret line="97" column="10" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
+            <state vertical-scroll-proportion="-6.875">
+              <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="geolocation.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/geolocation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4909091">
+              <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -86,21 +364,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTML5.js" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1987" column="0" selection-start-line="1987" selection-start-column="0" selection-end-line="1987" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="VertxRest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="190" column="82" selection-start-line="190" selection-start-column="82" selection-end-line="190" selection-end-column="82" />
+              <caret line="215" column="11" selection-start-line="215" selection-start-column="11" selection-end-line="215" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,17 +380,47 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+              <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventBusImpl.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/eventbus/impl/EventBusImpl.java">
+      <file leaf-file-name="MessageProducer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/eventbus/MessageProducer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1108" column="0" selection-start-line="1108" selection-start-column="0" selection-end-line="1108" selection-end-column="0" />
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MongoClientImpl.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-mongo-client/3.0.0/vertx-mongo-client-3.0.0.jar!/io/vertx/ext/mongo/impl/MongoClientImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.4444447">
+              <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContextImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/impl/ContextImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="320" column="0" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventBus.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/eventbus/EventBus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="162" column="25" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -152,11 +450,12 @@
         <option value="$PROJECT_DIR$/src/main/java/org/politrons/Application.java" />
         <option value="$PROJECT_DIR$/src/main/resources/webroot/js/vertxbus.js" />
         <option value="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/webroot/js/index.js" />
-        <option value="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/webroot/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/webroot/js/index.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/webroot/js/geolocation.js" />
       </list>
     </option>
   </component>
@@ -488,7 +787,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/bin/jvisualvm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -873,12 +1172,12 @@
       <workItem from="1442825606674" duration="397000" />
       <workItem from="1442842132106" duration="184000" />
       <workItem from="1442902625575" duration="13627000" />
-      <workItem from="1443092968714" duration="12261000" />
+      <workItem from="1443092968714" duration="25392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42322000" />
+    <option name="totallyTimeSpent" value="55453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="23" width="1881" height="1057" extended-state="6" />
@@ -889,6 +1188,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53222454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3991684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -907,7 +1207,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -953,7 +1252,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="56" />
+      <option name="time" value="85" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -962,64 +1261,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="154" column="21" selection-start-line="154" selection-start-column="21" selection-end-line="154" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/vertxbus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="68" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="161" column="23" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/eventbus/impl/EventBusImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1110" column="0" selection-start-line="1110" selection-start-column="0" selection-end-line="1110" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/eventbus/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1087,6 +1328,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,6 +1404,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,13 +1480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-mongo-client/3.0.0/vertx-mongo-client-3.0.0.jar!/io/vertx/ext/mongo/impl/MongoClientImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/Route.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1297,34 +1533,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/index.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-          <folding />
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#541#542#0" expanded="false" />
+            <element signature="e#573#574#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1987" column="0" selection-start-line="1987" selection-start-column="0" selection-end-line="1987" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1189" column="0" selection-start-line="1189" selection-start-column="0" selection-end-line="1189" selection-end-column="0" />
+          <caret line="1987" column="42" selection-start-line="1987" selection-start-column="42" selection-end-line="1987" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -1337,31 +1560,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/eventbus/impl/MessageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding>
+            <element signature="e#2896#2897#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="585" column="0" selection-start-line="585" selection-start-column="0" selection-end-line="585" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="190" column="82" selection-start-line="190" selection-start-column="82" selection-end-line="190" selection-end-column="82" />
+          <caret line="215" column="11" selection-start-line="215" selection-start-column="11" selection-end-line="215" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/Application.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-mongo-client/3.0.0/vertx-mongo-client-3.0.0.jar!/io/vertx/ext/mongo/impl/MongoClientImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.4444447">
+          <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/impl/ContextImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
+          <caret line="320" column="0" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/eventbus/EventBus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="162" column="25" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/eventbus/MessageProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56808513">
-          <caret line="97" column="10" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1189" column="0" selection-start-line="1189" selection-start-column="0" selection-end-line="1189" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/geolocation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4909091">
+          <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
           <folding />
         </state>
       </provider>
