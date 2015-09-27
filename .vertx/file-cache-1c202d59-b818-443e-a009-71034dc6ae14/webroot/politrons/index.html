@@ -5,9 +5,6 @@
 
 <h1>Politrons Vertx Server</h1>
 
-<p><a href="/addUser.html">Add user account</a></p>
-<p><a href="/login.html">Logout</a></p>
-
 <div id="addUser">
     <h3>User</h3>
     <input type="hidden" id="inputUserId" type="text"/>
@@ -76,10 +73,10 @@
 
 </body>
 </html>
-<!--<script>-->
-    <!--var user= "<%= Session["User"]%>";-->
-    <!--console.log(user);-->
-<!--</script>-->
+<script>
+    var user= "<%= Session["User"]%>";
+    console.log(user);
+</script>
 
 <script src="js/jquery.min.js"></script>
 <script src="//cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"></script>
