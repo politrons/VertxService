@@ -2,8 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c913bacf-2db2-4c98-9e0f-987814247985" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/js/geolocation.js" afterPath="$PROJECT_DIR$/src/main/resources/webroot/js/geolocation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/js/index.js" afterPath="$PROJECT_DIR$/src/main/resources/webroot/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/auth/AuthenticationException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/auth/CreateUserHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/auth/impl/CreateUserHandlerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/auth/impl/DefaultHashStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/auth/HashSaltStyle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/auth/HashStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/auth/MongoAuth.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/auth/impl/MongoAuthImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/auth/impl/MongoUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/VertxTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/auth/package-info.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-18abe726-31fd-43e1-8f0e-467ecae7cc49/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-18abe726-31fd-43e1-8f0e-467ecae7cc49/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-18abe726-31fd-43e1-8f0e-467ecae7cc49/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-18abe726-31fd-43e1-8f0e-467ecae7cc49/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-18abe726-31fd-43e1-8f0e-467ecae7cc49/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46646877-845b-47e6-a18e-c288811f386c/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46646877-845b-47e6-a18e-c288811f386c/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46646877-845b-47e6-a18e-c288811f386c/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46646877-845b-47e6-a18e-c288811f386c/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46646877-845b-47e6-a18e-c288811f386c/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7610c077-8b57-4a90-89aa-e2352f775647/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7610c077-8b57-4a90-89aa-e2352f775647/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7610c077-8b57-4a90-89aa-e2352f775647/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7610c077-8b57-4a90-89aa-e2352f775647/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7610c077-8b57-4a90-89aa-e2352f775647/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b03ba07e-f122-4b41-9f75-cce753fa2f61/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b03ba07e-f122-4b41-9f75-cce753fa2f61/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b03ba07e-f122-4b41-9f75-cce753fa2f61/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b03ba07e-f122-4b41-9f75-cce753fa2f61/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d5c9b494-3234-4565-b2e9-a825cf9c52d6/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d5c9b494-3234-4565-b2e9-a825cf9c52d6/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d5c9b494-3234-4565-b2e9-a825cf9c52d6/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d5c9b494-3234-4565-b2e9-a825cf9c52d6/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d5c9b494-3234-4565-b2e9-a825cf9c52d6/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d860cfca-cbb0-426e-a09d-8fe63f04490c/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d860cfca-cbb0-426e-a09d-8fe63f04490c/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d860cfca-cbb0-426e-a09d-8fe63f04490c/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d860cfca-cbb0-426e-a09d-8fe63f04490c/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d860cfca-cbb0-426e-a09d-8fe63f04490c/webroot/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/politrons/VertxRest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/webroot/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/webroot/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/webroot/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/webroot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/webroot/js/vertxbus.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b03ba07e-f122-4b41-9f75-cce753fa2f61/webroot/js/index.js" afterPath="$PROJECT_DIR$/src/main/resources/webroot/politrons/js/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/webroot/css/style.css" afterPath="$PROJECT_DIR$/src/main/resources/webroot/politrons/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/webroot/index.html" afterPath="$PROJECT_DIR$/src/main/resources/webroot/politrons/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/webroot/js/geolocation.js" afterPath="$PROJECT_DIR$/src/main/resources/webroot/politrons/js/geolocation.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/webroot/js/index.js" afterPath="$PROJECT_DIR$/src/main/resources/webroot/politrons/js/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/webroot/js/jquery.min.js" afterPath="$PROJECT_DIR$/src/main/resources/webroot/politrons/js/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/webroot/js/vertxbus.js" afterPath="$PROJECT_DIR$/src/main/resources/webroot/politrons/js/vertxbus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/politrons/mod/UserMongoWorker.class" afterPath="$PROJECT_DIR$/target/classes/org/politrons/mod/UserMongoWorker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java" afterPath="$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vertService.iml" afterPath="$PROJECT_DIR$/vertService.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vertService.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,51 +85,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.041666">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="70" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="geolocation.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/geolocation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54545456">
-              <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DHTML.js" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1189" column="0" selection-start-line="1189" selection-start-column="0" selection-end-line="1189" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VertxRest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="VertxRest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17987151">
+              <caret line="106" column="27" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2432#2433#0" expanded="true" />
+                <element signature="e#2466#2467#0" expanded="true" />
+                <element signature="e#11424#11425#0" expanded="true" />
+                <element signature="e#11538#11539#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Handler.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/Handler.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="215" column="11" selection-start-line="215" selection-start-column="11" selection-end-line="215" selection-end-column="11" />
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-23.75">
+              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateUserHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/auth/CreateUserHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,52 +143,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMongoWorker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java">
+      <file leaf-file-name="FormLoginHandler.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/handler/FormLoginHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+              <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormLoginHandlerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/handler/impl/FormLoginHandlerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="106" column="15" selection-start-line="106" selection-start-column="15" selection-end-line="106" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageProducer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/eventbus/MessageProducer.java">
+      <file leaf-file-name="CreateUserHandlerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/auth/impl/CreateUserHandlerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-              <folding />
+              <caret line="63" column="62" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MongoClientImpl.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-mongo-client/3.0.0/vertx-mongo-client-3.0.0.jar!/io/vertx/ext/mongo/impl/MongoClientImpl.class">
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.4444447">
-              <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3799" column="0" selection-start-line="3799" selection-start-column="0" selection-end-line="3799" selection-end-column="0" />
+              <folding>
+                <element signature="e#177054#177055#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContextImpl.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/impl/ContextImpl.java">
+      <file leaf-file-name="MongoAuthImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/auth/impl/MongoAuthImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="320" column="0" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventBus.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/eventbus/EventBus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="162" column="25" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
-              <folding />
+              <caret line="205" column="6" selection-start-line="205" selection-start-column="6" selection-end-line="205" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#9495#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,6 +207,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -152,12 +227,35 @@
         <option value="$PROJECT_DIR$/src/main/java/org/politrons/Application.java" />
         <option value="$PROJECT_DIR$/src/main/resources/webroot/js/vertxbus.js" />
         <option value="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/webroot/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/webroot/js/index.js" />
         <option value="$PROJECT_DIR$/src/main/resources/webroot/js/geolocation.js" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/mod/AuthManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/VertxTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/CustomAuthProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/mongo/MongoAuth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/mongo/impl/MongoAuthImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/mongo/impl/MongoUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/authentication/HashStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/examples/Examples.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/authentication/HashSaltStyle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/authentication/impl/DefaultHashStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/authentication/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/examples/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/authentication/AuthenticationException.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/authentication/impl/MongoUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/authentication/MongoAuth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/authentication/impl/MongoAuthImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/webroot/js/index.js" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/auth/CreateUserHanlder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/auth/impl/CreateUserHanlderImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/auth/CreateUserHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/webroot/loginpage.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/auth/CustomFormLoginHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/auth/impl/CreateUserHandlerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/webroot/politrons/js/index.js" />
       </list>
     </option>
   </component>
@@ -286,6 +384,10 @@
               <option name="myItemId" value="vertService" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -293,7 +395,93 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="VertxService" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: io.vertx:vertx-web:3.0.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vertx-web-3.0.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vertService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: io.vertx:vertx-web:3.0.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vertx-web-3.0.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vertx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vertService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: io.vertx:vertx-web:3.0.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vertx-web-3.0.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vertx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vertService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: io.vertx:vertx-web:3.0.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vertx-web-3.0.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vertx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -304,10 +492,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="VertxService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,30 +512,8 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vertService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VertxService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,6 +540,66 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vertService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VertxService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="politrons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vertService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VertxService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="politrons" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -408,6 +630,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="politrons" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -471,6 +697,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vertService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VertxService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="politrons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vertService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VertxService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="politrons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -507,8 +797,19 @@
       <recent name="org.politrons" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/webroot" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/politrons" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/politrons/mod" />
       <recent name="$PROJECT_DIR$/src/main/resources/webroot/js" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.politrons.auth" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/webroot" />
+      <recent name="$PROJECT_DIR$/src/main/resources/webroot/politrons" />
+      <recent name="$PROJECT_DIR$/src/main/resources/webroot/auth" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Application">
@@ -532,7 +833,28 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vertService/webroot/index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vertService/webroot/politrons/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="VertxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="vertService" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VertxTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -842,16 +1164,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.VertxRest" />
       <item index="1" class="java.lang.String" itemvalue="Application.VertxRest (1)" />
       <item index="2" class="java.lang.String" itemvalue="Application.Application" />
       <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.VertxTest" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Application.Application" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.VertxTest" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -874,16 +1198,16 @@
       <workItem from="1442825606674" duration="397000" />
       <workItem from="1442842132106" duration="184000" />
       <workItem from="1442902625575" duration="13627000" />
-      <workItem from="1443092968714" duration="27966000" />
+      <workItem from="1443092968714" duration="44768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58027000" />
+    <option name="totallyTimeSpent" value="74829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="23" width="1881" height="1057" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -893,7 +1217,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53222454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3991684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -904,7 +1228,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27025557" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27025557" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -954,7 +1278,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="85" />
+      <option name="time" value="128" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -963,229 +1287,498 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/eventbus/Message.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-common/3.0.0/vertx-auth-common-3.0.0.jar!/io/vertx/rxjava/ext/auth/User.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/javax/security/auth/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+          <caret line="99" column="20" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/VertxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
           <folding>
-            <element signature="e#0#3683#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationTargetException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/security/AuthProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-common/3.0.0/vertx-auth-common-3.0.0.jar!/io/vertx/rxjava/ext/auth/AuthProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7777777">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/auth/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/auth/AuthenticationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/auth/HashSaltStyle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-mongo-client/3.0.0/vertx-mongo-client-3.0.0.jar!/io/vertx/ext/mongo/MongoClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.518518">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/impl/ContextImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="316" column="0" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="128" column="27" selection-start-line="128" selection-start-column="27" selection-end-line="128" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/handler/impl/SessionHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/handler/SessionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/sstore/LocalSessionStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+          <folding>
+            <element signature="e#1341#1342#0" expanded="false" />
+            <element signature="e#1441#1442#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/sstore/impl/LocalSessionStoreImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/auth/impl/MongoUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#4260#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/auth/HashStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/auth/impl/DefaultHashStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+          <folding>
             <element signature="imports" expanded="false" />
+            <element signature="e#2338#2339#0" expanded="false" />
+            <element signature="e#2387#2388#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/impl/RouteImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-common/3.0.0/vertx-auth-common-3.0.0.jar!/io/vertx/ext/auth/AbstractUser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.888889">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/impl/RoutingContextImplBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/impl/RouteImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/impl/RoutingContextImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/handler/impl/BodyHandlerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/http/impl/HttpServerRequestImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="395" column="0" selection-start-line="395" selection-start-column="0" selection-end-line="395" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-mongo-client/3.0.0/vertx-mongo-client-3.0.0.jar!/io/vertx/ext/mongo/MongoClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-mongo-client/3.0.0/vertx-mongo-client-3.0.0.jar!/io/vertx/ext/mongo/impl/MongoClientImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/index.js">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/Future.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="false" />
+            <element signature="e#1645#1646#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/impl/RoutingContextImplBase.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-common/3.0.0/vertx-auth-common-3.0.0.jar!/io/vertx/ext/auth/AuthProvider.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/impl/RouteImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/impl/RoutingContextImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/handler/impl/BodyHandlerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/http/impl/HttpServerRequestImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="395" column="0" selection-start-line="395" selection-start-column="0" selection-end-line="395" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-mongo-client/3.0.0/vertx-mongo-client-3.0.0.jar!/io/vertx/ext/mongo/MongoClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-mongo-client/3.0.0/vertx-mongo-client-3.0.0.jar!/io/vertx/ext/mongo/impl/MongoClientImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.4444447">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/index.js">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/handler/impl/RedirectAuthHandlerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/index.html">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/handler/RedirectAuthHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-async/3.0.2/mongodb-driver-async-3.0.2.jar!/com/mongodb/async/client/FindIterableImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.7777777">
-          <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-async/3.0.2/mongodb-driver-async-3.0.2.jar!/com/mongodb/async/client/FindIterable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.259259">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/impl/RoutingContextImplBase.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-common/3.0.0/vertx-auth-common-3.0.0-sources.jar!/io/vertx/ext/auth/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/impl/RouteImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-common/3.0.0/vertx-auth-common-3.0.0-sources.jar!/io/vertx/ext/auth/AuthProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
+          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/impl/RoutingContextImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-common/3.0.0/vertx-auth-common-3.0.0.jar!/io/vertx/ext/auth/User.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.8888888">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/handler/impl/BodyHandlerImpl.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/lang/invoke/DirectMethodHandle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <caret line="271" column="0" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
+          <folding>
+            <element signature="e#11367#11368#0" expanded="false" />
+            <element signature="e#11421#11422#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/http/impl/HttpServerRequestImpl.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/lang/invoke/LambdaForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="395" column="0" selection-start-line="395" selection-start-column="0" selection-end-line="395" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75794#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6002#6003#0" expanded="false" />
+            <element signature="e#6039#6040#0" expanded="false" />
+            <element signature="e#6075#6076#0" expanded="false" />
+            <element signature="e#6113#6114#0" expanded="false" />
+            <element signature="e#6150#6151#0" expanded="false" />
+            <element signature="e#6190#6191#0" expanded="false" />
+            <element signature="e#6221#6222#0" expanded="false" />
+            <element signature="e#6274#6275#0" expanded="false" />
+            <element signature="e#6323#6324#0" expanded="false" />
+            <element signature="e#6369#6370#0" expanded="false" />
+            <element signature="e#7383#7384#0" expanded="false" />
+            <element signature="e#7436#7437#0" expanded="false" />
+            <element signature="e#8311#8312#0" expanded="false" />
+            <element signature="e#8366#8367#0" expanded="false" />
+            <element signature="e#8418#8419#0" expanded="false" />
+            <element signature="e#8472#8473#0" expanded="false" />
+            <element signature="e#19575#19576#0" expanded="false" />
+            <element signature="e#19615#19616#0" expanded="false" />
+            <element signature="e#19899#19900#0" expanded="false" />
+            <element signature="e#19945#19946#0" expanded="false" />
+            <element signature="e#19993#19994#0" expanded="false" />
+            <element signature="e#20021#20022#0" expanded="false" />
+            <element signature="e#20117#20118#0" expanded="false" />
+            <element signature="e#20160#20161#0" expanded="false" />
+            <element signature="e#20267#20268#0" expanded="false" />
+            <element signature="e#20325#20326#0" expanded="false" />
+            <element signature="e#20897#20898#0" expanded="false" />
+            <element signature="e#20966#20967#0" expanded="false" />
+            <element signature="e#35181#35182#0" expanded="false" />
+            <element signature="e#35241#35242#0" expanded="false" />
+            <element signature="e#37308#37309#0" expanded="false" />
+            <element signature="e#37383#37384#0" expanded="false" />
+            <element signature="e#37571#37572#0" expanded="false" />
+            <element signature="e#37630#37631#0" expanded="false" />
+            <element signature="e#37662#37663#0" expanded="false" />
+            <element signature="e#37724#37725#0" expanded="false" />
+            <element signature="e#38944#38945#0" expanded="false" />
+            <element signature="e#39003#39004#0" expanded="false" />
+            <element signature="e#41967#41968#0" expanded="false" />
+            <element signature="e#42048#42049#0" expanded="false" />
+            <element signature="e#43569#43570#0" expanded="false" />
+            <element signature="e#43621#43622#0" expanded="false" />
+            <element signature="e#43658#43659#0" expanded="false" />
+            <element signature="e#43709#43710#0" expanded="false" />
+            <element signature="e#44000#44001#0" expanded="false" />
+            <element signature="e#44072#44073#0" expanded="false" />
+            <element signature="e#48537#48538#0" expanded="false" />
+            <element signature="e#48606#48607#0" expanded="false" />
+            <element signature="e#53692#53693#0" expanded="false" />
+            <element signature="e#53775#53776#0" expanded="false" />
+            <element signature="e#53809#53810#0" expanded="false" />
+            <element signature="e#53876#53877#0" expanded="false" />
+            <element signature="e#53918#53919#0" expanded="false" />
+            <element signature="e#53989#53990#0" expanded="false" />
+            <element signature="e#54012#54013#0" expanded="false" />
+            <element signature="e#54072#54073#0" expanded="false" />
+            <element signature="e#54313#54314#0" expanded="false" />
+            <element signature="e#54379#54380#0" expanded="false" />
+            <element signature="e#54422#54423#0" expanded="false" />
+            <element signature="e#54492#54493#0" expanded="false" />
+            <element signature="e#57410#57411#0" expanded="false" />
+            <element signature="e#57478#57479#0" expanded="false" />
+            <element signature="e#57757#57758#0" expanded="false" />
+            <element signature="e#57825#57826#0" expanded="false" />
+            <element signature="e#58616#58617#0" expanded="false" />
+            <element signature="e#58669#58670#0" expanded="false" />
+            <element signature="e#59078#59079#0" expanded="false" />
+            <element signature="e#59120#59121#0" expanded="false" />
+            <element signature="e#59894#59947#1" expanded="false" />
+            <element signature="e#60850#60903#1" expanded="false" />
+            <element signature="e#62221#62274#1" expanded="false" />
+            <element signature="e#62683#62684#0" expanded="false" />
+            <element signature="e#62730#62731#0" expanded="false" />
+            <element signature="e#62765#62766#0" expanded="false" />
+            <element signature="e#62860#62861#0" expanded="false" />
+            <element signature="e#62896#62897#0" expanded="false" />
+            <element signature="e#63014#63015#0" expanded="false" />
+            <element signature="e#65394#65395#0" expanded="false" />
+            <element signature="e#65458#65459#0" expanded="false" />
+            <element signature="e#65966#65967#0" expanded="false" />
+            <element signature="e#66033#66034#0" expanded="false" />
+            <element signature="e#67295#67296#0" expanded="false" />
+            <element signature="e#67350#67351#0" expanded="false" />
+            <element signature="e#69723#69724#0" expanded="false" />
+            <element signature="e#69777#69778#0" expanded="false" />
+            <element signature="e#69826#69827#0" expanded="false" />
+            <element signature="e#69876#69877#0" expanded="false" />
+            <element signature="e#69928#69929#0" expanded="false" />
+            <element signature="e#69978#69979#0" expanded="false" />
+            <element signature="e#70034#70035#0" expanded="false" />
+            <element signature="e#70080#70081#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-mongo-client/3.0.0/vertx-mongo-client-3.0.0.jar!/io/vertx/ext/mongo/MongoClient.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-common/3.0.0/vertx-auth-common-3.0.0-sources.jar!/io/vertx/ext/auth/AbstractUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/json/JsonObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="192" column="10" selection-start-line="192" selection-start-column="10" selection-end-line="192" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6666665">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="42" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/Route.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/Router.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="217" column="6" selection-start-line="217" selection-start-column="6" selection-end-line="217" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/auth/MongoAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="235" column="0" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.75">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3799" column="0" selection-start-line="3799" selection-start-column="0" selection-end-line="3799" selection-end-column="0" />
+          <folding>
+            <element signature="e#177054#177055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/handler/FormLoginHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/auth/CreateUserHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/auth/impl/MongoAuthImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="205" column="6" selection-start-line="205" selection-start-column="6" selection-end-line="205" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#9495#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.0.0/vertx-web-3.0.0-sources.jar!/io/vertx/ext/web/handler/impl/FormLoginHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="15" selection-start-line="106" selection-start-column="15" selection-end-line="106" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -1198,175 +1791,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/eventbus/Message.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/auth/impl/CreateUserHandlerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#3683#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/AsyncResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#1717#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/eventbus/impl/EventBusImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1108" column="0" selection-start-line="1108" selection-start-column="0" selection-end-line="1108" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/vertxbus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#541#542#0" expanded="false" />
-            <element signature="e#573#574#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1987" column="42" selection-start-line="1987" selection-start-column="42" selection-end-line="1987" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/eventbus/impl/MessageImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding>
-            <element signature="e#2896#2897#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="585" column="0" selection-start-line="585" selection-start-column="0" selection-end-line="585" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="215" column="11" selection-start-line="215" selection-start-column="11" selection-end-line="215" selection-end-column="11" />
+          <caret line="63" column="62" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-mongo-client/3.0.0/vertx-mongo-client-3.0.0.jar!/io/vertx/ext/mongo/impl/MongoClientImpl.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.4444447">
-          <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/impl/ContextImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="320" column="0" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/eventbus/EventBus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="162" column="25" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/eventbus/MessageProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1189" column="0" selection-start-line="1189" selection-start-column="0" selection-end-line="1189" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.041666">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="70" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/js/geolocation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54545456">
-          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
-          <folding />
+        <state vertical-scroll-proportion="0.17987151">
+          <caret line="106" column="27" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2432#2433#0" expanded="true" />
+            <element signature="e#2466#2467#0" expanded="true" />
+            <element signature="e#11424#11425#0" expanded="true" />
+            <element signature="e#11538#11539#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -4,8 +4,6 @@ import io.vertx.core.AbstractVerticle;
 import io.vertx.core.AsyncResult;
 import io.vertx.core.Handler;
 import io.vertx.core.eventbus.EventBus;
-import io.vertx.core.eventbus.MessageProducer;
-import io.vertx.core.http.HttpHeaders;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.mongo.MongoClient;
@@ -21,16 +19,16 @@ import java.util.List;
 public class UserMongoWorker extends AbstractVerticle {
 
 
-    public static final String MONGO_FIND_USER = "mongo.find.user";
-    public static final String MONGO_DELETE_USER = "mongo.delete.user";
-    public static final String MONGO_ADD_USER = "mongo.add.user";
-    public static final String MONGO_FIND_USERS = "mongo.find.users";
-    public static final String MONGO_UPDATE_USER = "mongo.update.user";
-    public static final String MONGO_TRACK_USER = "mongo.track.user";
+    public static final String MONGO_FIND_USER = "auth.find.user";
+    public static final String MONGO_DELETE_USER = "auth.delete.user";
+    public static final String MONGO_ADD_USER = "auth.add.user";
+    public static final String MONGO_FIND_USERS = "auth.find.users";
+    public static final String MONGO_UPDATE_USER = "auth.update.user";
+    public static final String MONGO_TRACK_USER = "auth.track.user";
     public static final String STATUS = "status";
     public static final int SUCCESS = 1;
     public static final int ERROR = 0;
-    public static final String MONGO_FIND_USER_ID = "mongo.find.user.id";
+    public static final String MONGO_FIND_USER_ID = "auth.find.user.id";
 
 
     @Override
@@ -42,7 +40,7 @@ public class UserMongoWorker extends AbstractVerticle {
     }
 
     /**
-     * We define all our mongo crud consumers to be consume for our clients
+     * We define all our auth crud consumers to be consume for our clients
      *
      * @param mongo
      * @param eb
@@ -96,7 +94,7 @@ public class UserMongoWorker extends AbstractVerticle {
     }
 
     /**
-     * Callback method to be invoked with the result of the mongo users find
+     * Callback method to be invoked with the result of the auth users find
      * @param eb
      * @return
      */
@@ -111,7 +109,7 @@ public class UserMongoWorker extends AbstractVerticle {
     }
 
     /**
-     * Callback method to be invoked with the result of the mongo update transaction
+     * Callback method to be invoked with the result of the auth update transaction
      *
      * @param eb
      * @return
@@ -125,7 +123,7 @@ public class UserMongoWorker extends AbstractVerticle {
     }
 
     /**
-     * Callback method to be invoked with the result of the mongo insert transaction
+     * Callback method to be invoked with the result of the auth insert transaction
      *
      * @param eb
      * @return
@@ -139,7 +137,7 @@ public class UserMongoWorker extends AbstractVerticle {
     }
 
     /**
-     * Callback method to be invoked with the result of the mongo delete transaction
+     * Callback method to be invoked with the result of the auth delete transaction
      *
      * @param eb
      * @return
@@ -153,7 +151,7 @@ public class UserMongoWorker extends AbstractVerticle {
     }
 
     /**
-     * Callback method to be invoked with the result of the mongo update and we redirect to publish the update value
+     * Callback method to be invoked with the result of the auth update and we redirect to publish the update value
      *
      * @param eb
      * @param user
@@ -180,7 +178,7 @@ public class UserMongoWorker extends AbstractVerticle {
     }
 
     /**
-     * Callback method to be invoked with the result of the mongo find transaction
+     * Callback method to be invoked with the result of the auth find transaction
      *
      * @param eb
      * @return
