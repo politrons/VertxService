@@ -12,16 +12,20 @@ var geolocation = (function () {
     function registerHandlers(eb) {
         geoEb = eb;
         geoEb.registerHandler("track.user.client", function (data) {
+            debugger;
             var otherUser = jQuery.parseJSON(data);
             var currentUser = index.getUserData();
             if (currentUser.username !== otherUser.username) {
                 console.log("New position for user " + otherUser.username);
                 console.log(currentUser.fullname + " position "+ currentUser.position.longitude + " " + currentUser.position.latitude);
                 console.log(otherUser.fullname + " position "+ otherUser.position.longitude + " " + otherUser.position.latitude);
-
+                $("#greenEvent").show();
                 x.innerHTML = "Distance between " +
                 currentUser.fullname + " and " + otherUser.fullname +
                 " is " + calculateDistance(currentUser.position, otherUser.position);
+                setTimeout(function(){
+                    $("#greenEvent").hide()
+                },1000);
             }
         });
     }

@@ -141,6 +141,9 @@ var vertx = vertx || {};
       var type = json.type;
       if (type === 'err') {
         console.error("Error received on connection: " + json.body);
+        if(json.body === "access_denied"){
+          alert("You dont have permissions to accomplish this action")
+        }
         return;
       }
       var body = json.body;

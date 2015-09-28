@@ -3,10 +3,11 @@ $(document).ready(function () {
     index.populateTable();
     index.initEventBus();
     index.initListetener();
+    $("#redEvent").hide();
+    $("#greenEvent").hide();
 });
 
 var index = (function () {
-
 
     var eb;
     var userListData = [];
@@ -16,7 +17,7 @@ var index = (function () {
     }
 
     function initEventBus() {
-        eb = new vertx.EventBus("/eventbus/");
+        eb = new vertx.EventBus("/politrons/eventbus/");
         eb.onopen = function () {
             registerHandlers();
             geolocation.registerHandlers(eb);
@@ -24,13 +25,13 @@ var index = (function () {
         };
         eb.onclose = function () {
             eb = null;
+            $("#redEvent").show();
             console.log("event bus socket closed")
         };
     }
 
     function registerHandlers() {
         eb.registerHandler("find.user.client", function (data) {
-            debugger;
             var status = jQuery.parseJSON(data).status;
             if (status === 1) {
                 setUserInformation(jQuery.parseJSON(data))

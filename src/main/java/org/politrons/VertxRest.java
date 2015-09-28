@@ -55,6 +55,8 @@ public class VertxRest {
     public static final String FIND_USERS_CLIENT = "find.users.client";
     public static final String TRACK_USER_SERVER = "track.user.server";
     public static final String TRACK_USER_CLIENT = "track.user.client";
+    public static final String DELETE = "delete";
+    public static final String WRITE = "write";
 
     private Vertx vertx;
 
@@ -78,6 +80,11 @@ public class VertxRest {
         vertx.createHttpServer().requestHandler(router::accept).listen(8080);
     }
 
+    /**
+     * Here we attach the handlers to create cookie, session, login and create user credentials
+     * @param mongo
+     * @param router
+     */
     private void authUser(final MongoClient mongo, final Router router) {
         router.route().handler(CookieHandler.create());
         router.route().handler(SessionHandler.create(LocalSessionStore.create(vertx)));
@@ -85,11 +92,16 @@ public class VertxRest {
         MongoAuth authProvider = MongoAuth.create(mongo, authProperties);
         router.route().handler(UserSessionHandler.create(authProvider));
         router.route("/politrons/*").handler(RedirectAuthHandler.create(authProvider, "/login.html"));
-        router.route("/loginhandler").handler(FormLoginHandler.create(authProvider,"username", "password",null,"/politrons/index.html"));
+        router.route("/loginhandler").handler(FormLoginHandler.create(authProvider, "username", "password", null, "/politrons/index.html"));
         router.route("/createUserHandler").handler(CreateUserHandler.create(authProvider));
 
     }
 
+    /**
+     * Here we attach the handler for the API Rest routes
+     * @param mongo
+     * @param router
+     */
     private void setRoutes(final MongoClient mongo, final Router router) {
         setGetUsersRoute(mongo, router);
         setCreateUserRoute(mongo, router);
@@ -217,32 +229,42 @@ public class VertxRest {
         };
     }
 
-
-    //**********EVENT BUS API REST*************\\
+    //********************************************************\\
+    //                  EVENT BUS API REST                    \\
+    //********************************************************\\
+    /**
+     * Implementation and use of eventBus drive, the real power of Vertx.
+     * @param router
+     */
     public void initEventBus(Router router) {
         // Allow events for the designated addresses in/out of the event bus bridge
         BridgeOptions opts = createBridgeOptions();
         // Create the event bus bridge and add it to the router.
         SockJSHandler ebHandler = SockJSHandler.create(vertx).bridge(opts);
-        router.route("/eventbus/*").handler(ebHandler);
+
+        router.route("/politrons/eventbus/*").handler(ebHandler);
         EventBus eb = vertx.eventBus();
         deployWorkers();
         defineRestConsumers(eb);
     }
 
+    /**
+     * Here we define our firewall to give access and level of access of our entries
+     * @return
+     */
     private BridgeOptions createBridgeOptions() {
         return new BridgeOptions()
                 .addInboundPermitted(new PermittedOptions().setAddress(FIND_USER_SERVER))
                 .addOutboundPermitted(new PermittedOptions().setAddress(FIND_USER_CLIENT))
-                .addInboundPermitted(new PermittedOptions().setAddress(DELETE_USER_SERVER))
+                .addInboundPermitted(new PermittedOptions().setAddress(DELETE_USER_SERVER).setRequiredAuthority(DELETE))
                 .addOutboundPermitted(new PermittedOptions().setAddress(DELETE_USER_CLIENT))
-                .addInboundPermitted(new PermittedOptions().setAddress(ADD_USER_SERVER))
+                .addInboundPermitted(new PermittedOptions().setAddress(ADD_USER_SERVER).setRequiredAuthority(WRITE))
                 .addOutboundPermitted(new PermittedOptions().setAddress(ADD_USER_CLIENT))
-                .addInboundPermitted(new PermittedOptions().setAddress(UPDATE_USER_SERVER))
+                .addInboundPermitted(new PermittedOptions().setAddress(UPDATE_USER_SERVER).setRequiredAuthority(WRITE))
                 .addOutboundPermitted(new PermittedOptions().setAddress(UPDATE_USER_CLIENT))
                 .addInboundPermitted(new PermittedOptions().setAddress(FIND_USERS_SERVER))
                 .addOutboundPermitted(new PermittedOptions().setAddress(FIND_USERS_CLIENT))
-                .addInboundPermitted(new PermittedOptions().setAddress(TRACK_USER_SERVER))
+                .addInboundPermitted(new PermittedOptions().setAddress(TRACK_USER_SERVER).setRequiredAuthority(WRITE))
                 .addOutboundPermitted(new PermittedOptions().setAddress(TRACK_USER_CLIENT));
 
 
@@ -252,6 +274,10 @@ public class VertxRest {
         vertx.deployVerticle(ORG_POLITRONS_MOD_USER_MONGO_WORKER, new DeploymentOptions().setWorker(true));
     }
 
+    /**
+     * We define the consumers to be consume for other part of application with an event bus
+     * @param eb
+     */
     private void defineRestConsumers(final EventBus eb) {
         eb.consumer(ADD_USER_SERVER).handler(message -> {
             eb.send(UserMongoWorker.MONGO_ADD_USER, message.body());

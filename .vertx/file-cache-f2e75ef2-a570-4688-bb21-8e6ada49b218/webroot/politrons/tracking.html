@@ -1,0 +1,57 @@
+<html>
+<head>
+</head>
+<body>
+
+<h1>Politrons Vertx Server</h1>
+
+<p><a href="/addUser.html">Add user account</a></p>
+
+<p><a href="/login.html">Logout</a></p>
+
+<p><a href="/politrons/index.html">Admin</a></p>
+
+<input type="hidden" id="inputUserId" type="text"/>
+<input type="hidden" id="inputUserLongitude" type="text"/>
+<input type="hidden" id="inputUserLatitude" type="text"/>
+<input id="inputUserName" type="hidden"/>
+<input id="inputUserEmail" type="hidden"/>
+<input id="inputUserFullname" type="hidden"/>
+<input id="inputUserAge" type="hidden"/>
+<input id="inputUserLocation" type="hidden"/>
+<input id="inputUserGender" type="hidden"/>
+
+<div id="search">
+    <h3>Search user</h3>
+    <input id="inputSearchBy" type="text"/>
+    <select id="searchBy">
+        <option value="username">Username</option>
+        <option value="email">Email</option>
+        <option value="age">Age</option>
+    </select>
+    <input type="button" id="searchByButton" value="search"/>
+    <input type="button" id="busSearchByButton" value="search by bus"/>
+</div>
+
+<div id="tracking">
+    <h3>Tracking users</h3>
+<p>
+    <div id="trackContainer"></div>
+    <img id="greenEvent" src="img/green.png" height="20" width="20">
+</p>
+    <img id="redEvent" src="img/red.png" height="20" width="20"/>
+
+    <button id="startTrakingButton">Start</button>
+    <button id="stopTrakingButton">Stop</button>
+</div>
+
+</body>
+</html>
+
+<script src="js/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"></script>
+<script src="js/vertxbus.js"></script>
+<script src="js/index.js"></script>
+<script src="js/geolocation.js"></script>
+
+
