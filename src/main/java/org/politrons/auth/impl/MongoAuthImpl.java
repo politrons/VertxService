@@ -151,7 +151,7 @@ public class MongoAuthImpl implements MongoAuth {
         switch (resultList.result().size()) {
             case 0: {
                 String message = "No account found for user [" + authToken.username + "]";
-                // log.warn(message);
+                 log.warn(message);
                 throw new AuthenticationException(message);
             }
             case 1: {
@@ -161,7 +161,7 @@ public class MongoAuthImpl implements MongoAuth {
                     return user;
                 else {
                     String message = "Invalid username/password [" + authToken.username + "]";
-                    // log.warn(message);
+                     log.warn(message);
                     throw new AuthenticationException(message);
                 }
             }
@@ -169,7 +169,7 @@ public class MongoAuthImpl implements MongoAuth {
                 // More than one row returned!
                 String message = "More than one user row found for user [" + authToken.username + "( "
                         + resultList.result().size() + " )]. Usernames must be unique.";
-                // log.warn(message);
+                 log.warn(message);
                 throw new AuthenticationException(message);
             }
         }

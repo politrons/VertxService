@@ -1,5 +1,7 @@
 package org.politrons.auth.impl;
 
+import io.vertx.core.AsyncResult;
+import io.vertx.core.Handler;
 import io.vertx.core.MultiMap;
 import io.vertx.core.http.HttpMethod;
 import io.vertx.core.http.HttpServerRequest;
@@ -44,28 +46,33 @@ public class CreateUserHandlerImpl implements CreateUserHandler {
         HttpServerRequest req = context.request();
         if (req.method() != HttpMethod.POST) {
             context.fail(405); // Must be a POST
-        } else {
-            if (!req.isExpectMultipart()) {
-                throw new IllegalStateException("Form body not parsed - do you forget to include a BodyHandler?");
-            }
-            MultiMap params = req.formAttributes();
-            String username = params.get(usernameParam);
-            String password = params.get(passwordParam);
-            String role = params.get(roleParam);
-            if (username == null || password == null) {
-                log.warn("No username or password provided in form - did you forget to include a BodyHandler?");
-                context.fail(400);
-            } else {
-                authProvider.insertUser(username, password, Arrays.asList(role), getUserRights(role), res -> {
-                    if (res.succeeded()) {
-                        log.info("new user id " + res.result());
-                            doRedirect(req.response(), directLoggedInOKURL);
-                    } else {
-                        context.fail(403);  // Failed creation
-                    }
-                });
-            }
+            return;
         }
+        if (!req.isExpectMultipart()) {
+            throw new IllegalStateException("Form body not parsed - do you forget to include a BodyHandler?");
+        }
+        MultiMap params = req.formAttributes();
+        String username = params.get(usernameParam);
+        String password = params.get(passwordParam);
+        String role = params.get(roleParam);
+        if (username == null || password == null) {
+            log.warn("No username or password provided in form - did you forget to include a BodyHandler?");
+            context.fail(400);
+            return;
+        }
+        authProvider.insertUser(username, password, Arrays.asList(role), getUserRights(role),
+                getInsertUserAsyncResultHandler(context, req));
+    }
+
+    private Handler<AsyncResult<String>> getInsertUserAsyncResultHandler(final RoutingContext context, final HttpServerRequest req) {
+        return res -> {
+            if (res.succeeded()) {
+                log.info("new user id " + res.result());
+                doRedirect(req.response(), directLoggedInOKURL);
+            } else {
+                context.fail(403);  // Failed creation
+            }
+        };
     }
 
     private List<String> getUserRights(String role) {

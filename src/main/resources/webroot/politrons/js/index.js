@@ -2,7 +2,7 @@
 $(document).ready(function () {
     index.populateTable();
     index.initEventBus();
-    index.initListetener();
+    index.initListener();
     $("#redEvent").hide();
     $("#greenEvent").hide();
 });
@@ -20,8 +20,12 @@ var index = (function () {
         eb = new vertx.EventBus("/politrons/eventbus/");
         eb.onopen = function () {
             registerHandlers();
-            geolocation.registerHandlers(eb);
-
+            if(typeof geolocation !== "undefined"){
+                geolocation.registerHandlers(eb);
+            }
+            if(typeof chat !== "undefined"){
+                chat.registerHandlers(eb);
+            }
         };
         eb.onclose = function () {
             eb = null;
@@ -63,7 +67,7 @@ var index = (function () {
     }
 
 
-    function initListetener() {
+    function initListener() {
         var linkDeleteUser = $(".linkDeleteUser");
         linkDeleteUser.unbind('click');
         linkDeleteUser.on('click', function () {
@@ -168,7 +172,7 @@ var index = (function () {
             tableContent += '</tr>';
         });
         $('#userList table tbody').html(tableContent);
-        initListetener();
+        initListener();
     }
 
 // Add User
@@ -202,7 +206,7 @@ var index = (function () {
     return {
         populateTable: populateTable,
         initEventBus: initEventBus,
-        initListetener: initListetener,
+        initListener: initListener,
         getEventBus: getEventBus,
         getUserData: getUserData
     };

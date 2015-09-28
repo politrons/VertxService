@@ -1,0 +1,62 @@
+<html>
+<head>
+</head>
+<body>
+
+<h1>Politrons Vertx Server</h1>
+
+<p>
+    <a href="/addUser.html">Add user account </a> |
+    <a href="/login.html">Logout </a> |
+    <a href="/politrons/index.html">User Management</a>
+</p>
+
+<input type="hidden" id="inputUserId" type="text"/>
+<input type="hidden" id="inputUserLongitude" type="text"/>
+<input type="hidden" id="inputUserLatitude" type="text"/>
+<input id="inputUserName" type="hidden"/>
+<input id="inputUserEmail" type="hidden"/>
+<input id="inputUserFullname" type="text"/>
+<input id="inputUserAge" type="hidden"/>
+<input id="inputUserLocation" type="hidden"/>
+<input id="inputUserGender" type="hidden"/>
+
+<fieldset>
+    <legend>
+        <h3>Select user</h3>
+    </legend>
+    <div id="search">
+        <input id="inputSearchBy" type="text"/>
+        <select id="searchBy">
+            <option value="username">Username</option>
+            <option value="email">Email</option>
+            <option value="age">Age</option>
+        </select>
+        <input type="button" id="searchByButton" value="search"/>
+        <input type="button" id="busSearchByButton" value="search by bus"/>
+    </div>
+    <div id="tracking">
+        <h3>
+            <p>
+                Chat users
+            </p>
+        </h3>
+        <p><textarea id="chatTextArea" rows="15" cols="100" disabled></textarea></p>
+
+        <p>
+            <input id="inputChat" type="text"/>
+            <button id="sendText">Send</button>
+        </p>
+    </div>
+</fieldset>
+</body>
+</html>
+
+<script src="js/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"></script>
+<script src="js/vertxbus.js"></script>
+<script src="js/index.js"></script>
+<script src="js/chat.js"></script>
+
+
+

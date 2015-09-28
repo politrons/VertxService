@@ -57,6 +57,8 @@ public class VertxRest {
     public static final String TRACK_USER_CLIENT = "track.user.client";
     public static final String DELETE = "delete";
     public static final String WRITE = "write";
+    public static final String CHAT_USER_SERVER = "chat.user.server";
+    public static final String CHAT_USER_CLIENT = "chat.user.client";
 
     private Vertx vertx;
 
@@ -241,7 +243,6 @@ public class VertxRest {
         BridgeOptions opts = createBridgeOptions();
         // Create the event bus bridge and add it to the router.
         SockJSHandler ebHandler = SockJSHandler.create(vertx).bridge(opts);
-
         router.route("/politrons/eventbus/*").handler(ebHandler);
         EventBus eb = vertx.eventBus();
         deployWorkers();
@@ -265,9 +266,9 @@ public class VertxRest {
                 .addInboundPermitted(new PermittedOptions().setAddress(FIND_USERS_SERVER))
                 .addOutboundPermitted(new PermittedOptions().setAddress(FIND_USERS_CLIENT))
                 .addInboundPermitted(new PermittedOptions().setAddress(TRACK_USER_SERVER).setRequiredAuthority(WRITE))
-                .addOutboundPermitted(new PermittedOptions().setAddress(TRACK_USER_CLIENT));
-
-
+                .addOutboundPermitted(new PermittedOptions().setAddress(TRACK_USER_CLIENT))
+                .addInboundPermitted(new PermittedOptions().setAddress(CHAT_USER_SERVER))
+                .addOutboundPermitted(new PermittedOptions().setAddress(CHAT_USER_CLIENT));
     }
 
     private void deployWorkers() {
@@ -297,6 +298,10 @@ public class VertxRest {
         eb.consumer(TRACK_USER_SERVER).handler(message -> {
             eb.send(UserMongoWorker.MONGO_TRACK_USER, message.body());
         });
+        eb.consumer(CHAT_USER_SERVER).handler(message -> {
+            eb.publish(CHAT_USER_CLIENT, message.body());
+        });
+
 
     }
 

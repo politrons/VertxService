@@ -1,0 +1,88 @@
+<html>
+<head>
+</head>
+<body>
+
+<h1>Politrons Vertx Server</h1>
+
+<p>
+    <a href="/addUser.html">Add user account </a> |
+    <a href="/login.html">Logout </a> |
+    <a href="/politrons/tracking.html">Tracking users</a>
+</p>
+<fieldset>
+    <legend>
+        <h3>User</h3>
+    </legend>
+    <div id="addUser">
+        <input type="hidden" id="inputUserId" type="text"/>
+
+        <input type="hidden" id="inputUserLongitude" type="text"/>
+
+        <input type="hidden" id="inputUserLatitude" type="text"/>
+
+        <p><label id="inputUserNameLabel" type="text">User name<input id="inputUserName" type="text"/></label></p>
+
+        <p><label id="inputUserEmailLabel" type="text">Email<input id="inputUserEmail" type="text"/></label></p>
+
+        <p><label id="inputUserFullnameLabel" type="text">Full name<input id="inputUserFullname" type="text"/></label></p>
+
+        <p><label id="inputUserAgeLabel" type="text">Age<input id="inputUserAge" type="text"/></label></p>
+
+        <p><label id="inputUserLocationLabel" type="text">Location<input id="inputUserLocation" type="text"/></label></p>
+
+        <p><label id="inputUserGenderLabel" type="text">Gender<input id="inputUserGender" type="text"/></label></p>
+
+        <p>
+            <input type="button" id="addUserButtonId" value="Add"/>
+            <input type="button" id="busAddUserButtonId" value="Add by Bus"/>
+            <input type="button" id="busUpdateUserButtonId" value="Update by Bus"/>
+
+        </p>
+    </div>
+</fieldset>
+
+<fieldset>
+    <legend>
+        <h3>Search user</h3>
+    </legend>
+    <div id="search">
+        <input id="inputSearchBy" type="text"/>
+        <select id="searchBy">
+            <option value="username">Username</option>
+            <option value="email">Email</option>
+            <option value="age">Age</option>
+        </select>
+        <input type="button" id="searchByButton" value="search"/>
+        <input type="button" id="busSearchByButton" value="search by bus"/>
+    </div>
+
+    <div id="userList">
+        <table>
+            <thead>
+            <th>
+                Name
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Action
+            </th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</fieldset>
+</body>
+</html>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"></script>
+<script src="js/vertxbus.js"></script>
+<script src="js/index.js"></script>
+<script src="js/geolocation.js"></script>
+
+
