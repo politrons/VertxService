@@ -17,6 +17,7 @@
 
     <dependencies>
 
+
         <!--<dependency>-->
             <!--<groupId>io.vertx</groupId>-->
             <!--<artifactId>vertx-platform</artifactId>-->
@@ -128,6 +129,11 @@
             <artifactId>lombok</artifactId>
             <version>1.12.2</version>
         </dependency>
+        <dependency>
+            <groupId>javax.inject</groupId>
+            <artifactId>javax.inject</artifactId>
+            <version>1</version>
+        </dependency>
 
     </dependencies>
 
@@ -164,6 +170,11 @@
                     </compilerArgs>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
         </plugins>
     </build>
 

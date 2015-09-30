@@ -13,6 +13,7 @@ import io.vertx.core.shareddata.LocalMap;
 import io.vertx.core.shareddata.SharedData;
 import io.vertx.ext.mongo.MongoClient;
 import org.politrons.VertxRest;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
@@ -20,7 +21,7 @@ import java.util.List;
  * Created by pabloperezgarcia on 24/9/15.
  */
 
-
+@Component
 public class UserMongoWorker extends AbstractVerticle {
 
     Logger logger = LoggerFactory.getLogger(UserMongoWorker.class);

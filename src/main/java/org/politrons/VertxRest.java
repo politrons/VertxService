@@ -5,6 +5,8 @@ import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.http.HttpHeaders;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
+import io.vertx.core.logging.Logger;
+import io.vertx.core.logging.LoggerFactory;
 import io.vertx.core.shareddata.LocalMap;
 import io.vertx.core.shareddata.SharedData;
 import io.vertx.ext.auth.User;
@@ -41,6 +43,8 @@ import java.util.List;
 @Component
 public class VertxRest extends AbstractVerticle{
 
+    Logger logger = LoggerFactory.getLogger(VertxRest.class);
+
     public static final String FIND_USER_SERVER = "find.user.server";
     public static final String DELETE_USER_SERVER = "delete.user.server";
     public static final String DELETE_USER_CLIENT = "delete.user.client";
@@ -57,6 +61,7 @@ public class VertxRest extends AbstractVerticle{
     public static final String CHAT_USER_SERVER = "chat.user.server";
     public static final String CHAT_USER_CLIENT = "chat.user.client";
 
+
     @Resource
     public void setVertx(Vertx vertx) {
         this.vertx = vertx;
@@ -64,6 +69,7 @@ public class VertxRest extends AbstractVerticle{
 
     @PostConstruct
     public void start() throws Exception {
+        logger.info("[Standard] Vertical Starting in " + Thread.currentThread().getName());
         final MongoClient mongo = MongoClient.createShared(vertx, new JsonObject().put("db_name", "demo"));
         final Router router = Router.router(vertx);
         // Enable the body parser to we can get the form data and json documents in out context.

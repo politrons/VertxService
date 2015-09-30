@@ -34,6 +34,18 @@ public class UserMongoWorkerTest {
     }
 
     @Test
+    public void testDeploying(TestContext context){
+        Async async = context.async();
+        vertx.deployVerticle(new UserMongoWorker(), ar -> {
+            if (ar.succeeded()) {
+                async.complete();
+            } else {
+                context.fail(ar.cause());
+            }
+        });
+    }
+
+    @Test
     public void testFindUsers(TestContext context) {
         final Async async = context.async();
         JsonObject jsonObject = new JsonObject();
