@@ -4,8 +4,11 @@ import io.vertx.core.AbstractVerticle;
 import io.vertx.core.AsyncResult;
 import io.vertx.core.Handler;
 import io.vertx.core.eventbus.EventBus;
+import io.vertx.core.eventbus.Message;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
+import io.vertx.core.shareddata.LocalMap;
+import io.vertx.core.shareddata.SharedData;
 import io.vertx.ext.mongo.MongoClient;
 import org.politrons.VertxRest;
 
@@ -67,7 +70,7 @@ public class UserMongoWorker extends AbstractVerticle {
             JsonObject jsonObject = (JsonObject) message.body();
             JsonObject query = new JsonObject();
             query.put(jsonObject.getString("searchBy"), jsonObject.getString("inputValue"));
-            mongo.findOne("users", query, null, getEventBusUserAsyncResultHandler(eb));
+            mongo.findOne("users", query, null, getEventBusUserAsyncResultHandler(message));
         });
         eb.consumer(MONGO_DELETE_USER, message -> {
             System.out.println("[Worker] delete user name" + Thread.currentThread().getName());
@@ -180,20 +183,23 @@ public class UserMongoWorker extends AbstractVerticle {
     /**
      * Callback method to be invoked with the result of the auth find transaction
      *
-     * @param eb
+     * @param message
      * @return
      */
-    private Handler<AsyncResult<JsonObject>> getEventBusUserAsyncResultHandler(final EventBus eb) {
+    private Handler<AsyncResult<JsonObject>> getEventBusUserAsyncResultHandler(final Message<Object> message) {
         return lookup -> {
+            SharedData sd = vertx.sharedData();
+            LocalMap<String, String> stringMap = sd.getLocalMap("myFirstMap");
+            System.out.println(stringMap.get("myFirstValue"));
             JsonObject json = lookup.result();
             if (json == null) {
                 json = new JsonObject();
                 json.put(STATUS, ERROR);
-                eb.publish(VertxRest.FIND_USER_CLIENT, json.encode());
+                message.reply(json.encode());
                 return;
             }
             json.put(STATUS, SUCCESS);
-            eb.publish(VertxRest.FIND_USER_CLIENT, json.encode());
+            message.reply(json.encode());
         };
     }
 

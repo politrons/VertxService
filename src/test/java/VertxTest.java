@@ -4,6 +4,8 @@
 
 
 import io.vertx.core.Vertx;
+import io.vertx.core.http.HttpClient;
+import io.vertx.core.http.HttpClientOptions;
 import io.vertx.ext.unit.Async;
 import io.vertx.ext.unit.TestContext;
 import io.vertx.ext.unit.junit.VertxUnitRunner;
@@ -12,6 +14,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.politrons.mod.UserMongoWorker;
+
+import static org.junit.Assert.assertEquals;
 
 @RunWith(VertxUnitRunner.class)
 public class VertxTest {
@@ -29,7 +33,27 @@ public class VertxTest {
         vertx.close(context.asyncAssertSuccess());
     }
 
+
     @Test
+    public void restGetAll() {
+        createHttpClient().get("/users",  resp -> {
+            System.out.println("Request response:" + resp.statusCode());
+            assertEquals(200, resp.statusCode());
+//            resp.bodyHandler((Buffer data) -> {
+//                System.out.println(data);
+//            });
+        }).end();
+    }
+
+    private HttpClient createHttpClient() {
+        HttpClientOptions httpClientOptions = new HttpClientOptions();
+        httpClientOptions.setDefaultHost("localhost");
+        httpClientOptions.setDefaultPort(8080);
+        return vertx.createHttpClient(httpClientOptions);
+    }
+
+
+//    @Test
     public void testMyApplication(TestContext context) {
 
 

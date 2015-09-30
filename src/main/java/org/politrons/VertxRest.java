@@ -8,6 +8,8 @@ import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.http.HttpHeaders;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
+import io.vertx.core.shareddata.LocalMap;
+import io.vertx.core.shareddata.SharedData;
 import io.vertx.ext.auth.User;
 import io.vertx.ext.mongo.MongoClient;
 import io.vertx.ext.web.Router;
@@ -42,9 +44,7 @@ import java.util.List;
 @Component
 public class VertxRest {
 
-    public static final String ORG_POLITRONS_MOD_USER_MONGO_WORKER = "org.politrons.mod.UserMongoWorker";
     public static final String FIND_USER_SERVER = "find.user.server";
-    public static final String FIND_USER_CLIENT = "find.user.client";
     public static final String DELETE_USER_SERVER = "delete.user.server";
     public static final String DELETE_USER_CLIENT = "delete.user.client";
     public static final String ADD_USER_SERVER = "add.user.server";
@@ -247,6 +247,13 @@ public class VertxRest {
         EventBus eb = vertx.eventBus();
         deployWorkers();
         defineRestConsumers(eb);
+        createSharedDataMap();
+    }
+
+    private void createSharedDataMap() {
+        SharedData sd = vertx.sharedData();
+        LocalMap<String, String> stringMap = sd.getLocalMap("myFirstMap");
+        stringMap.put("myFirstValue","traveling from one verticle to other!");
     }
 
     /**
@@ -256,7 +263,6 @@ public class VertxRest {
     private BridgeOptions createBridgeOptions() {
         return new BridgeOptions()
                 .addInboundPermitted(new PermittedOptions().setAddress(FIND_USER_SERVER))
-                .addOutboundPermitted(new PermittedOptions().setAddress(FIND_USER_CLIENT))
                 .addInboundPermitted(new PermittedOptions().setAddress(DELETE_USER_SERVER).setRequiredAuthority(DELETE))
                 .addOutboundPermitted(new PermittedOptions().setAddress(DELETE_USER_CLIENT))
                 .addInboundPermitted(new PermittedOptions().setAddress(ADD_USER_SERVER).setRequiredAuthority(WRITE))
@@ -272,7 +278,7 @@ public class VertxRest {
     }
 
     private void deployWorkers() {
-        vertx.deployVerticle(ORG_POLITRONS_MOD_USER_MONGO_WORKER, new DeploymentOptions().setWorker(true));
+        vertx.deployVerticle(new UserMongoWorker(), new DeploymentOptions().setWorker(true));
     }
 
     /**
@@ -287,7 +293,9 @@ public class VertxRest {
             eb.send(UserMongoWorker.MONGO_UPDATE_USER, message.body());
         });
         eb.consumer(FIND_USER_SERVER).handler(message -> {
-            eb.send(UserMongoWorker.MONGO_FIND_USER, message.body());
+            eb.send(UserMongoWorker.MONGO_FIND_USER, message.body(), res-> {
+                message.reply(res.result().body());
+            });
         });
         eb.consumer(FIND_USERS_SERVER).handler(message -> {
             eb.send(UserMongoWorker.MONGO_FIND_USERS, message.body());

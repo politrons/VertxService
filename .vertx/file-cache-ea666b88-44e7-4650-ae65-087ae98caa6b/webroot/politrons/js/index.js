@@ -20,10 +20,10 @@ var index = (function () {
         eb = new vertx.EventBus("/politrons/eventbus/");
         eb.onopen = function () {
             registerHandlers();
-            if (typeof geolocation !== "undefined") {
+            if(typeof geolocation !== "undefined"){
                 geolocation.registerHandlers(eb);
             }
-            if (typeof chat !== "undefined") {
+            if(typeof chat !== "undefined"){
                 chat.registerHandlers(eb);
             }
         };
@@ -35,6 +35,14 @@ var index = (function () {
     }
 
     function registerHandlers() {
+        eb.registerHandler("find.user.client", function (data) {
+            var status = jQuery.parseJSON(data).status;
+            if (status === 1) {
+                setUserInformation(jQuery.parseJSON(data))
+            } else {
+                alert("User not found");
+            }
+        });
         eb.registerHandler("find.users.client", function (data) {
             loadTable(jQuery.parseJSON(data));
         });
@@ -86,15 +94,9 @@ var index = (function () {
         var busSearchByButton = $("#busSearchByButton");
         busSearchByButton.unbind('click');
         busSearchByButton.on('click', function () {
-            eb.send("find.user.server", findUserData(), function (res) {
-                var status = jQuery.parseJSON(res).status;
-                if (status === 1) {
-                    setUserInformation(jQuery.parseJSON(res))
-                } else {
-                    alert("User not found");
-                }
-            });
-
+           var result = eb.send("find.user.server", findUserData());
+            debugger;
+            console.log(result);
         });
         var busLinkDeleteUser = $(".busLinkDeleteUser");
         busLinkDeleteUser.unbind('click');

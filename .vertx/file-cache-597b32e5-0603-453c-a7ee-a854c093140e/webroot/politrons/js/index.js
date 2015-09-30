@@ -87,6 +87,7 @@ var index = (function () {
         busSearchByButton.unbind('click');
         busSearchByButton.on('click', function () {
             eb.send("find.user.server", findUserData(), function (res) {
+                debugger;
                 var status = jQuery.parseJSON(res).status;
                 if (status === 1) {
                     setUserInformation(jQuery.parseJSON(res))
