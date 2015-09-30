@@ -1,9 +1,6 @@
 package org.politrons;
 
-import io.vertx.core.AsyncResult;
-import io.vertx.core.DeploymentOptions;
-import io.vertx.core.Handler;
-import io.vertx.core.Vertx;
+import io.vertx.core.*;
 import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.http.HttpHeaders;
 import io.vertx.core.json.JsonArray;
@@ -42,7 +39,7 @@ import java.util.List;
  * @author <a href="mailto:pmlopes@gmail.com>Paulo Lopes</a>
  */
 @Component
-public class VertxRest {
+public class VertxRest extends AbstractVerticle{
 
     public static final String FIND_USER_SERVER = "find.user.server";
     public static final String DELETE_USER_SERVER = "delete.user.server";
@@ -60,8 +57,6 @@ public class VertxRest {
     public static final String CHAT_USER_SERVER = "chat.user.server";
     public static final String CHAT_USER_CLIENT = "chat.user.client";
 
-    private Vertx vertx;
-
     @Resource
     public void setVertx(Vertx vertx) {
         this.vertx = vertx;
@@ -69,16 +64,12 @@ public class VertxRest {
 
     @PostConstruct
     public void start() throws Exception {
-        // Create a auth client using all defaults (connect to localhost and default port) using the database name "demo".
         final MongoClient mongo = MongoClient.createShared(vertx, new JsonObject().put("db_name", "demo"));
-        // To simplify the development of the web components we use a Router to route all HTTP requests
-        // to organize our code in a reusable way.
         final Router router = Router.router(vertx);
         // Enable the body parser to we can get the form data and json documents in out context.
         router.route().handler(BodyHandler.create());
         authUser(mongo, router);
         setRoutes(mongo, router);
-        // start a HTTP web server on port 8080
         vertx.createHttpServer().requestHandler(router::accept).listen(8080);
     }
 
