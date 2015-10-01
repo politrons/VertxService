@@ -167,8 +167,8 @@ var index = (function () {
             tableContent += '<tr>';
             tableContent += '<td>' + this.username + '</td>';
             tableContent += '<td>' + this.email + '</td>';
-            tableContent += '<td><a href="#" class="linkDeleteUser" rel="' + this._id + '">delete</a></td>';
-            tableContent += '<td><a href="#" class="busLinkDeleteUser" rel="' + this._id + '">delete bus</a></td>';
+            tableContent += '<td><a href="#" class="linkDeleteUser" rel="' + this._id + '">del</a></td>';
+            tableContent += '<td><a href="#" class="busLinkDeleteUser" rel="' + this._id + '">del-eb</a></td>';
             tableContent += '</tr>';
         });
         $('#userList table tbody').html(tableContent);

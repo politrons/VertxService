@@ -1,13 +1,14 @@
 <html>
 <head>
     <meta name="viewport"
-          content="user-scalable=no,width=device-width" />
+          content="user-scalable=no,width=device-width"/>
 </head>
 <body>
 <section id='mainSection'>
 
-    <h1>Politrons Vertx Server</h1>
-
+    <h2>
+        <img src="img/vertx.jpeg" width="30" height="20"/>Politrons Server
+    </h2>
     <p>
         <a href="../login.html">Logout </a> |
         <a href="../addUser.html">Add account </a> |
@@ -26,7 +27,7 @@
                 <option value="age">Age</option>
             </select>
             <input type="button" id="searchByButton" value="search"/>
-            <input type="button" id="busSearchByButton" value="search bus"/>
+            <input type="button" id="busSearchByButton" value="search-eb"/>
         </div>
 
         <div id="userList">
@@ -72,8 +73,8 @@
 
             <p>
                 <input type="button" id="addUserButtonId" value="Add"/>
-                <input type="button" id="busAddUserButtonId" value="Add by Bus"/>
-                <input type="button" id="busUpdateUserButtonId" value="Update by Bus"/>
+                <input type="button" id="busAddUserButtonId" value="Add-eb"/>
+                <input type="button" id="busUpdateUserButtonId" value="Update-eb"/>
 
             </p>
         </div>
@@ -92,6 +93,9 @@
 
 <style>
 
+    title {
+
+    }
     /* misc start */
     * {
         margin: 0px;
@@ -149,7 +153,6 @@
         max-width: 100%;
     }
 
-
     /* navigation end */
 
     /* middle section start */
@@ -180,7 +183,6 @@
         text-align: center;
         width: 100%;
     }
-
 
     /* footer end */
 
