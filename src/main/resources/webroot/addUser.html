@@ -3,35 +3,38 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
     <meta http-equiv="Pragma" content="no-cache"/>
     <meta http-equiv="Expires" content="0"/>
+    <link rel="stylesheet" type="text/css" href="politrons/css/style.css">
 </head>
 <body>
+<section id='mainSection'>
+    <fieldset>
+        <legend>
+            <h2>Add user credentials</h2><br>
+        </legend>
+        <a href="/login.html">Back</a>
 
-<fieldset>
-    <legend>
-        <h2>Add user credentials</h2><br>
-    </legend>
-    <a href="/login.html">Back</a>
-
-    <form action="/createUserHandler" method="post">
-        <div>
-            <label>Username:</label>
-            <input type="text" name="username"/>
-        </div>
-        <div>
-            <label>Password:</label>
-            <input type="password" name="password"/>
-        </div>
-        <select id="role" name="role">
-            <option value="admin">Admin</option>
-            <option value="user">User</option>
-            <option value="guest">Guest</option>
-        </select>
-
-        <div>
-            <input type="submit" value="Add"/>
-        </div>
-    </form>
-</fieldset>
+        <form action="/createUserHandler" method="post">
+            <div>
+                <label>Username:</label>
+                <input type="text" name="username"/>
+            </div>
+            <div>
+                <label>Password:</label>
+                <input type="password" name="password"/>
+            </div>
+            <select id="role" name="role">
+                <option value="admin">Admin</option>
+                <option value="user">User</option>
+                <option value="guest">Guest</option>
+            </select>
+            <footer>
+                <div>
+                    <input type="submit" value="Add"/>
+                </div>
+            </footer>
+        </form>
+    </fieldset>
+</section>
 </body>
 </html>
 

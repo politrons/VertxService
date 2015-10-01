@@ -12,7 +12,6 @@ var geolocation = (function () {
     function registerHandlers(eb) {
         geoEb = eb;
         geoEb.registerHandler("track.user.client", function (data) {
-            debugger;
             var otherUser = jQuery.parseJSON(data);
             var currentUser = index.getUserData();
             if (currentUser.username !== otherUser.username) {
@@ -25,7 +24,7 @@ var geolocation = (function () {
                 " is " + calculateDistance(currentUser.position, otherUser.position);
                 setTimeout(function(){
                     $("#greenEvent").hide()
-                },1000);
+                },2000);
             }
         });
     }
