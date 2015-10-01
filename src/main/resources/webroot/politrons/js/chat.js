@@ -25,7 +25,7 @@ var chat = (function () {
         sendText.unbind('click');
         sendText.on('click', function () {
             var chatMessage = {
-                'username': index.getUserData().username,
+                'username': $("#userLogged").text(),
                 'message': $("#inputChat").val()
             };
             ebChat.send("chat.user.server", chatMessage);

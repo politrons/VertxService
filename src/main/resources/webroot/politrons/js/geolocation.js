@@ -16,15 +16,15 @@ var geolocation = (function () {
             var currentUser = index.getUserData();
             if (currentUser.username !== otherUser.username) {
                 console.log("New position for user " + otherUser.username);
-                console.log(currentUser.fullname + " position "+ currentUser.position.longitude + " " + currentUser.position.latitude);
-                console.log(otherUser.fullname + " position "+ otherUser.position.longitude + " " + otherUser.position.latitude);
+                console.log(currentUser.fullname + " position " + currentUser.position.longitude + " " + currentUser.position.latitude);
+                console.log(otherUser.fullname + " position " + otherUser.position.longitude + " " + otherUser.position.latitude);
                 $("#greenEvent").show();
                 x.innerHTML = "Distance between " +
-                currentUser.fullname + " and " + otherUser.fullname +
-                " is " + calculateDistance(currentUser.position, otherUser.position);
-                setTimeout(function(){
+                    currentUser.fullname + " and " + otherUser.fullname +
+                    " is " + calculateDistance(currentUser.position, otherUser.position);
+                setTimeout(function () {
                     $("#greenEvent").hide()
-                },2000);
+                }, 2000);
             }
         });
     }
@@ -33,7 +33,7 @@ var geolocation = (function () {
         var startTrakingButton = $("#startTrakingButton");
         startTrakingButton.unbind('click');
         startTrakingButton.on('click', function () {
-            stop=false;
+            stop = false;
             $("#startTrakingButton").attr("disabled", "disabled");
             startTraking();
         });
@@ -48,23 +48,19 @@ var geolocation = (function () {
     }
 
     function startTraking() {
-        if ($('#inputUserId').val() === '') {
-            alert("you need to select a user first. Click on search by bus")
-        } else {
-            getDistance();
-        }
+        getDistance();
     }
 
     function getDistance() {
         setInterval(function () {
-        if (stop) {
-            return;
-        }
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(sendPosition);
-        } else {
-            x.innerHTML = "Geolocation is not supported by this browser!.";
-        }
+            if (stop) {
+                return;
+            }
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(sendPosition);
+            } else {
+                x.innerHTML = "Geolocation is not supported by this browser!.";
+            }
         }, 5000);
     }
 

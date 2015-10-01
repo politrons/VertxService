@@ -41,7 +41,7 @@ import java.util.List;
  * @author <a href="mailto:pmlopes@gmail.com>Paulo Lopes</a>
  */
 @Component
-public class VertxRest extends AbstractVerticle{
+public class VertxRest extends AbstractVerticle {
 
     Logger logger = LoggerFactory.getLogger(VertxRest.class);
 
@@ -56,10 +56,11 @@ public class VertxRest extends AbstractVerticle{
     public static final String FIND_USERS_CLIENT = "find.users.client";
     public static final String TRACK_USER_SERVER = "track.user.server";
     public static final String TRACK_USER_CLIENT = "track.user.client";
-    public static final String DELETE = "delete";
-    public static final String WRITE = "write";
     public static final String CHAT_USER_SERVER = "chat.user.server";
     public static final String CHAT_USER_CLIENT = "chat.user.client";
+    public static final String FIND_USER_ID_SERVER = "find.user.id.server";
+    public static final String DELETE = "delete";
+    public static final String WRITE = "write";
 
 
     @Resource
@@ -81,6 +82,7 @@ public class VertxRest extends AbstractVerticle{
 
     /**
      * Here we attach the handlers to create cookie, session, login and create user credentials
+     *
      * @param mongo
      * @param router
      */
@@ -98,6 +100,7 @@ public class VertxRest extends AbstractVerticle{
 
     /**
      * Here we attach the handler for the API Rest routes
+     *
      * @param mongo
      * @param router
      */
@@ -106,6 +109,7 @@ public class VertxRest extends AbstractVerticle{
         setCreateUserRoute(mongo, router);
         setDeleteUserRoute(mongo, router);
         setGetUserRoute(mongo, router);
+        setMyUserRoute(mongo, router);
         initEventBus(router);
         // Serve the non private static pages
         router.route().handler(StaticHandler.create());
@@ -146,6 +150,18 @@ public class VertxRest extends AbstractVerticle{
             });
         });
     }
+
+    private void setMyUserRoute(final MongoClient mongo, final Router router) {
+        router.get("/politrons/myUser").handler(routingContext -> {
+            User user = routingContext.user();
+            routingContext.response().putHeader(HttpHeaders.CONTENT_TYPE, "application/json");
+            JsonObject query = new JsonObject();
+            query.put("username", user.principal().getValue("username"));
+            mongo.findOne("users", query, null, getUserAsyncResultHandler(routingContext));
+        });
+    }
+
+
 
     private void setGetUsersRoute(final MongoClient mongo, final Router router) {
         router.get("/politrons/users").handler(routingContext -> {
@@ -231,8 +247,10 @@ public class VertxRest extends AbstractVerticle{
     //********************************************************\\
     //                  EVENT BUS API REST                    \\
     //********************************************************\\
+
     /**
      * Implementation and use of eventBus drive, the real power of Vertx.
+     *
      * @param router
      */
     public void initEventBus(Router router) {
@@ -250,11 +268,12 @@ public class VertxRest extends AbstractVerticle{
     private void createSharedDataMap() {
         SharedData sd = vertx.sharedData();
         LocalMap<String, String> stringMap = sd.getLocalMap("myFirstMap");
-        stringMap.put("myFirstValue","traveling from one verticle to other!");
+        stringMap.put("myFirstValue", "traveling from one verticle to other!");
     }
 
     /**
      * Here we define our firewall to give access and level of access of our entries
+     *
      * @return
      */
     private BridgeOptions createBridgeOptions() {
@@ -280,6 +299,7 @@ public class VertxRest extends AbstractVerticle{
 
     /**
      * We define the consumers to be consume for other part of application with an event bus
+     *
      * @param eb
      */
     private void defineRestConsumers(final EventBus eb) {
@@ -290,7 +310,7 @@ public class VertxRest extends AbstractVerticle{
             eb.send(UserMongoWorker.MONGO_UPDATE_USER, message.body());
         });
         eb.consumer(FIND_USER_SERVER).handler(message -> {
-            eb.send(UserMongoWorker.MONGO_FIND_USER, message.body(), res-> {
+            eb.send(UserMongoWorker.MONGO_FIND_USER, message.body(), res -> {
                 message.reply(res.result().body());
             });
         });

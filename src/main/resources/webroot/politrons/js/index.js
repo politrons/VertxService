@@ -1,5 +1,6 @@
 // DOM Ready =============================================================
 $(document).ready(function () {
+    index.getMyUser();
     index.populateTable();
     index.initEventBus();
     index.initListener();
@@ -34,6 +35,9 @@ var index = (function () {
         };
     }
 
+    /**
+     * Client event bus handlers to be called from the Server
+     */
     function registerHandlers() {
         eb.registerHandler("find.users.client", function (data) {
             loadTable(jQuery.parseJSON(data));
@@ -58,7 +62,9 @@ var index = (function () {
         });
     }
 
-
+    /**
+     * Event Listener of our elememnt pages
+     */
     function initListener() {
         var linkDeleteUser = $(".linkDeleteUser");
         linkDeleteUser.unbind('click');
@@ -154,6 +160,13 @@ var index = (function () {
         });
     }
 
+    function getMyUser() {
+        $.getJSON('/politrons/myUser', function (data) {
+            $("#userLogged").text(data.username);
+            setUserInformation(data);
+        });
+    };
+
     function populateTable() {
         $.getJSON('/politrons/users', function (data) {
             loadTable(data);
@@ -208,6 +221,7 @@ var index = (function () {
         initEventBus: initEventBus,
         initListener: initListener,
         getEventBus: getEventBus,
-        getUserData: getUserData
+        getUserData: getUserData,
+        getMyUser: getMyUser
     };
 }());
