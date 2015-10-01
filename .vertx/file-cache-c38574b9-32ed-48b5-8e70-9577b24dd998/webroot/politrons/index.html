@@ -9,12 +9,44 @@
     <h1>Politrons Vertx Server</h1>
 
     <p>
-        <a href="../login.html">Logout </a> |
         <a href="../addUser.html">Add user account </a> |
+        <a href="../login.html">Logout </a> |
         <a href="tracking.html">Tracking users </a> |
         <a href="chat.html">Chat users</a>
 
     </p>
+    <fieldset>
+        <legend>
+            <h3>User</h3>
+        </legend>
+        <div id="addUser">
+            <input type="hidden" id="inputUserId" type="text"/>
+
+            <input type="hidden" id="inputUserLongitude" type="text"/>
+
+            <input type="hidden" id="inputUserLatitude" type="text"/>
+
+            <p><label id="inputUserNameLabel" type="text">User name<input id="inputUserName" type="text"/></label></p>
+
+            <p><label id="inputUserEmailLabel" type="text">Email<input id="inputUserEmail" type="text"/></label></p>
+
+            <p><label id="inputUserFullnameLabel" type="text">Full name<input id="inputUserFullname" type="text"/></label></p>
+
+            <p><label id="inputUserAgeLabel" type="text">Age<input id="inputUserAge" type="text"/></label></p>
+
+            <p><label id="inputUserLocationLabel" type="text">Location<input id="inputUserLocation" type="text"/></label></p>
+
+            <p><label id="inputUserGenderLabel" type="text">Gender<input id="inputUserGender" type="text"/></label></p>
+
+            <p>
+                <input type="button" id="addUserButtonId" value="Add"/>
+                <input type="button" id="busAddUserButtonId" value="Add by Bus"/>
+                <input type="button" id="busUpdateUserButtonId" value="Update by Bus"/>
+
+            </p>
+        </div>
+    </fieldset>
+
     <fieldset>
         <legend>
             <h3>Search user</h3>
@@ -46,37 +78,6 @@
                 <tbody>
                 </tbody>
             </table>
-        </div>
-    </fieldset>
-    <fieldset>
-        <legend>
-            <h3>User</h3>
-        </legend>
-        <div id="addUser">
-            <input type="hidden" id="inputUserId" type="text"/>
-
-            <input type="hidden" id="inputUserLongitude" type="text"/>
-
-            <input type="hidden" id="inputUserLatitude" type="text"/>
-
-            <p><label id="inputUserNameLabel" type="text">User name<input id="inputUserName" type="text"/></label></p>
-
-            <p><label id="inputUserEmailLabel" type="text">Email<input id="inputUserEmail" type="text"/></label></p>
-
-            <p><label id="inputUserFullnameLabel" type="text">Full name<input id="inputUserFullname" type="text"/></label></p>
-
-            <p><label id="inputUserAgeLabel" type="text">Age<input id="inputUserAge" type="text"/></label></p>
-
-            <p><label id="inputUserLocationLabel" type="text">Location<input id="inputUserLocation" type="text"/></label></p>
-
-            <p><label id="inputUserGenderLabel" type="text">Gender<input id="inputUserGender" type="text"/></label></p>
-
-            <p>
-                <input type="button" id="addUserButtonId" value="Add"/>
-                <input type="button" id="busAddUserButtonId" value="Add by Bus"/>
-                <input type="button" id="busUpdateUserButtonId" value="Update by Bus"/>
-
-            </p>
         </div>
     </fieldset>
 </section>

@@ -17,7 +17,7 @@ var chat = (function () {
 
     function addChatMessage(data) {
         $("#chatTextArea").append("");
-        $("#chatTextArea").append("\n" + data.username + ":"+  data.message);
+        $("#chatTextArea").append("\n" + "<b>"+ data.username + ":"+"</b>" + "<font color='#3cb371'>"+ data.message + "</font>");
     }
 
     function initListener() {
