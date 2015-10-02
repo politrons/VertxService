@@ -11,23 +11,21 @@
             <h2>Add credentials</h2><br>
         </legend>
         <form action="/createUserHandler" method="post">
-            <div class="container">
-                <div>
-                    <label>Username:</label>
-                    <input type="text" name="username"/>
-                </div>
-                <div>
-                    <label>Password:</label>
-                    <input type="password" name="password"/>
-                </div>
-                <div>
-                    <label>Role:</label>
-                    <select id="role" name="role">
-                        <option value="admin">Admin</option>
-                        <option value="user">User</option>
-                        <option value="guest">Guest</option>
-                    </select>
-                </div>
+            <div>
+                <label>Username:</label>
+                <input type="text" name="username"/>
+            </div>
+            <div>
+                <label>Password:</label>
+                <input type="password" name="password"/>
+            </div>
+            <div>
+                <label>Role:</label>
+                <select id="role" name="role">
+                    <option value="admin">Admin</option>
+                    <option value="user">User</option>
+                    <option value="guest">Guest</option>
+                </select>
             </div>
             <footer>
                 <div>
@@ -42,17 +40,30 @@
 
 
 <style>
-
-    .container {
-        width: 500px;
-        clear: both;
+    fieldset {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 0;
+        padding: 0;
+        min-width: 0;
+        border-radius: 4px;
     }
 
-    .container input {
-        width: 100%;
-        clear: both;
+    legend {
+        position: relative;
+        top: 0;
+        padding: 0;
+        display: block;
+        width: 350px;
+        margin-bottom: 3px;
+        font-size: 13.5px;
+        line-height: 23px;
+        color: #2AA623;
+        border: 0;
+        border-bottom: 2px solid #2AA623;
+        height: 35px;
     }
-    
+
     /* misc start */
     * {
         margin: 0px;

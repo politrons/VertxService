@@ -2,9 +2,855 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c913bacf-2db2-4c98-9e0f-987814247985" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-044b1706-9ff0-4465-99bc-3c2fadba1b6d/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-044b1706-9ff0-4465-99bc-3c2fadba1b6d/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-044b1706-9ff0-4465-99bc-3c2fadba1b6d/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-044b1706-9ff0-4465-99bc-3c2fadba1b6d/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-044b1706-9ff0-4465-99bc-3c2fadba1b6d/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-044b1706-9ff0-4465-99bc-3c2fadba1b6d/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-05144b03-426a-4325-8bc0-6204c03edfba/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-05144b03-426a-4325-8bc0-6204c03edfba/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-05144b03-426a-4325-8bc0-6204c03edfba/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-076e85e7-c553-495a-bd33-2a8c5c32e743/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-076e85e7-c553-495a-bd33-2a8c5c32e743/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-076e85e7-c553-495a-bd33-2a8c5c32e743/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-076e85e7-c553-495a-bd33-2a8c5c32e743/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-076e85e7-c553-495a-bd33-2a8c5c32e743/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-076e85e7-c553-495a-bd33-2a8c5c32e743/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-076e85e7-c553-495a-bd33-2a8c5c32e743/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-076e85e7-c553-495a-bd33-2a8c5c32e743/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-087f70b4-e0d6-44dc-a4d0-39dfbeee64ff/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-087f70b4-e0d6-44dc-a4d0-39dfbeee64ff/webroot/politrons/img/accounts.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-087f70b4-e0d6-44dc-a4d0-39dfbeee64ff/webroot/politrons/img/chat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-087f70b4-e0d6-44dc-a4d0-39dfbeee64ff/webroot/politrons/img/tracking2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-087f70b4-e0d6-44dc-a4d0-39dfbeee64ff/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0eb0f1a3-6a1f-4ea3-8a29-d747b455a1d0/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0eb0f1a3-6a1f-4ea3-8a29-d747b455a1d0/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0eb0f1a3-6a1f-4ea3-8a29-d747b455a1d0/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0eb0f1a3-6a1f-4ea3-8a29-d747b455a1d0/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0eb0f1a3-6a1f-4ea3-8a29-d747b455a1d0/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0eb0f1a3-6a1f-4ea3-8a29-d747b455a1d0/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0eb0f1a3-6a1f-4ea3-8a29-d747b455a1d0/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0eb0f1a3-6a1f-4ea3-8a29-d747b455a1d0/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0eb0f1a3-6a1f-4ea3-8a29-d747b455a1d0/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0eb0f1a3-6a1f-4ea3-8a29-d747b455a1d0/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0eb0f1a3-6a1f-4ea3-8a29-d747b455a1d0/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0eb0f1a3-6a1f-4ea3-8a29-d747b455a1d0/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0ebcd14d-ec7b-408d-a037-7ffb7b780935/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0ebcd14d-ec7b-408d-a037-7ffb7b780935/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0ebcd14d-ec7b-408d-a037-7ffb7b780935/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0ebcd14d-ec7b-408d-a037-7ffb7b780935/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0ebcd14d-ec7b-408d-a037-7ffb7b780935/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0ebcd14d-ec7b-408d-a037-7ffb7b780935/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0ebcd14d-ec7b-408d-a037-7ffb7b780935/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0ebcd14d-ec7b-408d-a037-7ffb7b780935/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0f919296-c264-42bc-9ff5-da399a3be318/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-0f919296-c264-42bc-9ff5-da399a3be318/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-102b12be-b823-4a1b-a946-a631b127fe41/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-102b12be-b823-4a1b-a946-a631b127fe41/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-102b12be-b823-4a1b-a946-a631b127fe41/webroot/politrons/img/logout.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-102b12be-b823-4a1b-a946-a631b127fe41/webroot/politrons/img/send.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-102b12be-b823-4a1b-a946-a631b127fe41/webroot/politrons/img/user.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-102b12be-b823-4a1b-a946-a631b127fe41/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-102b12be-b823-4a1b-a946-a631b127fe41/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-102b12be-b823-4a1b-a946-a631b127fe41/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-102b12be-b823-4a1b-a946-a631b127fe41/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-102b12be-b823-4a1b-a946-a631b127fe41/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-102b12be-b823-4a1b-a946-a631b127fe41/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-102b12be-b823-4a1b-a946-a631b127fe41/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-137ccaac-ea6c-46dd-8709-56b982aa1d5b/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-138c3dde-0b04-4d04-b210-1181a09d0667/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-138c3dde-0b04-4d04-b210-1181a09d0667/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-138c3dde-0b04-4d04-b210-1181a09d0667/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-138c3dde-0b04-4d04-b210-1181a09d0667/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-138c3dde-0b04-4d04-b210-1181a09d0667/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-138c3dde-0b04-4d04-b210-1181a09d0667/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-138c3dde-0b04-4d04-b210-1181a09d0667/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-138c3dde-0b04-4d04-b210-1181a09d0667/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-14d085de-100d-449f-9876-5cd75076fb02/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-14d085de-100d-449f-9876-5cd75076fb02/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-14d085de-100d-449f-9876-5cd75076fb02/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-14d085de-100d-449f-9876-5cd75076fb02/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-14d085de-100d-449f-9876-5cd75076fb02/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-14d085de-100d-449f-9876-5cd75076fb02/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-14d085de-100d-449f-9876-5cd75076fb02/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-14d085de-100d-449f-9876-5cd75076fb02/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-15d86ad5-aa46-489e-8c8b-1f1b55b3b26b/webroot/addUser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-15d86ad5-aa46-489e-8c8b-1f1b55b3b26b/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-15d86ad5-aa46-489e-8c8b-1f1b55b3b26b/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-15d86ad5-aa46-489e-8c8b-1f1b55b3b26b/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-15d86ad5-aa46-489e-8c8b-1f1b55b3b26b/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-15d86ad5-aa46-489e-8c8b-1f1b55b3b26b/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-15d86ad5-aa46-489e-8c8b-1f1b55b3b26b/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-15d86ad5-aa46-489e-8c8b-1f1b55b3b26b/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-15d86ad5-aa46-489e-8c8b-1f1b55b3b26b/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-15d86ad5-aa46-489e-8c8b-1f1b55b3b26b/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-165aab98-4886-46dc-a152-5331aeb8e7bb/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-165aab98-4886-46dc-a152-5331aeb8e7bb/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-172e91e2-627d-4ca3-9b47-c9b54ddab991/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-172e91e2-627d-4ca3-9b47-c9b54ddab991/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-172e91e2-627d-4ca3-9b47-c9b54ddab991/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-172e91e2-627d-4ca3-9b47-c9b54ddab991/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-172e91e2-627d-4ca3-9b47-c9b54ddab991/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-172e91e2-627d-4ca3-9b47-c9b54ddab991/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1c202d59-b818-443e-a009-71034dc6ae14/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1c202d59-b818-443e-a009-71034dc6ae14/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1c202d59-b818-443e-a009-71034dc6ae14/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1c202d59-b818-443e-a009-71034dc6ae14/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1c202d59-b818-443e-a009-71034dc6ae14/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1c202d59-b818-443e-a009-71034dc6ae14/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cde0553-21b1-4b3f-b189-fa0f9d2e0dd6/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cde0553-21b1-4b3f-b189-fa0f9d2e0dd6/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cde0553-21b1-4b3f-b189-fa0f9d2e0dd6/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cde0553-21b1-4b3f-b189-fa0f9d2e0dd6/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cde0553-21b1-4b3f-b189-fa0f9d2e0dd6/webroot/politrons/img/user.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cde0553-21b1-4b3f-b189-fa0f9d2e0dd6/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cde0553-21b1-4b3f-b189-fa0f9d2e0dd6/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cde0553-21b1-4b3f-b189-fa0f9d2e0dd6/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cde0553-21b1-4b3f-b189-fa0f9d2e0dd6/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cde0553-21b1-4b3f-b189-fa0f9d2e0dd6/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cde0553-21b1-4b3f-b189-fa0f9d2e0dd6/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cde0553-21b1-4b3f-b189-fa0f9d2e0dd6/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1cde0553-21b1-4b3f-b189-fa0f9d2e0dd6/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1f0fbcbc-057d-4ef7-8eef-d89b38fd826f/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1f0fbcbc-057d-4ef7-8eef-d89b38fd826f/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-1f0fbcbc-057d-4ef7-8eef-d89b38fd826f/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-22068b2a-d890-496f-bfba-7f4e8fad387b/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-22068b2a-d890-496f-bfba-7f4e8fad387b/webroot/politrons/img/addAccount.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-22068b2a-d890-496f-bfba-7f4e8fad387b/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2446ae4b-39b9-418f-aa02-9c7ca3adb13f/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2446ae4b-39b9-418f-aa02-9c7ca3adb13f/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2446ae4b-39b9-418f-aa02-9c7ca3adb13f/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2663368b-f489-48af-b3b1-75649cf55add/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2663368b-f489-48af-b3b1-75649cf55add/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2663368b-f489-48af-b3b1-75649cf55add/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2663368b-f489-48af-b3b1-75649cf55add/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2663368b-f489-48af-b3b1-75649cf55add/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2663368b-f489-48af-b3b1-75649cf55add/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2663368b-f489-48af-b3b1-75649cf55add/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2663368b-f489-48af-b3b1-75649cf55add/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-26d6739a-675e-4938-8914-299f3e862ff1/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-26d6739a-675e-4938-8914-299f3e862ff1/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-26d6739a-675e-4938-8914-299f3e862ff1/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-26d6739a-675e-4938-8914-299f3e862ff1/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-26d6739a-675e-4938-8914-299f3e862ff1/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-26d6739a-675e-4938-8914-299f3e862ff1/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-26d6739a-675e-4938-8914-299f3e862ff1/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-26d6739a-675e-4938-8914-299f3e862ff1/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-28a326f3-3e08-4a40-ac99-b448c2e6f853/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-28a326f3-3e08-4a40-ac99-b448c2e6f853/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-28a326f3-3e08-4a40-ac99-b448c2e6f853/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-28a326f3-3e08-4a40-ac99-b448c2e6f853/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-28a326f3-3e08-4a40-ac99-b448c2e6f853/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-28a326f3-3e08-4a40-ac99-b448c2e6f853/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-28a326f3-3e08-4a40-ac99-b448c2e6f853/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-28a326f3-3e08-4a40-ac99-b448c2e6f853/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-29e56ae8-af56-45be-b66d-b0586763c23d/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-29e56ae8-af56-45be-b66d-b0586763c23d/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-29e56ae8-af56-45be-b66d-b0586763c23d/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-29e56ae8-af56-45be-b66d-b0586763c23d/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-29e56ae8-af56-45be-b66d-b0586763c23d/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-29e56ae8-af56-45be-b66d-b0586763c23d/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2f22439a-f4ed-4ccb-aea6-36ea4780e1c2/webroot/addUser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2f22439a-f4ed-4ccb-aea6-36ea4780e1c2/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2f22439a-f4ed-4ccb-aea6-36ea4780e1c2/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2f22439a-f4ed-4ccb-aea6-36ea4780e1c2/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2f22439a-f4ed-4ccb-aea6-36ea4780e1c2/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2f22439a-f4ed-4ccb-aea6-36ea4780e1c2/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2f22439a-f4ed-4ccb-aea6-36ea4780e1c2/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2f22439a-f4ed-4ccb-aea6-36ea4780e1c2/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2f22439a-f4ed-4ccb-aea6-36ea4780e1c2/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2f22439a-f4ed-4ccb-aea6-36ea4780e1c2/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-2f22439a-f4ed-4ccb-aea6-36ea4780e1c2/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-31a4416d-67a5-4b8f-835f-8617bc4bfb84/webroot/addUser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-31a4416d-67a5-4b8f-835f-8617bc4bfb84/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-31a79ef9-d9ae-4a14-b635-ae34306a6bc0/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3268625d-9678-4dcb-b516-5539f63cc821/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3837389b-c7ef-42f2-b741-49ddefeae8e7/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3837389b-c7ef-42f2-b741-49ddefeae8e7/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3837389b-c7ef-42f2-b741-49ddefeae8e7/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3837389b-c7ef-42f2-b741-49ddefeae8e7/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3837389b-c7ef-42f2-b741-49ddefeae8e7/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3837389b-c7ef-42f2-b741-49ddefeae8e7/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3837389b-c7ef-42f2-b741-49ddefeae8e7/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3837389b-c7ef-42f2-b741-49ddefeae8e7/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-39199432-6845-458a-a03c-bb5d760148f3/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3a7aca54-5b64-4a64-ba34-87636ecf6a10/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3a7aca54-5b64-4a64-ba34-87636ecf6a10/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3a7aca54-5b64-4a64-ba34-87636ecf6a10/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3a7aca54-5b64-4a64-ba34-87636ecf6a10/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3a7aca54-5b64-4a64-ba34-87636ecf6a10/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3a7aca54-5b64-4a64-ba34-87636ecf6a10/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3a7aca54-5b64-4a64-ba34-87636ecf6a10/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3a7aca54-5b64-4a64-ba34-87636ecf6a10/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3a7aca54-5b64-4a64-ba34-87636ecf6a10/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3ad971ce-c10c-45fb-813e-367a395f9133/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3ad971ce-c10c-45fb-813e-367a395f9133/webroot/politrons/img/user.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3ad971ce-c10c-45fb-813e-367a395f9133/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3ad971ce-c10c-45fb-813e-367a395f9133/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3ad971ce-c10c-45fb-813e-367a395f9133/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3ad971ce-c10c-45fb-813e-367a395f9133/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3ad971ce-c10c-45fb-813e-367a395f9133/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3ad971ce-c10c-45fb-813e-367a395f9133/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3bd010f8-11f4-473d-bb74-79debb1263ff/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3fab4697-1392-48cd-abfa-b2827b741da9/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3fab4697-1392-48cd-abfa-b2827b741da9/webroot/politrons/img/addAccount.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3fab4697-1392-48cd-abfa-b2827b741da9/webroot/politrons/img/chat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3fab4697-1392-48cd-abfa-b2827b741da9/webroot/politrons/img/logout.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3fab4697-1392-48cd-abfa-b2827b741da9/webroot/politrons/img/tracking2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3fab4697-1392-48cd-abfa-b2827b741da9/webroot/politrons/img/user.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3fab4697-1392-48cd-abfa-b2827b741da9/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3fab4697-1392-48cd-abfa-b2827b741da9/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3fab4697-1392-48cd-abfa-b2827b741da9/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3fab4697-1392-48cd-abfa-b2827b741da9/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3fab4697-1392-48cd-abfa-b2827b741da9/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-3fab4697-1392-48cd-abfa-b2827b741da9/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-412e611a-92bf-41d2-9dae-e1ac8146b9b4/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-412e611a-92bf-41d2-9dae-e1ac8146b9b4/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-412e611a-92bf-41d2-9dae-e1ac8146b9b4/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-412e611a-92bf-41d2-9dae-e1ac8146b9b4/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-412e611a-92bf-41d2-9dae-e1ac8146b9b4/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-412e611a-92bf-41d2-9dae-e1ac8146b9b4/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-45f75976-2796-4cf7-bcfe-5f9f10c520bb/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-45f75976-2796-4cf7-bcfe-5f9f10c520bb/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-45f75976-2796-4cf7-bcfe-5f9f10c520bb/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-45f75976-2796-4cf7-bcfe-5f9f10c520bb/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-45f75976-2796-4cf7-bcfe-5f9f10c520bb/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-45f75976-2796-4cf7-bcfe-5f9f10c520bb/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-45f75976-2796-4cf7-bcfe-5f9f10c520bb/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-45f75976-2796-4cf7-bcfe-5f9f10c520bb/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46626d6d-5e0a-44f3-910d-fff8217e9ec4/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46626d6d-5e0a-44f3-910d-fff8217e9ec4/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46626d6d-5e0a-44f3-910d-fff8217e9ec4/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46626d6d-5e0a-44f3-910d-fff8217e9ec4/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46626d6d-5e0a-44f3-910d-fff8217e9ec4/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46626d6d-5e0a-44f3-910d-fff8217e9ec4/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46626d6d-5e0a-44f3-910d-fff8217e9ec4/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46626d6d-5e0a-44f3-910d-fff8217e9ec4/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46bb927a-85db-46e9-a3c5-d68c91c5029a/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-46bb927a-85db-46e9-a3c5-d68c91c5029a/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-47a035b1-5668-4fc7-845e-69be85d85454/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-47a035b1-5668-4fc7-845e-69be85d85454/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4885a373-b415-449c-a51c-c451506e69d9/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4885a373-b415-449c-a51c-c451506e69d9/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4885a373-b415-449c-a51c-c451506e69d9/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4885a373-b415-449c-a51c-c451506e69d9/webroot/politrons/img/user.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4885a373-b415-449c-a51c-c451506e69d9/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4885a373-b415-449c-a51c-c451506e69d9/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4885a373-b415-449c-a51c-c451506e69d9/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4885a373-b415-449c-a51c-c451506e69d9/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4885a373-b415-449c-a51c-c451506e69d9/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4885a373-b415-449c-a51c-c451506e69d9/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4885a373-b415-449c-a51c-c451506e69d9/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4c86f61c-07f9-4f33-8f91-9a1fd8d5a045/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4c86f61c-07f9-4f33-8f91-9a1fd8d5a045/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4c86f61c-07f9-4f33-8f91-9a1fd8d5a045/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4c8d4daf-6524-42fb-8012-3e6e389ca390/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4c8d4daf-6524-42fb-8012-3e6e389ca390/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4c8d4daf-6524-42fb-8012-3e6e389ca390/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4c8d4daf-6524-42fb-8012-3e6e389ca390/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4c8d4daf-6524-42fb-8012-3e6e389ca390/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4c8d4daf-6524-42fb-8012-3e6e389ca390/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4c8d4daf-6524-42fb-8012-3e6e389ca390/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4de01e3c-966a-48db-b7ae-4bff0a4fbffe/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4de01e3c-966a-48db-b7ae-4bff0a4fbffe/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4de01e3c-966a-48db-b7ae-4bff0a4fbffe/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4e00fdbc-858e-4ea0-9302-80d7243702ab/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4e00fdbc-858e-4ea0-9302-80d7243702ab/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-4e00fdbc-858e-4ea0-9302-80d7243702ab/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5057fd09-6d51-4cab-a871-1427550963fb/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5057fd09-6d51-4cab-a871-1427550963fb/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-50e01273-3a1e-484a-98de-c96719d40c64/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-50e01273-3a1e-484a-98de-c96719d40c64/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-50e01273-3a1e-484a-98de-c96719d40c64/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5738e9e5-96e6-44b5-9d20-458e566b4a31/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5738e9e5-96e6-44b5-9d20-458e566b4a31/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5738e9e5-96e6-44b5-9d20-458e566b4a31/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5738e9e5-96e6-44b5-9d20-458e566b4a31/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5738e9e5-96e6-44b5-9d20-458e566b4a31/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5738e9e5-96e6-44b5-9d20-458e566b4a31/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5738e9e5-96e6-44b5-9d20-458e566b4a31/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5738e9e5-96e6-44b5-9d20-458e566b4a31/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-57af6ab3-47e9-4c37-8726-e111d6806fab/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-57af6ab3-47e9-4c37-8726-e111d6806fab/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-57af6ab3-47e9-4c37-8726-e111d6806fab/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-597b32e5-0603-453c-a7ee-a854c093140e/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-597b32e5-0603-453c-a7ee-a854c093140e/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-597b32e5-0603-453c-a7ee-a854c093140e/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-597b32e5-0603-453c-a7ee-a854c093140e/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-597b32e5-0603-453c-a7ee-a854c093140e/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-597b32e5-0603-453c-a7ee-a854c093140e/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5b0fa7f2-fbc6-4b6b-a722-801b95900733/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5b0fa7f2-fbc6-4b6b-a722-801b95900733/webroot/politrons/img/addAccount.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5b0fa7f2-fbc6-4b6b-a722-801b95900733/webroot/politrons/img/chat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5b0fa7f2-fbc6-4b6b-a722-801b95900733/webroot/politrons/img/logout.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5b0fa7f2-fbc6-4b6b-a722-801b95900733/webroot/politrons/img/tracking2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5b0fa7f2-fbc6-4b6b-a722-801b95900733/webroot/politrons/img/user.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5b0fa7f2-fbc6-4b6b-a722-801b95900733/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5b0fa7f2-fbc6-4b6b-a722-801b95900733/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5b0fa7f2-fbc6-4b6b-a722-801b95900733/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5b0fa7f2-fbc6-4b6b-a722-801b95900733/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5b0fa7f2-fbc6-4b6b-a722-801b95900733/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5b0fa7f2-fbc6-4b6b-a722-801b95900733/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5b9211a5-4ad9-4bdd-9408-46f6c8a6667d/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5b9211a5-4ad9-4bdd-9408-46f6c8a6667d/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5b9211a5-4ad9-4bdd-9408-46f6c8a6667d/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5e42ba74-30f2-46c0-b78c-38f9a2fc2bad/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5e9ec426-1ede-4cfb-9f4c-4b55e23ba6c7/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5e9ec426-1ede-4cfb-9f4c-4b55e23ba6c7/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5e9ec426-1ede-4cfb-9f4c-4b55e23ba6c7/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5e9ec426-1ede-4cfb-9f4c-4b55e23ba6c7/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5e9ec426-1ede-4cfb-9f4c-4b55e23ba6c7/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5e9ec426-1ede-4cfb-9f4c-4b55e23ba6c7/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5e9ec426-1ede-4cfb-9f4c-4b55e23ba6c7/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5e9ec426-1ede-4cfb-9f4c-4b55e23ba6c7/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5e9ec426-1ede-4cfb-9f4c-4b55e23ba6c7/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5fd0cddf-4918-4b58-bce3-48211a10fbf9/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5fd0cddf-4918-4b58-bce3-48211a10fbf9/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5fd0cddf-4918-4b58-bce3-48211a10fbf9/webroot/politrons/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5fd0cddf-4918-4b58-bce3-48211a10fbf9/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5fd6eb83-cce3-481c-8d57-41b451460d82/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-5fd6eb83-cce3-481c-8d57-41b451460d82/webroot/politrons/video.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-60711dcc-296e-4766-b7d8-ff28413de063/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-60711dcc-296e-4766-b7d8-ff28413de063/webroot/politrons/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-60711dcc-296e-4766-b7d8-ff28413de063/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-60711dcc-296e-4766-b7d8-ff28413de063/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-60711dcc-296e-4766-b7d8-ff28413de063/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-60711dcc-296e-4766-b7d8-ff28413de063/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-60711dcc-296e-4766-b7d8-ff28413de063/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-632fd5c0-ad33-469d-b610-6f70647beee6/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-632fd5c0-ad33-469d-b610-6f70647beee6/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-64129e55-1966-4058-b5ae-77e572e3146d/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-64129e55-1966-4058-b5ae-77e572e3146d/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-64129e55-1966-4058-b5ae-77e572e3146d/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-64129e55-1966-4058-b5ae-77e572e3146d/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-64129e55-1966-4058-b5ae-77e572e3146d/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-64129e55-1966-4058-b5ae-77e572e3146d/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-674f574d-53aa-4ca2-bdd2-9b49b41d0865/webroot/addUser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-674f574d-53aa-4ca2-bdd2-9b49b41d0865/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-674f574d-53aa-4ca2-bdd2-9b49b41d0865/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-69028139-b0e1-4832-8813-13b69d8793ed/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-69028139-b0e1-4832-8813-13b69d8793ed/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-69028139-b0e1-4832-8813-13b69d8793ed/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-69028139-b0e1-4832-8813-13b69d8793ed/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-69028139-b0e1-4832-8813-13b69d8793ed/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-69028139-b0e1-4832-8813-13b69d8793ed/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-69028139-b0e1-4832-8813-13b69d8793ed/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-69028139-b0e1-4832-8813-13b69d8793ed/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6a253098-155f-4433-8fd7-36537e92c434/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6a253098-155f-4433-8fd7-36537e92c434/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6d267a58-28f1-4d04-a1ba-5442d878e073/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6d267a58-28f1-4d04-a1ba-5442d878e073/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6d267a58-28f1-4d04-a1ba-5442d878e073/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6d267a58-28f1-4d04-a1ba-5442d878e073/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6d267a58-28f1-4d04-a1ba-5442d878e073/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6d267a58-28f1-4d04-a1ba-5442d878e073/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6d267a58-28f1-4d04-a1ba-5442d878e073/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6d267a58-28f1-4d04-a1ba-5442d878e073/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6dcf535f-b620-4d2f-927b-1c5bcd5ca712/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6dcf535f-b620-4d2f-927b-1c5bcd5ca712/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6dcf535f-b620-4d2f-927b-1c5bcd5ca712/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6dcf535f-b620-4d2f-927b-1c5bcd5ca712/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6dcf535f-b620-4d2f-927b-1c5bcd5ca712/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6dcf535f-b620-4d2f-927b-1c5bcd5ca712/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-6dcf535f-b620-4d2f-927b-1c5bcd5ca712/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-71e4d990-d723-41ac-9444-7531e4d8beff/webroot/addUser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-71e4d990-d723-41ac-9444-7531e4d8beff/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-71e4d990-d723-41ac-9444-7531e4d8beff/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-728461cf-3456-456c-a663-3ab23b9d206f/webroot/addUser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-728461cf-3456-456c-a663-3ab23b9d206f/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-728461cf-3456-456c-a663-3ab23b9d206f/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7a833fae-fa12-4399-8e7a-2d2031d8c092/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7ddf52e0-6cf3-4328-954f-703d2a5c23dd/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7ddf52e0-6cf3-4328-954f-703d2a5c23dd/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7ddf52e0-6cf3-4328-954f-703d2a5c23dd/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7ddf52e0-6cf3-4328-954f-703d2a5c23dd/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7ddf52e0-6cf3-4328-954f-703d2a5c23dd/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7ddf52e0-6cf3-4328-954f-703d2a5c23dd/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-7ddf52e0-6cf3-4328-954f-703d2a5c23dd/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-81f7e19d-f77a-48e6-84f7-5fe917ae56fc/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-81f7e19d-f77a-48e6-84f7-5fe917ae56fc/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-81f7e19d-f77a-48e6-84f7-5fe917ae56fc/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-81f7e19d-f77a-48e6-84f7-5fe917ae56fc/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-81f7e19d-f77a-48e6-84f7-5fe917ae56fc/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-81f7e19d-f77a-48e6-84f7-5fe917ae56fc/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-81f7e19d-f77a-48e6-84f7-5fe917ae56fc/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-81f7e19d-f77a-48e6-84f7-5fe917ae56fc/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/img/accounts.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/img/logout.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/img/send.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/img/start.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/img/stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/img/user.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-82084d9c-c4f3-4c8c-93d1-b7e033d11f30/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8282b8ea-57ea-41df-9d74-c3c42a8a95ee/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8282b8ea-57ea-41df-9d74-c3c42a8a95ee/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8282b8ea-57ea-41df-9d74-c3c42a8a95ee/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8282b8ea-57ea-41df-9d74-c3c42a8a95ee/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8282b8ea-57ea-41df-9d74-c3c42a8a95ee/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8282b8ea-57ea-41df-9d74-c3c42a8a95ee/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8967abc2-50b9-4bf8-80be-12a033b41b7e/webroot/addUser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8967abc2-50b9-4bf8-80be-12a033b41b7e/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8967abc2-50b9-4bf8-80be-12a033b41b7e/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8967abc2-50b9-4bf8-80be-12a033b41b7e/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8967abc2-50b9-4bf8-80be-12a033b41b7e/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8967abc2-50b9-4bf8-80be-12a033b41b7e/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8967abc2-50b9-4bf8-80be-12a033b41b7e/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8967abc2-50b9-4bf8-80be-12a033b41b7e/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8967abc2-50b9-4bf8-80be-12a033b41b7e/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8967abc2-50b9-4bf8-80be-12a033b41b7e/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8967abc2-50b9-4bf8-80be-12a033b41b7e/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-897faf34-11a3-4205-9a64-5c507f6197cf/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-897faf34-11a3-4205-9a64-5c507f6197cf/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8b077bd2-0a5d-42d0-a747-1109c5ac54d7/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8b077bd2-0a5d-42d0-a747-1109c5ac54d7/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8b4b720c-18f4-46c6-9f50-1e4dd7ba8b59/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8b4b720c-18f4-46c6-9f50-1e4dd7ba8b59/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8b4b720c-18f4-46c6-9f50-1e4dd7ba8b59/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8b4b720c-18f4-46c6-9f50-1e4dd7ba8b59/webroot/politrons/img/user.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8b4b720c-18f4-46c6-9f50-1e4dd7ba8b59/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8b4b720c-18f4-46c6-9f50-1e4dd7ba8b59/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8b4b720c-18f4-46c6-9f50-1e4dd7ba8b59/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8b4b720c-18f4-46c6-9f50-1e4dd7ba8b59/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8b4b720c-18f4-46c6-9f50-1e4dd7ba8b59/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8b4b720c-18f4-46c6-9f50-1e4dd7ba8b59/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8b4b720c-18f4-46c6-9f50-1e4dd7ba8b59/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8bb5dc91-dbea-4dcf-8b2a-2c691e19df34/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8bb5dc91-dbea-4dcf-8b2a-2c691e19df34/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8bb5dc91-dbea-4dcf-8b2a-2c691e19df34/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8c4cf59c-b7be-4b21-9e0a-72cd8d8f19e8/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8c4cf59c-b7be-4b21-9e0a-72cd8d8f19e8/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8c4cf59c-b7be-4b21-9e0a-72cd8d8f19e8/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8c4cf59c-b7be-4b21-9e0a-72cd8d8f19e8/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8c4cf59c-b7be-4b21-9e0a-72cd8d8f19e8/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8c4cf59c-b7be-4b21-9e0a-72cd8d8f19e8/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8c4cf59c-b7be-4b21-9e0a-72cd8d8f19e8/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8c507f13-7b5a-4953-aa88-baa7ddb0e712/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8c507f13-7b5a-4953-aa88-baa7ddb0e712/webroot/politrons/img/logout.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-8c507f13-7b5a-4953-aa88-baa7ddb0e712/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9197b70d-6126-4529-814b-85cf824ceadf/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9197b70d-6126-4529-814b-85cf824ceadf/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9250937f-3e2c-464f-a6d3-c485746575f6/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9250937f-3e2c-464f-a6d3-c485746575f6/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9250937f-3e2c-464f-a6d3-c485746575f6/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9250937f-3e2c-464f-a6d3-c485746575f6/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9250937f-3e2c-464f-a6d3-c485746575f6/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9250937f-3e2c-464f-a6d3-c485746575f6/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9250937f-3e2c-464f-a6d3-c485746575f6/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9964e65d-9622-4435-a1da-0957ef028ace/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9964e65d-9622-4435-a1da-0957ef028ace/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9964e65d-9622-4435-a1da-0957ef028ace/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9964e65d-9622-4435-a1da-0957ef028ace/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9964e65d-9622-4435-a1da-0957ef028ace/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9964e65d-9622-4435-a1da-0957ef028ace/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9964e65d-9622-4435-a1da-0957ef028ace/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9964e65d-9622-4435-a1da-0957ef028ace/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-99c37df6-b6e5-4c99-843a-6f477863455d/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-99c37df6-b6e5-4c99-843a-6f477863455d/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-99c37df6-b6e5-4c99-843a-6f477863455d/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-99c37df6-b6e5-4c99-843a-6f477863455d/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-99c37df6-b6e5-4c99-843a-6f477863455d/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-99c37df6-b6e5-4c99-843a-6f477863455d/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-99c37df6-b6e5-4c99-843a-6f477863455d/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-99c37df6-b6e5-4c99-843a-6f477863455d/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-99c37df6-b6e5-4c99-843a-6f477863455d/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9a0cbd1b-c73c-4ea2-b14a-68aece1942db/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9b5d863f-09d5-437b-a814-ac74a9641fd0/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9cc48738-8608-4a33-8bb1-8ac33064a2f4/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9cc48738-8608-4a33-8bb1-8ac33064a2f4/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9cc48738-8608-4a33-8bb1-8ac33064a2f4/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9cc48738-8608-4a33-8bb1-8ac33064a2f4/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9cc48738-8608-4a33-8bb1-8ac33064a2f4/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9cc48738-8608-4a33-8bb1-8ac33064a2f4/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9cc48738-8608-4a33-8bb1-8ac33064a2f4/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9cc48738-8608-4a33-8bb1-8ac33064a2f4/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9cc48738-8608-4a33-8bb1-8ac33064a2f4/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9cc48738-8608-4a33-8bb1-8ac33064a2f4/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9cc48738-8608-4a33-8bb1-8ac33064a2f4/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9cd3bf36-3446-481d-aebf-81c4cf6f6f0c/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9cd3bf36-3446-481d-aebf-81c4cf6f6f0c/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9cd3bf36-3446-481d-aebf-81c4cf6f6f0c/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9e4aac13-037d-424f-8b12-9022fdd75ffc/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9e4aac13-037d-424f-8b12-9022fdd75ffc/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9e4aac13-037d-424f-8b12-9022fdd75ffc/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9e4aac13-037d-424f-8b12-9022fdd75ffc/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9e4aac13-037d-424f-8b12-9022fdd75ffc/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9e4aac13-037d-424f-8b12-9022fdd75ffc/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9e4aac13-037d-424f-8b12-9022fdd75ffc/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9e4aac13-037d-424f-8b12-9022fdd75ffc/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-9e4aac13-037d-424f-8b12-9022fdd75ffc/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a07c67cc-d0f0-4220-93b0-41a2f9d7aac4/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a07c67cc-d0f0-4220-93b0-41a2f9d7aac4/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0a525fd-7504-4c10-99f6-fb7e8a8a8c49/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0a525fd-7504-4c10-99f6-fb7e8a8a8c49/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0a525fd-7504-4c10-99f6-fb7e8a8a8c49/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0a525fd-7504-4c10-99f6-fb7e8a8a8c49/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0a525fd-7504-4c10-99f6-fb7e8a8a8c49/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0a525fd-7504-4c10-99f6-fb7e8a8a8c49/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0a525fd-7504-4c10-99f6-fb7e8a8a8c49/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0a525fd-7504-4c10-99f6-fb7e8a8a8c49/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0a525fd-7504-4c10-99f6-fb7e8a8a8c49/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0bb62bb-488a-453a-bdc3-65bee08c3234/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0bb62bb-488a-453a-bdc3-65bee08c3234/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0bb62bb-488a-453a-bdc3-65bee08c3234/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0bb62bb-488a-453a-bdc3-65bee08c3234/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0bb62bb-488a-453a-bdc3-65bee08c3234/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0bb62bb-488a-453a-bdc3-65bee08c3234/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0bb62bb-488a-453a-bdc3-65bee08c3234/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0bb62bb-488a-453a-bdc3-65bee08c3234/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0bb62bb-488a-453a-bdc3-65bee08c3234/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a0bb62bb-488a-453a-bdc3-65bee08c3234/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a313a42f-49be-43d6-b697-70e8ede30ffa/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a313a42f-49be-43d6-b697-70e8ede30ffa/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a313a42f-49be-43d6-b697-70e8ede30ffa/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a313a42f-49be-43d6-b697-70e8ede30ffa/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a313a42f-49be-43d6-b697-70e8ede30ffa/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a313a42f-49be-43d6-b697-70e8ede30ffa/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a313a42f-49be-43d6-b697-70e8ede30ffa/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a313a42f-49be-43d6-b697-70e8ede30ffa/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a3363110-dcd1-4818-bc11-a2fc4d11fd3a/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a3363110-dcd1-4818-bc11-a2fc4d11fd3a/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a3363110-dcd1-4818-bc11-a2fc4d11fd3a/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a3363110-dcd1-4818-bc11-a2fc4d11fd3a/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a3363110-dcd1-4818-bc11-a2fc4d11fd3a/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a3363110-dcd1-4818-bc11-a2fc4d11fd3a/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a3661e68-2a0e-4a25-af2d-1c3675ef9297/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a3661e68-2a0e-4a25-af2d-1c3675ef9297/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a4370f16-871a-4ce6-a07f-ec11db31a478/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a4370f16-871a-4ce6-a07f-ec11db31a478/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a4b55743-e531-4fb2-bcb6-c7130c909848/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a4b55743-e531-4fb2-bcb6-c7130c909848/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a4b55743-e531-4fb2-bcb6-c7130c909848/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a4b55743-e531-4fb2-bcb6-c7130c909848/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a4b55743-e531-4fb2-bcb6-c7130c909848/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a4b55743-e531-4fb2-bcb6-c7130c909848/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a4b55743-e531-4fb2-bcb6-c7130c909848/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a4dfc73a-5a57-4cc9-b448-15bd8ced3304/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a4dfc73a-5a57-4cc9-b448-15bd8ced3304/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a7a17a11-930b-4993-abd6-d1ef96975335/webroot/addUser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a7a17a11-930b-4993-abd6-d1ef96975335/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a7a17a11-930b-4993-abd6-d1ef96975335/webroot/politrons/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a7a17a11-930b-4993-abd6-d1ef96975335/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a7a17a11-930b-4993-abd6-d1ef96975335/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a7a17a11-930b-4993-abd6-d1ef96975335/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a7a17a11-930b-4993-abd6-d1ef96975335/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-a7a17a11-930b-4993-abd6-d1ef96975335/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aafddd89-0567-4f39-8566-a566be839455/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aafddd89-0567-4f39-8566-a566be839455/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aafddd89-0567-4f39-8566-a566be839455/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aafddd89-0567-4f39-8566-a566be839455/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aafddd89-0567-4f39-8566-a566be839455/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aafddd89-0567-4f39-8566-a566be839455/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aafddd89-0567-4f39-8566-a566be839455/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ac5b6e68-166d-484a-af09-fa4f7fafcc97/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ac5b6e68-166d-484a-af09-fa4f7fafcc97/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ac5b6e68-166d-484a-af09-fa4f7fafcc97/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ac5b6e68-166d-484a-af09-fa4f7fafcc97/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ac5b6e68-166d-484a-af09-fa4f7fafcc97/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ac5b6e68-166d-484a-af09-fa4f7fafcc97/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-acf01a5e-be4a-42f7-9292-64b83ec44ae7/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-acf01a5e-be4a-42f7-9292-64b83ec44ae7/webroot/politrons/img/user.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-acf01a5e-be4a-42f7-9292-64b83ec44ae7/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-acf01a5e-be4a-42f7-9292-64b83ec44ae7/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-acf01a5e-be4a-42f7-9292-64b83ec44ae7/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-acf01a5e-be4a-42f7-9292-64b83ec44ae7/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-acf01a5e-be4a-42f7-9292-64b83ec44ae7/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-acf01a5e-be4a-42f7-9292-64b83ec44ae7/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aded903d-3188-499c-b2a3-1a345bd50f11/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aded903d-3188-499c-b2a3-1a345bd50f11/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aded903d-3188-499c-b2a3-1a345bd50f11/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aded903d-3188-499c-b2a3-1a345bd50f11/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aded903d-3188-499c-b2a3-1a345bd50f11/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aded903d-3188-499c-b2a3-1a345bd50f11/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aded903d-3188-499c-b2a3-1a345bd50f11/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-aded903d-3188-499c-b2a3-1a345bd50f11/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b09fcfab-0fe6-4d02-a059-a26f63133c7e/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b2e0fde2-0073-4629-b25a-17e09f9c1d9f/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b2e0fde2-0073-4629-b25a-17e09f9c1d9f/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b3f6b054-289b-4121-979d-72846d946b01/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b3f6b054-289b-4121-979d-72846d946b01/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b3f6b054-289b-4121-979d-72846d946b01/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b3f6b054-289b-4121-979d-72846d946b01/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b3f6b054-289b-4121-979d-72846d946b01/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b780a5e8-7b85-48ee-8168-5314f73060eb/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b780a5e8-7b85-48ee-8168-5314f73060eb/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b780a5e8-7b85-48ee-8168-5314f73060eb/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b780a5e8-7b85-48ee-8168-5314f73060eb/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b780a5e8-7b85-48ee-8168-5314f73060eb/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b780a5e8-7b85-48ee-8168-5314f73060eb/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b780a5e8-7b85-48ee-8168-5314f73060eb/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b780a5e8-7b85-48ee-8168-5314f73060eb/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b8bf0fb5-ba74-4824-a5d0-094c20ef7f00/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b8bf0fb5-ba74-4824-a5d0-094c20ef7f00/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b957c917-304a-4436-bbc6-3f60199bc8b9/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b957c917-304a-4436-bbc6-3f60199bc8b9/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b957c917-304a-4436-bbc6-3f60199bc8b9/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b957c917-304a-4436-bbc6-3f60199bc8b9/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b957c917-304a-4436-bbc6-3f60199bc8b9/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b957c917-304a-4436-bbc6-3f60199bc8b9/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b957c917-304a-4436-bbc6-3f60199bc8b9/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-b957c917-304a-4436-bbc6-3f60199bc8b9/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-bedc900a-e8e5-402c-b267-7b9a8dfc701f/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-bf1dd274-03b3-42a4-b668-c2431ab1eec9/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-bf1dd274-03b3-42a4-b668-c2431ab1eec9/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-bf1dd274-03b3-42a4-b668-c2431ab1eec9/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-bf1dd274-03b3-42a4-b668-c2431ab1eec9/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-bf1dd274-03b3-42a4-b668-c2431ab1eec9/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-bf1dd274-03b3-42a4-b668-c2431ab1eec9/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-bf1dd274-03b3-42a4-b668-c2431ab1eec9/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c1487965-52a3-4b23-a06c-9ed64b54f36e/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c1487965-52a3-4b23-a06c-9ed64b54f36e/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c1487965-52a3-4b23-a06c-9ed64b54f36e/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c1487965-52a3-4b23-a06c-9ed64b54f36e/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c1487965-52a3-4b23-a06c-9ed64b54f36e/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c1487965-52a3-4b23-a06c-9ed64b54f36e/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c16517f3-7d63-4684-b354-ed104a7cd305/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c16517f3-7d63-4684-b354-ed104a7cd305/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c16517f3-7d63-4684-b354-ed104a7cd305/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c16517f3-7d63-4684-b354-ed104a7cd305/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c16517f3-7d63-4684-b354-ed104a7cd305/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c16517f3-7d63-4684-b354-ed104a7cd305/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c16517f3-7d63-4684-b354-ed104a7cd305/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c3396865-335d-41fe-a322-fb6e3d10d0a9/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c3396865-335d-41fe-a322-fb6e3d10d0a9/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c3396865-335d-41fe-a322-fb6e3d10d0a9/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c3396865-335d-41fe-a322-fb6e3d10d0a9/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c3396865-335d-41fe-a322-fb6e3d10d0a9/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c3396865-335d-41fe-a322-fb6e3d10d0a9/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c3396865-335d-41fe-a322-fb6e3d10d0a9/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c3396865-335d-41fe-a322-fb6e3d10d0a9/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c3396865-335d-41fe-a322-fb6e3d10d0a9/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c38574b9-32ed-48b5-8e70-9577b24dd998/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c38574b9-32ed-48b5-8e70-9577b24dd998/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c38574b9-32ed-48b5-8e70-9577b24dd998/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c38574b9-32ed-48b5-8e70-9577b24dd998/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c38574b9-32ed-48b5-8e70-9577b24dd998/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c38574b9-32ed-48b5-8e70-9577b24dd998/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c38574b9-32ed-48b5-8e70-9577b24dd998/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c38574b9-32ed-48b5-8e70-9577b24dd998/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c4ec9ccc-ccd4-4b18-8162-d00565d88600/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c4ec9ccc-ccd4-4b18-8162-d00565d88600/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c4ec9ccc-ccd4-4b18-8162-d00565d88600/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c4ec9ccc-ccd4-4b18-8162-d00565d88600/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c4ec9ccc-ccd4-4b18-8162-d00565d88600/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c4ec9ccc-ccd4-4b18-8162-d00565d88600/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c4ec9ccc-ccd4-4b18-8162-d00565d88600/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c4ec9ccc-ccd4-4b18-8162-d00565d88600/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c8186203-bda7-4014-aca1-21ce4fdc6a02/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c8186203-bda7-4014-aca1-21ce4fdc6a02/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c8186203-bda7-4014-aca1-21ce4fdc6a02/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c8186203-bda7-4014-aca1-21ce4fdc6a02/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c8186203-bda7-4014-aca1-21ce4fdc6a02/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c8186203-bda7-4014-aca1-21ce4fdc6a02/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c8186203-bda7-4014-aca1-21ce4fdc6a02/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-c8186203-bda7-4014-aca1-21ce4fdc6a02/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ca2af948-caa9-42d9-84a8-8ddc95b3409d/webroot/addUser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cade17ef-2d5a-4256-820b-eb19c4904f8a/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cade17ef-2d5a-4256-820b-eb19c4904f8a/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cade17ef-2d5a-4256-820b-eb19c4904f8a/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cade17ef-2d5a-4256-820b-eb19c4904f8a/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cade17ef-2d5a-4256-820b-eb19c4904f8a/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cade17ef-2d5a-4256-820b-eb19c4904f8a/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cd4402d7-d5f3-4329-aec8-903aae096cba/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cd4402d7-d5f3-4329-aec8-903aae096cba/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cd4402d7-d5f3-4329-aec8-903aae096cba/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cd4402d7-d5f3-4329-aec8-903aae096cba/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cd4402d7-d5f3-4329-aec8-903aae096cba/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cd4402d7-d5f3-4329-aec8-903aae096cba/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cd4402d7-d5f3-4329-aec8-903aae096cba/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cd4402d7-d5f3-4329-aec8-903aae096cba/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cd4402d7-d5f3-4329-aec8-903aae096cba/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cdcb9cc0-dd61-4993-8c17-13576cd05ce7/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cdcb9cc0-dd61-4993-8c17-13576cd05ce7/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cdcb9cc0-dd61-4993-8c17-13576cd05ce7/webroot/politrons/img/logout.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cdcb9cc0-dd61-4993-8c17-13576cd05ce7/webroot/politrons/img/user.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cdcb9cc0-dd61-4993-8c17-13576cd05ce7/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cdcb9cc0-dd61-4993-8c17-13576cd05ce7/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cdcb9cc0-dd61-4993-8c17-13576cd05ce7/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cdcb9cc0-dd61-4993-8c17-13576cd05ce7/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cdcb9cc0-dd61-4993-8c17-13576cd05ce7/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cdcb9cc0-dd61-4993-8c17-13576cd05ce7/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-cdcb9cc0-dd61-4993-8c17-13576cd05ce7/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d435596a-0082-46ff-aa30-ec541ced5098/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d435596a-0082-46ff-aa30-ec541ced5098/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d435596a-0082-46ff-aa30-ec541ced5098/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d435596a-0082-46ff-aa30-ec541ced5098/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d435596a-0082-46ff-aa30-ec541ced5098/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d435596a-0082-46ff-aa30-ec541ced5098/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d435596a-0082-46ff-aa30-ec541ced5098/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d435596a-0082-46ff-aa30-ec541ced5098/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d435596a-0082-46ff-aa30-ec541ced5098/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d435596a-0082-46ff-aa30-ec541ced5098/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d435596a-0082-46ff-aa30-ec541ced5098/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d8e906d4-7978-4cf7-96e7-eaa51d1a8add/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d8e906d4-7978-4cf7-96e7-eaa51d1a8add/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d8e906d4-7978-4cf7-96e7-eaa51d1a8add/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d8e906d4-7978-4cf7-96e7-eaa51d1a8add/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d8e906d4-7978-4cf7-96e7-eaa51d1a8add/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-d8e906d4-7978-4cf7-96e7-eaa51d1a8add/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dbd7b4cf-fa83-4172-990f-8975caca6315/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dbd7b4cf-fa83-4172-990f-8975caca6315/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dd01ecfd-8613-4aed-9c89-1223031ab23b/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dd01ecfd-8613-4aed-9c89-1223031ab23b/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dd01ecfd-8613-4aed-9c89-1223031ab23b/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dd01ecfd-8613-4aed-9c89-1223031ab23b/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dd01ecfd-8613-4aed-9c89-1223031ab23b/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dd01ecfd-8613-4aed-9c89-1223031ab23b/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dd01ecfd-8613-4aed-9c89-1223031ab23b/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-dd01ecfd-8613-4aed-9c89-1223031ab23b/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-decb5710-2a8e-43df-ba5f-1a04cc49947d/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-decb5710-2a8e-43df-ba5f-1a04cc49947d/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ded425ba-7ae3-4ea7-9808-0bf0203ee260/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ded425ba-7ae3-4ea7-9808-0bf0203ee260/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-df0eeb06-ef38-4c57-b791-f21b9e295240/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-df0eeb06-ef38-4c57-b791-f21b9e295240/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-df0eeb06-ef38-4c57-b791-f21b9e295240/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-df0eeb06-ef38-4c57-b791-f21b9e295240/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-df0eeb06-ef38-4c57-b791-f21b9e295240/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-df0eeb06-ef38-4c57-b791-f21b9e295240/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-df0eeb06-ef38-4c57-b791-f21b9e295240/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-df0eeb06-ef38-4c57-b791-f21b9e295240/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-df0eeb06-ef38-4c57-b791-f21b9e295240/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e19dbc02-b296-43e8-bd61-1b75407334a9/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e19dbc02-b296-43e8-bd61-1b75407334a9/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e19dbc02-b296-43e8-bd61-1b75407334a9/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e19dbc02-b296-43e8-bd61-1b75407334a9/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e19dbc02-b296-43e8-bd61-1b75407334a9/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e19dbc02-b296-43e8-bd61-1b75407334a9/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e19dbc02-b296-43e8-bd61-1b75407334a9/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e19dbc02-b296-43e8-bd61-1b75407334a9/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e3214d6d-6832-4f66-bf40-b4aa5e7a6b71/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e3214d6d-6832-4f66-bf40-b4aa5e7a6b71/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e3214d6d-6832-4f66-bf40-b4aa5e7a6b71/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e3214d6d-6832-4f66-bf40-b4aa5e7a6b71/webroot/politrons/img/user.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e3214d6d-6832-4f66-bf40-b4aa5e7a6b71/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e3214d6d-6832-4f66-bf40-b4aa5e7a6b71/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e3214d6d-6832-4f66-bf40-b4aa5e7a6b71/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e3214d6d-6832-4f66-bf40-b4aa5e7a6b71/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e3214d6d-6832-4f66-bf40-b4aa5e7a6b71/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e3214d6d-6832-4f66-bf40-b4aa5e7a6b71/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e3214d6d-6832-4f66-bf40-b4aa5e7a6b71/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e32ad73d-8b86-4893-887b-5edea041ab88/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e32ad73d-8b86-4893-887b-5edea041ab88/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e32ad73d-8b86-4893-887b-5edea041ab88/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e32ad73d-8b86-4893-887b-5edea041ab88/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e32ad73d-8b86-4893-887b-5edea041ab88/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e32ad73d-8b86-4893-887b-5edea041ab88/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e32ad73d-8b86-4893-887b-5edea041ab88/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e34b51a5-4e69-4d5a-86db-0263b8e4fce9/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e34b51a5-4e69-4d5a-86db-0263b8e4fce9/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e472f17e-1119-425b-b83f-9219b6457b28/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e472f17e-1119-425b-b83f-9219b6457b28/webroot/politrons/img/user.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e472f17e-1119-425b-b83f-9219b6457b28/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e472f17e-1119-425b-b83f-9219b6457b28/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e472f17e-1119-425b-b83f-9219b6457b28/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e472f17e-1119-425b-b83f-9219b6457b28/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e472f17e-1119-425b-b83f-9219b6457b28/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e472f17e-1119-425b-b83f-9219b6457b28/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e9fe8397-7a18-4cba-9edc-3c4caf99b93a/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e9fe8397-7a18-4cba-9edc-3c4caf99b93a/webroot/politrons/img/user.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e9fe8397-7a18-4cba-9edc-3c4caf99b93a/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e9fe8397-7a18-4cba-9edc-3c4caf99b93a/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e9fe8397-7a18-4cba-9edc-3c4caf99b93a/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e9fe8397-7a18-4cba-9edc-3c4caf99b93a/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e9fe8397-7a18-4cba-9edc-3c4caf99b93a/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-e9fe8397-7a18-4cba-9edc-3c4caf99b93a/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ea289ac1-f4b9-44ed-87b5-b09b5f76be32/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ea289ac1-f4b9-44ed-87b5-b09b5f76be32/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ea607c12-e824-4f9f-b511-b0333f0271fd/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ea607c12-e824-4f9f-b511-b0333f0271fd/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ea666b88-44e7-4650-ae65-087ae98caa6b/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ea666b88-44e7-4650-ae65-087ae98caa6b/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ea666b88-44e7-4650-ae65-087ae98caa6b/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ea666b88-44e7-4650-ae65-087ae98caa6b/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ea666b88-44e7-4650-ae65-087ae98caa6b/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ea666b88-44e7-4650-ae65-087ae98caa6b/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ea6a4871-59f2-499f-b952-d156fec418dc/webroot/addUser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ea6a4871-59f2-499f-b952-d156fec418dc/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ec5962ce-ad83-4383-bc3e-6b062af9449b/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ec5962ce-ad83-4383-bc3e-6b062af9449b/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ec5962ce-ad83-4383-bc3e-6b062af9449b/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ec5962ce-ad83-4383-bc3e-6b062af9449b/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ec5962ce-ad83-4383-bc3e-6b062af9449b/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ec5962ce-ad83-4383-bc3e-6b062af9449b/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ec5962ce-ad83-4383-bc3e-6b062af9449b/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ec5962ce-ad83-4383-bc3e-6b062af9449b/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ef0f6621-07ca-4220-8013-148eddfb61ac/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ef0f6621-07ca-4220-8013-148eddfb61ac/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ef0f6621-07ca-4220-8013-148eddfb61ac/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ef0f6621-07ca-4220-8013-148eddfb61ac/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ef0f6621-07ca-4220-8013-148eddfb61ac/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ef0f6621-07ca-4220-8013-148eddfb61ac/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ef0f6621-07ca-4220-8013-148eddfb61ac/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ef0f6621-07ca-4220-8013-148eddfb61ac/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f1a9d501-8455-47a7-89e3-f64d79342b50/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f1a9d501-8455-47a7-89e3-f64d79342b50/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f1a9d501-8455-47a7-89e3-f64d79342b50/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f1a9d501-8455-47a7-89e3-f64d79342b50/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f1a9d501-8455-47a7-89e3-f64d79342b50/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f1a9d501-8455-47a7-89e3-f64d79342b50/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f1a9d501-8455-47a7-89e3-f64d79342b50/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f2e75ef2-a570-4688-bb21-8e6ada49b218/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f2e75ef2-a570-4688-bb21-8e6ada49b218/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-f2e75ef2-a570-4688-bb21-8e6ada49b218/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/politrons/img/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/politrons/img/logout.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/politrons/img/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/politrons/img/send.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/politrons/img/start.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/politrons/img/stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/politrons/img/user.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/politrons/js/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fabea32e-ca5d-41da-a8a3-db0599c65b37/webroot/politrons/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fb5c69a9-fb2e-4569-9b06-fd2232ef7451/webroot/addUser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fb5c69a9-fb2e-4569-9b06-fd2232ef7451/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fb5c69a9-fb2e-4569-9b06-fd2232ef7451/webroot/politrons/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fb5c69a9-fb2e-4569-9b06-fd2232ef7451/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fb5c69a9-fb2e-4569-9b06-fd2232ef7451/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fb5c69a9-fb2e-4569-9b06-fd2232ef7451/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fb5c69a9-fb2e-4569-9b06-fd2232ef7451/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fb5c69a9-fb2e-4569-9b06-fd2232ef7451/webroot/politrons/js/vertxbus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fe7f240d-a7be-44e9-8d5f-6792cf24e7b9/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ff79e20d-780c-48d1-be1b-b9eba2d0234f/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ff79e20d-780c-48d1-be1b-b9eba2d0234f/webroot/politrons/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-ff79e20d-780c-48d1-be1b-b9eba2d0234f/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fff2f1b3-f6b5-45aa-bc3e-7a36f773b72f/webroot/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fff2f1b3-f6b5-45aa-bc3e-7a36f773b72f/webroot/politrons/img/vertx.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fff2f1b3-f6b5-45aa-bc3e-7a36f773b72f/webroot/politrons/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fff2f1b3-f6b5-45aa-bc3e-7a36f773b72f/webroot/politrons/js/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fff2f1b3-f6b5-45aa-bc3e-7a36f773b72f/webroot/politrons/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fff2f1b3-f6b5-45aa-bc3e-7a36f773b72f/webroot/politrons/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vertx/file-cache-fff2f1b3-f6b5-45aa-bc3e-7a36f773b72f/webroot/politrons/js/vertxbus.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/addUser.html" afterPath="$PROJECT_DIR$/src/main/resources/webroot/addUser.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/webroot/addUser.html" afterPath="$PROJECT_DIR$/target/classes/webroot/addUser.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/politrons/js/geolocation.js" afterPath="$PROJECT_DIR$/src/main/resources/webroot/politrons/js/geolocation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/webroot/politrons/js/geolocation.js" afterPath="$PROJECT_DIR$/target/classes/webroot/politrons/js/geolocation.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/politrons/index.html" afterPath="$PROJECT_DIR$/src/main/resources/webroot/politrons/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/webroot/politrons/index.html" afterPath="$PROJECT_DIR$/target/classes/webroot/politrons/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/login.html" afterPath="$PROJECT_DIR$/src/main/resources/webroot/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/webroot/login.html" afterPath="$PROJECT_DIR$/target/classes/webroot/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/politrons/tracking.html" afterPath="$PROJECT_DIR$/src/main/resources/webroot/politrons/tracking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/webroot/politrons/tracking.html" afterPath="$PROJECT_DIR$/target/classes/webroot/politrons/tracking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vertService.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +873,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="VertxRest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="VertxRest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="111" column="30" selection-start-line="111" selection-start-column="30" selection-end-line="111" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.2248394">
+              <caret line="212" column="31" selection-start-line="212" selection-start-column="31" selection-end-line="212" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2692#2693#0" expanded="true" />
@@ -66,8 +912,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state vertical-scroll-proportion="-18.375">
+              <caret line="122" column="5" selection-start-line="101" selection-start-column="4" selection-end-line="122" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -78,8 +924,8 @@
       <file leaf-file-name="tracking.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/tracking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.625">
-              <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+            <state vertical-scroll-proportion="-2.5">
+              <caret line="49" column="80" selection-start-line="49" selection-start-column="80" selection-end-line="49" selection-end-column="80" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -101,7 +947,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/js/geolocation.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -124,18 +970,18 @@
       <file leaf-file-name="addUser.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/addUser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state vertical-scroll-proportion="-17.125">
+              <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7267442">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state vertical-scroll-proportion="-20.0">
+              <caret line="56" column="21" selection-start-line="56" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -204,12 +1050,12 @@
         <option value="$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java" />
         <option value="$PROJECT_DIR$/src/main/resources/webroot/politrons/js/index.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/webroot/politrons/js/geolocation.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/webroot/politrons/tracking.html" />
         <option value="$PROJECT_DIR$/src/main/resources/webroot/politrons/chat.html" />
         <option value="$PROJECT_DIR$/src/main/resources/webroot/politrons/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/webroot/addUser.html" />
         <option value="$PROJECT_DIR$/src/main/resources/webroot/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/webroot/addUser.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/webroot/politrons/js/geolocation.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/webroot/politrons/tracking.html" />
       </list>
     </option>
   </component>
@@ -1077,25 +1923,26 @@
       <workItem from="1442842132106" duration="184000" />
       <workItem from="1442902625575" duration="13627000" />
       <workItem from="1443092968714" duration="60327000" />
-      <workItem from="1443524787589" duration="26701000" />
+      <workItem from="1443524787589" duration="28408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117089000" />
+    <option name="totallyTimeSpent" value="118796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="23" width="1881" height="1057" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53222454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40956342" sideWeight="0.4980968" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40956342" sideWeight="0.4980968" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40956342" sideWeight="0.50190324" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1106,12 +1953,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22457857" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22457857" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744282" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53222454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1182,8 +2028,20 @@
           <properties />
           <option name="timeStamp" value="163" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java</url>
+          <line>159</line>
+          <properties />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java</url>
+          <line>208</line>
+          <properties />
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="177" />
+      <option name="time" value="179" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1570,18 +2428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="111" column="30" selection-start-line="111" selection-start-column="30" selection-end-line="111" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2692#2693#0" expanded="true" />
-            <element signature="e#2726#2727#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/mod/UserMongoWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1600,39 +2446,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/js/geolocation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/tracking.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.625">
-          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1648,19 +2466,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/addUser.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-18.375">
+          <caret line="122" column="5" selection-start-line="101" selection-start-column="4" selection-end-line="122" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7267442">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state vertical-scroll-proportion="-20.0">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/addUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.125">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/js/geolocation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/tracking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="49" column="80" selection-start-line="49" selection-start-column="80" selection-end-line="49" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/politrons/VertxRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2248394">
+          <caret line="212" column="31" selection-start-line="212" selection-start-column="31" selection-end-line="212" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2692#2693#0" expanded="true" />
+            <element signature="e#2726#2727#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

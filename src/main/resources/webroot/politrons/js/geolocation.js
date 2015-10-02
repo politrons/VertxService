@@ -34,12 +34,12 @@ var geolocation = (function () {
         startTrakingButton.unbind('click');
         startTrakingButton.on('click', function () {
             stop = false;
-            $("#startTrakingButton").attr("disabled", "disabled");
+            $("#startTrakingButton").hide();
             startTraking();
         });
         $("#stopTrakingButton").on('click', function () {
             stopTracking();
-            $("#startTrakingButton").removeAttr("disabled");
+            $("#startTrakingButton").show();
         });
     }
 
