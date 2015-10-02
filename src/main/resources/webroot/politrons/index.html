@@ -7,10 +7,10 @@
 <section id='mainSection'>
 
     <h2>
-        <img src="img/vertx.jpeg" width="30" height="20"/>  Politrons
+        <img src="img/vertx.jpeg" width="30" height="20"/> Politrons
     </h2>
 
-    <div style="text-align: right">
+    <div style="text-align: right;height: 0px">
         <p>
             <img src="img/user.gif" width="20" height="15"/>
             <label id="userLogged"></label>
@@ -21,9 +21,9 @@
     </div>
     <p>
 
-        <a href="../addUser.html">Accounts </a> |
-        <a href="tracking.html">Tracking </a> |
-        <a href="chat.html">Chat</a>
+        <a href="../addUser.html"><img src="img/addAccount.png" width="40" height="40"></a>
+        <a href="tracking.html"><img src="img/tracking2.png" width="40" height="40"></a>
+        <a href="chat.html"><img src="img/chat.jpg" width="40" height="40"></a>
     </p>
     <fieldset>
         <legend>
@@ -63,22 +63,23 @@
             <h3>User</h3>
         </legend>
         <div id="addUser">
-            <input type="hidden" id="inputUserId" type="text"/>
-            <input type="hidden" id="inputUserLongitude" type="text"/>
-            <input type="hidden" id="inputUserLatitude" type="text"/>
+            <div class="container">
+                <input type="hidden" id="inputUserId" type="text"/>
+                <input type="hidden" id="inputUserLongitude" type="text"/>
+                <input type="hidden" id="inputUserLatitude" type="text"/>
 
-            <p><label id="inputUserNameLabel" type="text">User name<input id="inputUserName" type="text"/></label></p>
+                <p><label id="inputUserNameLabel" type="text">User name<input id="inputUserName" type="text"/></label></p>
 
-            <p><label id="inputUserEmailLabel" type="text">Email<input id="inputUserEmail" type="text"/></label></p>
+                <p><label id="inputUserEmailLabel" type="text">Email<input id="inputUserEmail" type="text"/></label></p>
 
-            <p><label id="inputUserFullnameLabel" type="text">Full name<input id="inputUserFullname" type="text"/></label></p>
+                <p><label id="inputUserFullnameLabel" type="text">Full name<input id="inputUserFullname" type="text"/></label></p>
 
-            <p><label id="inputUserAgeLabel" type="text">Age<input id="inputUserAge" type="text"/></label></p>
+                <p><label id="inputUserAgeLabel" type="text">Age<input id="inputUserAge" type="text"/></label></p>
 
-            <p><label id="inputUserLocationLabel" type="text">Location<input id="inputUserLocation" type="text"/></label></p>
+                <p><label id="inputUserLocationLabel" type="text">Location<input id="inputUserLocation" type="text"/></label></p>
 
-            <p><label id="inputUserGenderLabel" type="text">Gender<input id="inputUserGender" type="text"/></label></p>
-
+                <p><label id="inputUserGenderLabel" type="text">Gender<input id="inputUserGender" type="text"/></label></p>
+            </div>
             <p>
                 <input type="button" id="addUserButtonId" value="Add"/>
                 <input type="button" id="busAddUserButtonId" value="Add-eb"/>
@@ -99,7 +100,15 @@
 
 
 <style>
+    .container {
+        width: 300px;
+        clear: both;
+    }
 
+    .container input {
+        width: 100%;
+        clear: both;
+    }
 
     title {
 
@@ -136,7 +145,7 @@
     }
 
     p {
-        margin: 0 0 20px 0;
+        margin: 0 0 0px 0;
     }
 
     .clearb {

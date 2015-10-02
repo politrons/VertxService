@@ -11,13 +11,15 @@
             <h2>Login</h2><br>
         </legend>
         <form action="/loginhandler" method="post">
-            <div>
-                <label>Username:</label>
-                <input type="text" name="username"/>
-            </div>
-            <div>
-                <label>Password:</label>
-                <input type="password" name="password"/>
+            <div class="container">
+                <div>
+                    <label>Username:</label>
+                    <input type="text" name="username"/>
+                </div>
+                <div>
+                    <label>Password:</label>
+                    <input type="password" name="password"/>
+                </div>
             </div>
             <footer>
                 <div>
@@ -32,6 +34,16 @@
 
 
 <style>
+
+    .container {
+        width: 300px;
+        clear: both;
+    }
+
+    .container input {
+        width: 100%;
+        clear: both;
+    }
 
     /* misc start */
     * {
