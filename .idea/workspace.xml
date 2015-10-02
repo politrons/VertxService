@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c913bacf-2db2-4c98-9e0f-987814247985" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/politrons/chat.html" afterPath="$PROJECT_DIR$/src/main/resources/webroot/politrons/chat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/politrons/index.html" afterPath="$PROJECT_DIR$/src/main/resources/webroot/politrons/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/login.html" afterPath="$PROJECT_DIR$/src/main/resources/webroot/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/webroot/politrons/tracking.html" afterPath="$PROJECT_DIR$/src/main/resources/webroot/politrons/tracking.html" />
     </list>
     <ignored path="vertService.iws" />
@@ -76,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tracking.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tracking.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/tracking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="31.25">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.49418604">
+              <caret line="106" column="20" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -108,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chat.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/chat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41860464">
-              <caret line="39" column="75" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+            <state vertical-scroll-proportion="-10.875">
+              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#textarea#0;n#p#0;n#div#0;n#fieldset#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -208,9 +205,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/webroot/addUser.html" />
         <option value="$PROJECT_DIR$/src/main/resources/webroot/politrons/js/geolocation.js" />
         <option value="$PROJECT_DIR$/src/main/resources/webroot/politrons/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/webroot/politrons/tracking.html" />
         <option value="$PROJECT_DIR$/src/main/resources/webroot/login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/webroot/politrons/chat.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/webroot/politrons/tracking.html" />
       </list>
     </option>
   </component>
@@ -1078,12 +1075,12 @@
       <workItem from="1442842132106" duration="184000" />
       <workItem from="1442902625575" duration="13627000" />
       <workItem from="1443092968714" duration="60327000" />
-      <workItem from="1443524787589" duration="29025000" />
+      <workItem from="1443524787589" duration="29072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119413000" />
+    <option name="totallyTimeSpent" value="119460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="23" width="1881" height="1057" extended-state="6" />
@@ -1643,24 +1640,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/tracking.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="31.25">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/chat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41860464">
-          <caret line="39" column="75" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+        <state vertical-scroll-proportion="-10.875">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#textarea#0;n#p#0;n#div#0;n#fieldset#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#p#1;n#div#0;n#fieldset#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webroot/politrons/tracking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49418604">
+          <caret line="106" column="20" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
