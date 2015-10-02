@@ -34,12 +34,36 @@
             </footer>
         </form>
     </fieldset>
+    <fieldset>
+        <legend><h2>Account users</h2><br>
+        </legend>
+        <div id="userList">
+            <table>
+                <thead>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Action
+                </th>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </fieldset>
 </section>
 </body>
 </html>
 
+<script src="politrons/js/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"></script>
+<script src="politrons/js/vertxbus.js"></script>
+<script src="politrons/js/accountUsers.js"></script>
+<script src="politrons/js/index.js"></script>
 
 <style>
+
     fieldset {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -54,7 +78,7 @@
         top: 0;
         padding: 0;
         display: block;
-        width: 350px;
+        width: 300px;
         margin-bottom: 3px;
         font-size: 13.5px;
         line-height: 23px;
@@ -90,7 +114,7 @@
         background-color: #D9F8F2;
         float: left;
         width: auto;
-        height: auto;
+        height: 450px;
     }
 
     #sideBox1 {

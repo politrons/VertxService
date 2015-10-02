@@ -24,6 +24,7 @@ import java.util.List;
 @Component
 public class UserMongoWorker extends AbstractVerticle {
 
+    public static final String MONGO_DELETE_USER_LOGIN = "mongo.delete.user.login";
     Logger logger = LoggerFactory.getLogger(UserMongoWorker.class);
 
     public static final String MONGO_FIND_USER = "mongo.find.user";
@@ -32,6 +33,7 @@ public class UserMongoWorker extends AbstractVerticle {
     public static final String MONGO_FIND_USERS = "mongo.find.users";
     public static final String MONGO_UPDATE_USER = "mongo.update.user";
     public static final String MONGO_TRACK_USER = "mongo.track.user";
+    public static final String MONGO_FIND_USERS_LOGIN = "mongo.find.users.login";
     public static final String STATUS = "status";
     public static final int SUCCESS = 1;
     public static final int ERROR = 0;
@@ -96,6 +98,17 @@ public class UserMongoWorker extends AbstractVerticle {
             query.put("_id", jsonObject.getString("_id"));
             mongo.findOne("users", query, null, getUserTrackAsyncResultHandler(eb));
         });
+        eb.consumer(MONGO_FIND_USERS_LOGIN, message -> {
+            logger.info("[Worker] find users name" + Thread.currentThread().getName());
+            mongo.find("user_login", new JsonObject(), getUsersLoginAsyncResultHandler(eb));
+        });
+        eb.consumer(MONGO_DELETE_USER_LOGIN, message -> {
+            logger.info("[Worker] delete user name" + Thread.currentThread().getName());
+            JsonObject query = new JsonObject();
+            query.put("username", message.body());
+            mongo.removeOne("user_login", new JsonObject().put("_id", message.body()), deleteUserLoginAsyncResultHandler(eb));
+        });
+
 
 
     }
@@ -112,6 +125,21 @@ public class UserMongoWorker extends AbstractVerticle {
                 json.add(o);
             }
             eb.publish(VertxRest.FIND_USERS_CLIENT, json.encode());
+        };
+    }
+
+    /**
+     * Callback method to be invoked with the result of the users login find
+     * @param eb
+     * @return
+     */
+    private Handler<AsyncResult<List<JsonObject>>> getUsersLoginAsyncResultHandler(final EventBus eb) {
+        return lookup -> {
+            final JsonArray json = new JsonArray();
+            for (JsonObject o : lookup.result()) {
+                json.add(o);
+            }
+            eb.publish(VertxRest.FIND_USERS_LOGIN_CLIENT, json.encode());
         };
     }
 
@@ -154,6 +182,20 @@ public class UserMongoWorker extends AbstractVerticle {
             JsonObject jsonObject = new JsonObject();
             jsonObject.put(STATUS, SUCCESS);
             eb.publish(VertxRest.DELETE_USER_CLIENT, jsonObject.encode());
+        };
+    }
+
+    /**
+     * Callback method to be invoked with the result of the login account delete transaction
+     *
+     * @param eb
+     * @return
+     */
+    private Handler<AsyncResult<Void>> deleteUserLoginAsyncResultHandler(final EventBus eb) {
+        return lookup -> {
+            JsonObject jsonObject = new JsonObject();
+            jsonObject.put(STATUS, SUCCESS);
+            eb.publish(MONGO_FIND_USERS_LOGIN, null);
         };
     }
 

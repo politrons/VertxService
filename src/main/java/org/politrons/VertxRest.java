@@ -43,6 +43,8 @@ import java.util.List;
 @Component
 public class VertxRest extends AbstractVerticle {
 
+    public static final String DELETE_USER_LOGIN_SERVER = "delete.user.login.server";
+    public static final String DELETE_USER_LOGIN_CLIENT = "delete.user.login.client";
     Logger logger = LoggerFactory.getLogger(VertxRest.class);
 
     public static final String FIND_USER_SERVER = "find.user.server";
@@ -58,7 +60,8 @@ public class VertxRest extends AbstractVerticle {
     public static final String TRACK_USER_CLIENT = "track.user.client";
     public static final String CHAT_USER_SERVER = "chat.user.server";
     public static final String CHAT_USER_CLIENT = "chat.user.client";
-    public static final String FIND_USER_ID_SERVER = "find.user.id.server";
+    public static final String FIND_USERS_LOGIN_SERVER = "find.users.login.server";
+    public static final String FIND_USERS_LOGIN_CLIENT = "find.users.login.client";
     public static final String DELETE = "delete";
     public static final String WRITE = "write";
 
@@ -290,7 +293,11 @@ public class VertxRest extends AbstractVerticle {
                 .addInboundPermitted(new PermittedOptions().setAddress(TRACK_USER_SERVER).setRequiredAuthority(WRITE))
                 .addOutboundPermitted(new PermittedOptions().setAddress(TRACK_USER_CLIENT))
                 .addInboundPermitted(new PermittedOptions().setAddress(CHAT_USER_SERVER))
-                .addOutboundPermitted(new PermittedOptions().setAddress(CHAT_USER_CLIENT));
+                .addOutboundPermitted(new PermittedOptions().setAddress(CHAT_USER_CLIENT))
+                .addInboundPermitted(new PermittedOptions().setAddress(FIND_USERS_LOGIN_SERVER))
+                .addOutboundPermitted(new PermittedOptions().setAddress(FIND_USERS_LOGIN_CLIENT))
+                .addInboundPermitted(new PermittedOptions().setAddress(DELETE_USER_LOGIN_SERVER))
+                .addOutboundPermitted(new PermittedOptions().setAddress(DELETE_USER_LOGIN_CLIENT));
     }
 
     private void deployWorkers() {
@@ -325,6 +332,12 @@ public class VertxRest extends AbstractVerticle {
         });
         eb.consumer(CHAT_USER_SERVER).handler(message -> {
             eb.publish(CHAT_USER_CLIENT, message.body());
+        });
+        eb.consumer(FIND_USERS_LOGIN_SERVER).handler(message -> {
+            eb.send(UserMongoWorker.MONGO_FIND_USERS_LOGIN, message.body());
+        });
+        eb.consumer(DELETE_USER_LOGIN_SERVER).handler(message -> {
+            eb.send(UserMongoWorker.MONGO_DELETE_USER_LOGIN, message.body());
         });
 
 

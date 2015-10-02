@@ -34,10 +34,9 @@
         </legend>
         <div id="chat">
             <p><textarea id="chatTextArea" rows="15" cols="40" style="font-size:large;color:teal" disabled></textarea></p>
-
             <p>
-                <input id="inputChat" size="30" type="text" style="height: 50px;font-size: 14pt"/>
-                <img id="sendText" src="img/send.png" width="30" height="30">
+                <input id="inputChat" size="35" type="text" style="height: 50px;font-size: 14pt"/>
+                <img id="sendText" src="img/send.png" width="40" height="40">
             </p>
         </div>
     </fieldset>
@@ -48,11 +47,34 @@
 <script src="js/jquery.min.js"></script>
 <script src="//cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"></script>
 <script src="js/vertxbus.js"></script>
-<script src="js/index.js"></script>
 <script src="js/chat.js"></script>
+<script src="js/index.js"></script>
 
 
 <style>
+
+    fieldset {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 0;
+        padding: 0;
+        min-width: 0;
+        border-radius: 4px;
+    }
+
+    legend {
+        position: relative;
+        top: 0;
+        padding: 0;
+        display: block;
+        width: 100%;
+        margin-bottom: 3px;
+        font-size: 13.5px;
+        line-height: 23px;
+        color: #2AA623;
+        border: 0;
+        border-bottom: 2px solid #2AA623;;
+    }
 
     /* misc start */
     * {

@@ -27,6 +27,9 @@ var index = (function () {
             if (typeof chat !== "undefined") {
                 chat.registerHandlers(eb);
             }
+            if (typeof accountUsers !== "undefined") {
+                accountUsers.registerHandlers(eb);
+            }
         };
         eb.onclose = function () {
             eb = null;
