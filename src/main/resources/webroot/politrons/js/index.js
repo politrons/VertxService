@@ -30,6 +30,9 @@ var index = (function () {
             if (typeof accountUsers !== "undefined") {
                 accountUsers.registerHandlers(eb);
             }
+            if (typeof videoConference !== "undefined") {
+                videoConference.registerHandlers(eb);
+            }
         };
         eb.onclose = function () {
             eb = null;

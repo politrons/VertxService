@@ -45,6 +45,8 @@ public class VertxRest extends AbstractVerticle {
 
     public static final String DELETE_USER_LOGIN_SERVER = "delete.user.login.server";
     public static final String DELETE_USER_LOGIN_CLIENT = "delete.user.login.client";
+    public static final String VIDEO_USER_SERVER = "video.user.server";
+    public static final String VIDEO_USER_CLIENT = "video.user.client";
     Logger logger = LoggerFactory.getLogger(VertxRest.class);
 
     public static final String FIND_USER_SERVER = "find.user.server";
@@ -297,7 +299,9 @@ public class VertxRest extends AbstractVerticle {
                 .addInboundPermitted(new PermittedOptions().setAddress(FIND_USERS_LOGIN_SERVER))
                 .addOutboundPermitted(new PermittedOptions().setAddress(FIND_USERS_LOGIN_CLIENT))
                 .addInboundPermitted(new PermittedOptions().setAddress(DELETE_USER_LOGIN_SERVER))
-                .addOutboundPermitted(new PermittedOptions().setAddress(DELETE_USER_LOGIN_CLIENT));
+                .addOutboundPermitted(new PermittedOptions().setAddress(DELETE_USER_LOGIN_CLIENT))
+                .addInboundPermitted(new PermittedOptions().setAddress(VIDEO_USER_SERVER))
+                .addOutboundPermitted(new PermittedOptions().setAddress(VIDEO_USER_CLIENT));
     }
 
     private void deployWorkers() {
@@ -339,7 +343,9 @@ public class VertxRest extends AbstractVerticle {
         eb.consumer(DELETE_USER_LOGIN_SERVER).handler(message -> {
             eb.send(UserMongoWorker.MONGO_DELETE_USER_LOGIN, message.body());
         });
-
+        eb.consumer(VIDEO_USER_SERVER).handler(message -> {
+            eb.publish(VIDEO_USER_CLIENT, message.body());
+        });
 
     }
 

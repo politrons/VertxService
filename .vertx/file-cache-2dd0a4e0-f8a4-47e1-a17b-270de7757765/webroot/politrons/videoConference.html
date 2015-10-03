@@ -1,0 +1,135 @@
+<html>
+<head>
+    <title>Video</title>
+
+
+    <fieldset>
+        <legend>
+            <h3>
+                Video users
+            </h3>
+        </legend>
+        <div id="videoConference">
+            <img id='incomingVideo'>
+            <img id="startVideoButton" src="img/start.png" width="40" height="40">
+            <img id="stopVideoButton" src="img/stop.png" width="40" height="40">
+        </div>
+    </fieldset>
+
+
+    <style>
+        video {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<video autoplay></video>
+<canvas id='myCanvas' width='800' height='600'></canvas>
+<script src="js/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"></script>
+<script src="js/vertxbus.js"></script>
+<script src="js/videoConference.js"></script>
+<script src="js/index.js"></script>
+
+<script>
+    window.URL = window.URL || window.webkitURL;
+    navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
+    navigator.getUserMedia({audio: true, video: true}, function (vid) {
+        videoReady = true;
+        document.querySelector('video').src = window.URL.createObjectURL(vid);
+    });
+    window.requestAnimFrame = (function (callback) {
+        return window.requestAnimationFrame ||
+                window.webkitRequestAnimationFrame ||
+                window.mozRequestAnimationFrame ||
+                window.oRequestAnimationFrame ||
+                window.msRequestAnimationFrame ||
+                function (callback) {
+                    window.setTimeout(callback, 1000 / 100);
+                };
+    })();
+</script>
+
+</body>
+</html>
+
+
+<style>
+
+    fieldset {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 0;
+        padding: 0;
+        min-width: 0;
+        border-radius: 4px;
+    }
+
+    legend {
+        position: relative;
+        top: 0;
+        padding: 0;
+        display: block;
+        width: 100%;
+        margin-bottom: 3px;
+        font-size: 13.5px;
+        line-height: 23px;
+        color: #2AA623;
+        border: 0;
+        border-bottom: 2px solid #2AA623;;
+    }
+
+    /* misc start */
+    * {
+        margin: 0px;
+        padding: 2px
+    }
+
+    body {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    p {
+        margin: 0 0 0px 0;
+    }
+
+    #responsiveLogo img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    /* navigation end */
+
+    /* middle section start */
+    #mainSection {
+        background-color: #D9F8F2;
+        float: left;
+        width: auto;
+        height: auto;
+    }
+
+    #sideBox1 {
+        background-color: #C9A449;
+        width: 96%;
+    }
+
+    #mainSection, #sideBox1 {
+        overflow: auto;
+        padding: 2%;
+    }
+
+    /* middle section end */
+
+    /* footer start */
+    footer {
+        background-color: #D9F8F2;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* footer end */
+
+</style>
