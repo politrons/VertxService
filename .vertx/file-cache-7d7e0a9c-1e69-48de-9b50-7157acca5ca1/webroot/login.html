@@ -1,0 +1,111 @@
+<html>
+<head>
+    <meta name="viewport"
+          content="user-scalable=no,width=device-width"/>
+</head>
+
+<body>
+<section id='mainSection'>
+    <fieldset>
+        <legend>
+            <h2>Login</h2><br>
+        </legend>
+        <form action="/loginhandler" method="post">
+            <div>
+                <label>Username:</label>
+                <input type="text" name="username"/>
+            </div>
+            <div>
+                <label>Password:</label>
+                <input type="password" name="password"/>
+            </div>
+            <footer>
+                <div>
+                    <input type="submit" value="Log In"/>
+                </div>
+            </footer>
+        </form>
+    </fieldset>
+</section>
+</body>
+</html>
+
+
+<style>
+
+    fieldset {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 0;
+        padding: 0;
+        min-width: 0;
+        border-radius: 4px;
+    }
+
+    legend {
+        position: relative;
+        top: 0;
+        padding: 0;
+        display: block;
+        width: 300px;
+        margin-bottom: 3px;
+        font-size: 13.5px;
+        line-height: 23px;
+        color: #2AA623;
+        border: 0;
+        border-bottom: 2px solid #2AA623;
+        height: 35px;
+    }
+    /* misc start */
+    * {
+        margin: 0px;
+        padding: 5px
+    }
+
+    body {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    p {
+        margin: 0 0 20px 0;
+    }
+
+    #responsiveLogo img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    /* navigation end */
+
+    /* middle section start */
+    #mainSection {
+        background-color: #D9F8F2;
+        float: left;
+        width: auto;
+        height: 450px;
+    }
+
+    #sideBox1 {
+        background-color: #C9A449;
+        width: 96%;
+    }
+
+    #mainSection, #sideBox1 {
+        overflow: auto;
+        padding: 2%;
+    }
+
+    /* middle section end */
+
+    /* footer start */
+    footer {
+        background-color: #D9F8F2;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* footer end */
+
+</style>

@@ -12,12 +12,11 @@ var chat = (function () {
         ebChat.registerHandler("chat.user.client", function (data) {
             addChatMessage(data);
         });
-
     }
 
     function addChatMessage(data) {
         $("#chatTextArea").append("");
-        $("#chatTextArea").append("\n" + data.username + ":"+  data.message);
+        $("#chatTextArea").append("\n" + data.username + ":" + data.message);
     }
 
     function initListener() {
@@ -38,6 +37,6 @@ var chat = (function () {
 
     return {
         registerHandlers: registerHandlers,
-        initListener: initListener
+        initListener: initListener,
     };
 }());

@@ -44,7 +44,6 @@ var accountUsers = (function () {
         userListData = data;
         var tableContent = '';
         $.each(data, function () {
-            debugger;
             if (this.username !== "politrons") {
                 tableContent += '<tr>';
                 tableContent += '<td>' + this.username + '</td>';

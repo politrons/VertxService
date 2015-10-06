@@ -2,6 +2,7 @@ package org.politrons;
 
 import io.vertx.core.*;
 import io.vertx.core.eventbus.EventBus;
+import io.vertx.core.eventbus.Message;
 import io.vertx.core.http.HttpHeaders;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
@@ -43,12 +44,15 @@ import java.util.List;
 @Component
 public class VertxRest extends AbstractVerticle {
 
+    public static final String ADD_LOGIN_USER_SERVER = "add.login.user.server";
+    Logger logger = LoggerFactory.getLogger(VertxRest.class);
+
     public static final String DELETE_USER_LOGIN_SERVER = "delete.user.login.server";
     public static final String DELETE_USER_LOGIN_CLIENT = "delete.user.login.client";
     public static final String VIDEO_USER_SERVER = "video.user.server";
     public static final String VIDEO_USER_CLIENT = "video.user.client";
-    Logger logger = LoggerFactory.getLogger(VertxRest.class);
-
+    public static final String UPDATE_USER_PAGE_SERVER = "update.user.page.server";
+    public static final String FIND_USERS_PAGE_SERVER = "find.users.page.server";
     public static final String FIND_USER_SERVER = "find.user.server";
     public static final String DELETE_USER_SERVER = "delete.user.server";
     public static final String DELETE_USER_CLIENT = "delete.user.client";
@@ -67,6 +71,9 @@ public class VertxRest extends AbstractVerticle {
     public static final String DELETE = "delete";
     public static final String WRITE = "write";
 
+    public static final String STATUS = "status";
+    public static final int SUCCESS = 1;
+    public static final int ERROR = 0;
 
     @Resource
     public void setVertx(Vertx vertx) {
@@ -147,7 +154,9 @@ public class VertxRest extends AbstractVerticle {
                             .put("fullname", routingContext.request().getFormAttribute("fullname"))
                             .put("location", routingContext.request().getFormAttribute("location"))
                             .put("age", routingContext.request().getFormAttribute("age"))
-                            .put("gender", routingContext.request().getFormAttribute("gender"));
+                            .put("gender", routingContext.request().getFormAttribute("gender"))
+                            .put("position", routingContext.request().getFormAttribute("position"))
+                            .put("page", routingContext.request().getFormAttribute("page"));
                     mongo.insert("users", jsonObject, insertUserAsyncResultHandler(routingContext));
                 } else {
                     routingContext.fail(403);  // Failed creation
@@ -161,11 +170,11 @@ public class VertxRest extends AbstractVerticle {
             User user = routingContext.user();
             routingContext.response().putHeader(HttpHeaders.CONTENT_TYPE, "application/json");
             JsonObject query = new JsonObject();
-            query.put("username", user.principal().getValue("username"));
-            mongo.findOne("users", query, null, getUserAsyncResultHandler(routingContext));
+            String username = (String)user.principal().getValue("username");
+            query.put("username", username);
+            mongo.findOne("users", query, null, getUserAsyncResultHandler(username, routingContext));
         });
     }
-
 
 
     private void setGetUsersRoute(final MongoClient mongo, final Router router) {
@@ -190,7 +199,7 @@ public class VertxRest extends AbstractVerticle {
                 if (hasPermission) {
                     JsonObject query = new JsonObject();
                     query.put(routingContext.request().getParam("attributeName"), routingContext.request().getParam("value"));
-                    mongo.findOne("users", query, null, getUserAsyncResultHandler(routingContext));
+                    mongo.findOne("users", query, null, getUserAsyncResultHandler(null, routingContext));
                 } else {
                     routingContext.fail(403);  // Failed creation
                 }
@@ -209,16 +218,25 @@ public class VertxRest extends AbstractVerticle {
         };
     }
 
-    private Handler<AsyncResult<JsonObject>> getUserAsyncResultHandler(final RoutingContext routingContext) {
+    private Handler<AsyncResult<JsonObject>> getUserAsyncResultHandler(final String username, final RoutingContext routingContext) {
         return lookup -> {
             if (lookup.failed()) {
                 routingContext.fail(lookup.cause());
                 return;
             }
-            final JsonObject json = lookup.result();
-            routingContext.response().putHeader(HttpHeaders.CONTENT_TYPE, "application/json");
-            // encode to json string
-            routingContext.response().end(json.encode());
+             JsonObject json = lookup.result();
+            if(json == null){
+                json = new JsonObject();
+                routingContext.response().putHeader(HttpHeaders.CONTENT_TYPE, "application/json");
+                json.put(STATUS, ERROR);
+                json.put("username", username);
+                routingContext.response().end(json.encode());
+            }else{
+                routingContext.response().putHeader(HttpHeaders.CONTENT_TYPE, "application/json");
+                json.put(STATUS, SUCCESS);
+                routingContext.response().end(json.encode());
+            }
+
         };
     }
 
@@ -301,7 +319,10 @@ public class VertxRest extends AbstractVerticle {
                 .addInboundPermitted(new PermittedOptions().setAddress(DELETE_USER_LOGIN_SERVER))
                 .addOutboundPermitted(new PermittedOptions().setAddress(DELETE_USER_LOGIN_CLIENT))
                 .addInboundPermitted(new PermittedOptions().setAddress(VIDEO_USER_SERVER))
-                .addOutboundPermitted(new PermittedOptions().setAddress(VIDEO_USER_CLIENT));
+                .addOutboundPermitted(new PermittedOptions().setAddress(VIDEO_USER_CLIENT))
+                .addInboundPermitted(new PermittedOptions().setAddress(UPDATE_USER_PAGE_SERVER))
+                .addInboundPermitted(new PermittedOptions().setAddress(FIND_USERS_PAGE_SERVER))
+                .addInboundPermitted(new PermittedOptions().setAddress(ADD_LOGIN_USER_SERVER));
     }
 
     private void deployWorkers() {
@@ -314,22 +335,31 @@ public class VertxRest extends AbstractVerticle {
      * @param eb
      */
     private void defineRestConsumers(final EventBus eb) {
+        eb.consumer(ADD_LOGIN_USER_SERVER).handler(message -> {
+            eb.send(UserMongoWorker.MONGO_ADD_USER, message.body(), res ->
+                    message.reply(res.result().body()));
+        });
         eb.consumer(ADD_USER_SERVER).handler(message -> {
-            eb.send(UserMongoWorker.MONGO_ADD_USER, message.body());
+            eb.send(UserMongoWorker.MONGO_ADD_USER, message.body(), res ->
+                    eb.publish(VertxRest.ADD_USER_CLIENT, getResult(res)));
         });
         eb.consumer(UPDATE_USER_SERVER).handler(message -> {
             eb.send(UserMongoWorker.MONGO_UPDATE_USER, message.body());
         });
         eb.consumer(FIND_USER_SERVER).handler(message -> {
             eb.send(UserMongoWorker.MONGO_FIND_USER, message.body(), res -> {
-                message.reply(res.result().body());
+                message.reply(getResult(res));
             });
         });
         eb.consumer(FIND_USERS_SERVER).handler(message -> {
-            eb.send(UserMongoWorker.MONGO_FIND_USERS, message.body());
+            eb.send(UserMongoWorker.MONGO_FIND_USERS, message.body(), res -> {
+                eb.publish(VertxRest.FIND_USERS_CLIENT, getResult(res));
+            });
         });
         eb.consumer(DELETE_USER_SERVER).handler(message -> {
-            eb.send(UserMongoWorker.MONGO_DELETE_USER, message.body());
+            eb.send(UserMongoWorker.MONGO_DELETE_USER, message.body(), res -> {
+                eb.publish(VertxRest.DELETE_USER_CLIENT, getResult(res));
+            });
         });
         eb.consumer(TRACK_USER_SERVER).handler(message -> {
             eb.send(UserMongoWorker.MONGO_TRACK_USER, message.body());
@@ -338,7 +368,9 @@ public class VertxRest extends AbstractVerticle {
             eb.publish(CHAT_USER_CLIENT, message.body());
         });
         eb.consumer(FIND_USERS_LOGIN_SERVER).handler(message -> {
-            eb.send(UserMongoWorker.MONGO_FIND_USERS_LOGIN, message.body());
+            eb.send(UserMongoWorker.MONGO_FIND_USERS_LOGIN, message.body(), res -> {
+                eb.publish(VertxRest.FIND_USERS_LOGIN_CLIENT, getResult(res));
+            });
         });
         eb.consumer(DELETE_USER_LOGIN_SERVER).handler(message -> {
             eb.send(UserMongoWorker.MONGO_DELETE_USER_LOGIN, message.body());
@@ -346,7 +378,21 @@ public class VertxRest extends AbstractVerticle {
         eb.consumer(VIDEO_USER_SERVER).handler(message -> {
             eb.publish(VIDEO_USER_CLIENT, message.body());
         });
+        eb.consumer(UPDATE_USER_PAGE_SERVER).handler(message -> {
+            eb.send(UserMongoWorker.MONGO_UPDATE_USER_PAGE, message.body(), res -> {
+                message.reply(res.result().body());
+            });
+        });
+        eb.consumer(FIND_USERS_PAGE_SERVER).handler(message -> {
+            eb.send(UserMongoWorker.MONGO_FIND_USERS_PAGE, message.body(), res -> {
+                message.reply(res.result().body());
+            });
+        });
 
+    }
+
+    private Object getResult(final AsyncResult<Message<Object>> res) {
+        return res.result().body();
     }
 
 

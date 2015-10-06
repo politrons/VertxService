@@ -21,6 +21,7 @@
     <input type="hidden" id="inputUserId" type="text"/>
     <input type="hidden" id="inputUserLongitude" type="text"/>
     <input type="hidden" id="inputUserLatitude" type="text"/>
+    <input type="hidden" id="inputUserPage" type="text" value="chat"/>
     <input id="inputUserFullname" type="hidden"/>
     <input id="inputUserName" type="hidden"/>
     <input id="inputUserEmail" type="hidden"/>
@@ -28,14 +29,19 @@
     <input id="inputUserLocation" type="hidden"/>
     <input id="inputUserGender" type="hidden"/>
 
+    <select id="userConnected" class="userConnected">
+    </select>
+
     <fieldset>
         <legend>
             <h3>Chat users</h3>
         </legend>
         <div id="chat">
-            <p><textarea id="chatTextArea" rows="15" cols="40" style="font-size:large;color:teal" disabled></textarea></p>
             <p>
-                <input id="inputChat" size="35" type="text" style="height: 50px;font-size: 14pt"/>
+                <textarea id="chatTextArea" rows="15" cols="40" style="font-size:large;color:indigo" disabled></textarea>
+            </p>
+            <p>
+                <input id="inputChat" size="30" type="text" style="height: 50px;font-size: 14pt"/>
                 <img id="sendText" src="img/send.png" width="40" height="40">
             </p>
         </div>
@@ -52,6 +58,13 @@
 
 
 <style>
+
+    .userConnected {
+        margin-top: 14px;
+        margin-bottom: -10px;
+        float: right;
+        margin-left: -110px;
+    }
 
     fieldset {
         margin-top: 10px;

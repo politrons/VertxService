@@ -22,12 +22,16 @@
     <input type="hidden" id="inputUserId" type="text"/>
     <input type="hidden" id="inputUserLongitude" type="text"/>
     <input type="hidden" id="inputUserLatitude" type="text"/>
+    <input type="hidden" id="inputUserPage" type="text" value="traking"/>
     <input id="inputUserFullname" type="hidden"/>
     <input id="inputUserName" type="hidden"/>
     <input id="inputUserEmail" type="hidden"/>
     <input id="inputUserAge" type="hidden"/>
     <input id="inputUserLocation" type="hidden"/>
     <input id="inputUserGender" type="hidden"/>
+
+    <select id="userConnected" class="userConnected">
+    </select>
 
     <fieldset>
         <legend>
@@ -56,6 +60,12 @@
 
 <style>
 
+    .userConnected {
+        margin-top: 25px;
+        margin-bottom: -10px;
+        float: right;
+    }
+    
     fieldset {
         margin-top: 10px;
         margin-bottom: 10px;

@@ -2,7 +2,7 @@
 $(document).ready(function () {
     index.getMyUser();
     index.populateTable();
-    index.initEventBus();
+    //index.initEventBus();
     index.initListener();
     $("#redEvent").hide();
     $("#greenEvent").hide();
@@ -17,28 +17,63 @@ var index = (function () {
         return eb;
     }
 
-    function initEventBus() {
+    /**
+     * First of all we get the information of the logged user
+     */
+    function getMyUser() {
+        $.getJSON('/politrons/myUser', function (data) {
+            if(data.status === 1){
+                $("#userLogged").text(data.username);
+                setUserInformation(data);
+                initEventBus(true);
+            }else{
+                initEventBus(false, data.username);
+            }
+
+        });
+    };
+
+    /**
+     * We initialize the event listener and the register handler for all our possible pages
+     */
+    function initEventBus(userExist, username) {
         eb = new vertx.EventBus("/politrons/eventbus/");
         eb.onopen = function () {
-            registerHandlers();
-            if (typeof geolocation !== "undefined") {
-                geolocation.registerHandlers(eb);
+            if(userExist === false){
+                var newUser = getUserData();
+                newUser.username = username;
+                eb.send("add.login.user.server", newUser, function(){
+                    getMyUser();
+                });
+            }else{
+                registerEventBusHandlers();
             }
-            if (typeof chat !== "undefined") {
-                chat.registerHandlers(eb);
-            }
-            if (typeof accountUsers !== "undefined") {
-                accountUsers.registerHandlers(eb);
-            }
-            if (typeof videoConference !== "undefined") {
-                videoConference.registerHandlers(eb);
-            }
+
         };
         eb.onclose = function () {
             eb = null;
             $("#redEvent").show();
             console.log("event bus socket closed")
         };
+    }
+
+    function registerEventBusHandlers(){
+        registerHandlers();
+        if (typeof geolocation !== "undefined") {
+            geolocation.registerHandlers(eb);
+            updateUserPageStatus("tracking")
+        }
+        if (typeof chat !== "undefined") {
+            chat.registerHandlers(eb);
+            updateUserPageStatus("chat")
+        }
+        if (typeof accountUsers !== "undefined") {
+            accountUsers.registerHandlers(eb);
+        }
+        if (typeof videoConference !== "undefined") {
+            videoConference.registerHandlers(eb);
+            updateUserPageStatus("video")
+        }
     }
 
     /**
@@ -68,6 +103,26 @@ var index = (function () {
         });
     }
 
+
+    function updateUserPageStatus(page) {
+        var pageMessage = {
+            'username': $("#userLogged").text(),
+            'page': page
+        };
+        eb.send("update.user.page.server", pageMessage, function (data) {
+            findUsersPerPage();
+        });
+    }
+
+    function findUsersPerPage() {
+        eb.send("find.users.page.server", 'chat', function (data) {
+            var users = jQuery.parseJSON(data);
+            $.each(users, function () {
+                $("#userConnected").append("<option value="+this.username+">"+this.username+"</option>");
+            });
+        });
+    }
+
     /**
      * Event Listener of our elememnt pages
      */
@@ -82,12 +137,6 @@ var index = (function () {
         searchByButton.on('click', function () {
             var selectedOption = $('#searchBy').find(":selected").val();
             searchBy(selectedOption, $("#inputSearchBy").val());
-        });
-
-        var addUserButtonId = $("#addUserButtonId");
-        addUserButtonId.unbind('click');
-        addUserButtonId.on('click', function () {
-            addUser();
         });
         var busAddUserButtonId = $("#busAddUserButtonId");
         busAddUserButtonId.unbind('click');
@@ -140,10 +189,12 @@ var index = (function () {
             'age': $('#inputUserAge').val(),
             'location': $('#inputUserLocation').val(),
             'gender': $('#inputUserGender').val(),
+            'page': $('#inputUserPage').val(),
             'position': {
                 "latitude": $('#inputUserLatitude').val(),
                 "longitude": $('#inputUserLongitude').val()
             }
+
         };
         return newUser;
     }
@@ -166,13 +217,6 @@ var index = (function () {
         });
     }
 
-    function getMyUser() {
-        $.getJSON('/politrons/myUser', function (data) {
-            $("#userLogged").text(data.username);
-            setUserInformation(data);
-        });
-    };
-
     function populateTable() {
         $.getJSON('/politrons/users', function (data) {
             loadTable(data);
@@ -194,7 +238,6 @@ var index = (function () {
         initListener();
     }
 
-// Add User
     function addUser() {
         $.ajax({
             type: 'POST',

@@ -34,6 +34,9 @@ public class UserMongoWorker extends AbstractVerticle {
     public static final String MONGO_UPDATE_USER = "mongo.update.user";
     public static final String MONGO_TRACK_USER = "mongo.track.user";
     public static final String MONGO_FIND_USERS_LOGIN = "mongo.find.users.login";
+    public static final String MONGO_UPDATE_USER_PAGE = "mongo.update.user.page";
+    public static final String MONGO_FIND_USERS_PAGE = "mongo.find.users.page";
+
     public static final String STATUS = "status";
     public static final int SUCCESS = 1;
     public static final int ERROR = 0;
@@ -58,7 +61,7 @@ public class UserMongoWorker extends AbstractVerticle {
         eb.consumer(MONGO_ADD_USER, message -> {
             logger.info("[Worker] add user name" + Thread.currentThread().getName());
             JsonObject user = (JsonObject) message.body();
-            mongo.insert("users", user, insertUserAsyncResultHandler(eb));
+            mongo.insert("users", user, insertUserAsyncResultHandler(message));
         });
         eb.consumer(MONGO_UPDATE_USER, message -> {
             logger.info("[Worker] update user name" + Thread.currentThread().getName());
@@ -69,7 +72,7 @@ public class UserMongoWorker extends AbstractVerticle {
         });
         eb.consumer(MONGO_FIND_USERS, message -> {
             logger.info("[Worker] find users name" + Thread.currentThread().getName());
-            mongo.find("users", new JsonObject(), getUsersAsyncResultHandler(eb));
+            mongo.find("users", new JsonObject(), getUsersAsyncResultHandler(message));
         });
         eb.consumer(MONGO_FIND_USER, message -> {
             logger.info("[Worker] find user name" + Thread.currentThread().getName());
@@ -82,7 +85,7 @@ public class UserMongoWorker extends AbstractVerticle {
             logger.info("[Worker] delete user name" + Thread.currentThread().getName());
             JsonObject query = new JsonObject();
             query.put("username", message.body());
-            mongo.removeOne("users", new JsonObject().put("_id", message.body()), deleteUserAsyncResultHandler(eb));
+            mongo.removeOne("users", new JsonObject().put("_id", message.body()), deleteUserAsyncResultHandler(message));
         });
         eb.consumer(MONGO_TRACK_USER, message -> {
             logger.info("[Worker] Update track user name" + Thread.currentThread().getName());
@@ -100,7 +103,7 @@ public class UserMongoWorker extends AbstractVerticle {
         });
         eb.consumer(MONGO_FIND_USERS_LOGIN, message -> {
             logger.info("[Worker] find users name" + Thread.currentThread().getName());
-            mongo.find("user_login", new JsonObject(), getUsersLoginAsyncResultHandler(eb));
+            mongo.find("user_login", new JsonObject(), getUsersLoginAsyncResultHandler(message));
         });
         eb.consumer(MONGO_DELETE_USER_LOGIN, message -> {
             logger.info("[Worker] delete user name" + Thread.currentThread().getName());
@@ -108,38 +111,49 @@ public class UserMongoWorker extends AbstractVerticle {
             query.put("username", message.body());
             mongo.removeOne("user_login", new JsonObject().put("_id", message.body()), deleteUserLoginAsyncResultHandler(eb));
         });
-
-
-
+        eb.consumer(MONGO_UPDATE_USER_PAGE, message -> {
+            logger.info("[Worker] update user page" + Thread.currentThread().getName());
+            JsonObject jsonObject = (JsonObject) message.body();
+            JsonObject query = new JsonObject();
+            query.put("username", jsonObject.getString("username"));
+            JsonObject update = new JsonObject().put("$set", new JsonObject().put("page", jsonObject.getString("page")));
+            mongo.update("users", query, update, updateUserPageAsyncResultHandler(message));
+        });
+        eb.consumer(MONGO_FIND_USERS_PAGE, message -> {
+            logger.info("[Worker] find users in page" + Thread.currentThread().getName());
+            JsonObject query = new JsonObject();
+            query.put("page", message.body());
+            mongo.find("users", query, getUsersAsyncResultHandler(message));
+        });
     }
 
     /**
      * Callback method to be invoked with the result of the auth users find
-     * @param eb
+     * @param message
      * @return
      */
-    private Handler<AsyncResult<List<JsonObject>>> getUsersAsyncResultHandler(final EventBus eb) {
+    private Handler<AsyncResult<List<JsonObject>>> getUsersAsyncResultHandler(final Message<Object> message) {
         return lookup -> {
             final JsonArray json = new JsonArray();
             for (JsonObject o : lookup.result()) {
                 json.add(o);
             }
-            eb.publish(VertxRest.FIND_USERS_CLIENT, json.encode());
+            message.reply(json.encode());
         };
     }
 
     /**
      * Callback method to be invoked with the result of the users login find
-     * @param eb
+     * @param message
      * @return
      */
-    private Handler<AsyncResult<List<JsonObject>>> getUsersLoginAsyncResultHandler(final EventBus eb) {
+    private Handler<AsyncResult<List<JsonObject>>> getUsersLoginAsyncResultHandler(final Message<Object> message) {
         return lookup -> {
             final JsonArray json = new JsonArray();
             for (JsonObject o : lookup.result()) {
                 json.add(o);
             }
-            eb.publish(VertxRest.FIND_USERS_LOGIN_CLIENT, json.encode());
+            message.reply(json.encode());
         };
     }
 
@@ -160,28 +174,28 @@ public class UserMongoWorker extends AbstractVerticle {
     /**
      * Callback method to be invoked with the result of the auth insert transaction
      *
-     * @param eb
+     * @param message
      * @return
      */
-    private Handler<AsyncResult<String>> insertUserAsyncResultHandler(final EventBus eb) {
+    private Handler<AsyncResult<String>> insertUserAsyncResultHandler(final Message<Object> message) {
         return lookup -> {
             JsonObject jsonObject = new JsonObject();
             jsonObject.put(STATUS, SUCCESS);
-            eb.publish(VertxRest.ADD_USER_CLIENT, jsonObject.encode());
+            message.reply(jsonObject.encode());
         };
     }
 
     /**
      * Callback method to be invoked with the result of the auth delete transaction
      *
-     * @param eb
+     * @param message
      * @return
      */
-    private Handler<AsyncResult<Void>> deleteUserAsyncResultHandler(final EventBus eb) {
+    private Handler<AsyncResult<Void>> deleteUserAsyncResultHandler(final Message<Object> message) {
         return lookup -> {
             JsonObject jsonObject = new JsonObject();
             jsonObject.put(STATUS, SUCCESS);
-            eb.publish(VertxRest.DELETE_USER_CLIENT, jsonObject.encode());
+            message.reply(jsonObject.encode());
         };
     }
 
@@ -223,6 +237,20 @@ public class UserMongoWorker extends AbstractVerticle {
             }
             json.put(STATUS, SUCCESS);
             eb.publish(VertxRest.TRACK_USER_CLIENT, json.encode());
+        };
+    }
+
+    /**
+     * Callback method to be invoked with the result of the auth insert transaction
+     *
+     * @param message
+     * @return
+     */
+    private Handler<AsyncResult<Void>> updateUserPageAsyncResultHandler(final Message<Object> message) {
+        return lookup -> {
+            JsonObject jsonObject = new JsonObject();
+            jsonObject.put(STATUS, SUCCESS);
+            message.reply(jsonObject.encode());
         };
     }
 
