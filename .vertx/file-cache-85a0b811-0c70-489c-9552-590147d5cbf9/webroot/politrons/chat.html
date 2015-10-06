@@ -17,14 +17,13 @@
     <div class="navBar">
         <p>
             <a href="index.html"><img src="img/accounts.png" width="40" height="40"></a>
-            <img id="loading" src="img/loading.gif" width="40" height="40" hidden>
         </p>
     </div>
 
     <input type="hidden" id="inputUserId" type="text"/>
     <input type="hidden" id="inputUserLongitude" type="text"/>
     <input type="hidden" id="inputUserLatitude" type="text"/>
-    <input type="hidden" id="inputUserPage" type="text" value="traking"/>
+    <input type="hidden" id="inputUserPage" type="text" value="chat"/>
     <input id="inputUserFullname" type="hidden"/>
     <input id="inputUserName" type="hidden"/>
     <input id="inputUserEmail" type="hidden"/>
@@ -37,18 +36,17 @@
 
     <fieldset>
         <legend>
-            <p>
-
-            <h3>Tracking users
-                <img id="greenEvent" src="img/green.png" height="15" width="15">
-                <img id="redEvent" src="img/red.png" height="20" width="20"/>
-            </h3>
-            </p>
+            <h3>Chat users</h3>
         </legend>
-        <div id="tracking">
-            <p id="demo"></p>
-            <img id="startTrakingButton" src="img/start.png" width="40" height="40">
-            <img id="stopTrakingButton" src="img/stop.png" width="40" height="40">
+        <div id="chat">
+            <p>
+                <textarea id="chatTextArea" rows="15" cols="40" style="font-size:large;color:indigo" disabled></textarea>
+            </p>
+
+            <p>
+                <input id="inputChat" size="30" type="text" style="height: 50px;font-size: 14pt"/>
+                <img id="sendText" src="img/send.png" width="40" height="40">
+            </p>
         </div>
     </fieldset>
 </section>
@@ -58,8 +56,9 @@
 <script src="js/jquery.min.js"></script>
 <script src="//cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"></script>
 <script src="js/vertxbus.js"></script>
-<script src="js/geolocation.js"></script>
+<script src="js/chat.js"></script>
 <script src="js/index.js"></script>
+
 
 <style>
 
@@ -69,9 +68,10 @@
     }
 
     .userConnected {
-        margin-top: 25px;
+        margin-top: 14px;
         margin-bottom: -10px;
         float: right;
+        margin-left: -110px;
     }
 
     fieldset {
@@ -88,7 +88,7 @@
         top: 0;
         padding: 0;
         display: block;
-        width: 300px;
+        width: 100%;
         margin-bottom: 3px;
         font-size: 13.5px;
         line-height: 23px;
@@ -123,7 +123,7 @@
         background-color: #D9F8F2;
         float: left;
         width: auto;
-        height: 300px;
+        height: auto;
     }
 
     #sideBox1 {

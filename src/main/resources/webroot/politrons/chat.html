@@ -14,9 +14,12 @@
             </a>
         </p>
     </div>
-    <p>
-        <a href="index.html"><img src="img/accounts.png" width="40" height="40"></a>
-    </p>
+    <div class="navBar">
+        <p>
+            <a href="index.html"><img src="img/accounts.png" width="40" height="40"></a>
+            <img id="loading" src="img/loading.gif" width="40" height="40" hidden>
+        </p>
+    </div>
 
     <input type="hidden" id="inputUserId" type="text"/>
     <input type="hidden" id="inputUserLongitude" type="text"/>
@@ -40,6 +43,7 @@
             <p>
                 <textarea id="chatTextArea" rows="15" cols="40" style="font-size:large;color:indigo" disabled></textarea>
             </p>
+
             <p>
                 <input id="inputChat" size="30" type="text" style="height: 50px;font-size: 14pt"/>
                 <img id="sendText" src="img/send.png" width="40" height="40">
@@ -58,6 +62,11 @@
 
 
 <style>
+
+    .navBar {
+        margin-top: 17px;
+        height: 35px;
+    }
 
     .userConnected {
         margin-top: 14px;

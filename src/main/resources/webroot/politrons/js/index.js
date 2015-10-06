@@ -21,6 +21,7 @@ var index = (function () {
      * First of all we get the information of the logged user
      */
     function getMyUser() {
+        $("#loading").show();
         $.getJSON('/politrons/myUser', function (data) {
             if(data.status === 1){
                 $("#userLogged").text(data.username);
@@ -48,7 +49,6 @@ var index = (function () {
             }else{
                 registerEventBusHandlers();
             }
-
         };
         eb.onclose = function () {
             eb = null;
@@ -120,6 +120,7 @@ var index = (function () {
             $.each(users, function () {
                 $("#userConnected").append("<option value="+this.username+">"+this.username+"</option>");
             });
+            $("#loading").hide();
         });
     }
 
