@@ -242,6 +242,7 @@ public class VertxRest extends AbstractVerticle {
 
     private Handler<AsyncResult<List<JsonObject>>> getUsersAsyncResultHandler(final RoutingContext routingContext) {
         return lookup -> {
+
             if (lookup.failed()) {
                 routingContext.fail(lookup.cause());
                 return;
